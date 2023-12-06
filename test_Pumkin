@@ -1127,132 +1127,6 @@
                     "searchText": null
                 },
                 {
-                    "item": "Alternate Barbarian: Warden (LLABE)",
-                    "nest": "Alternate Barbarian",
-                    "userData": {
-                        "group": false
-                    },
-                    "rendered": null,
-                    "searchText": null
-                },
-                {
-                    "item": "Alternate Sorcerer: Greensinger (LLAS:E)",
-                    "nest": "Alternate Sorcerer",
-                    "userData": {
-                        "group": false
-                    },
-                    "rendered": null,
-                    "searchText": null
-                },
-                {
-                    "item": "Merchant: Gourmand (TPM)",
-                    "nest": "Merchant",
-                    "userData": {
-                        "group": false
-                    },
-                    "rendered": null,
-                    "searchText": null
-                },
-                {
-                    "item": "Barbarian: Bloodrager (SCOE), Archfey",
-                    "nest": "Barbarian",
-                    "userData": {
-                        "group": false
-                    },
-                    "rendered": null,
-                    "searchText": null
-                },
-                {
-                    "item": "Druid: Seeds (SCOE)",
-                    "nest": "Druid",
-                    "userData": {
-                        "group": false
-                    },
-                    "rendered": null,
-                    "searchText": null
-                },
-                {
-                    "item": "Warlock: Creeping Vine (TCEE1)",
-                    "nest": "Warlock",
-                    "userData": {
-                        "group": false
-                    },
-                    "rendered": null,
-                    "searchText": null
-                },
-                {
-                    "item": "Warlock: Blackthorn Grove (CoFS:A)",
-                    "nest": "Warlock",
-                    "userData": {
-                        "group": false
-                    },
-                    "rendered": null,
-                    "searchText": null
-                },
-                {
-                    "item": "Sorcerer: Blackthorn (CoFS:A)",
-                    "nest": "Sorcerer",
-                    "userData": {
-                        "group": false
-                    },
-                    "rendered": null,
-                    "searchText": null
-                },
-                {
-                    "item": "Magus: Sylvan Circle (BHM)",
-                    "nest": "Magus",
-                    "userData": {
-                        "group": false
-                    },
-                    "rendered": null,
-                    "searchText": null
-                },
-                {
-                    "item": "Barbarian: Warden (LL:PP)",
-                    "nest": "Barbarian",
-                    "userData": {
-                        "group": false
-                    },
-                    "rendered": null,
-                    "searchText": null
-                },
-                {
-                    "item": "Witch: Green (VSS)",
-                    "nest": "Witch",
-                    "userData": {
-                        "group": false
-                    },
-                    "rendered": null,
-                    "searchText": null
-                },
-                {
-                    "item": "Druid: Seeds (TEB)",
-                    "nest": "Druid",
-                    "userData": {
-                        "group": false
-                    },
-                    "rendered": null,
-                    "searchText": null
-                },
-                {
-                    "item": "Sorcerer: Green Thumb (TEB)",
-                    "nest": "Sorcerer",
-                    "userData": {
-                        "group": false
-                    },
-                    "rendered": null,
-                    "searchText": null
-                },
-                {
-                    "item": "Ranger: Soulkeeper (Soulkeeper)",
-                    "nest": "Ranger",
-                    "userData": {
-                        "group": false
-                    },
-                    "rendered": null,
-                    "searchText": null
-                },
-                {
                     "item": "Martial Ranger: Warden (TMR)",
                     "nest": "Martial Ranger",
                     "userData": {
@@ -1288,54 +1162,7 @@
                     "rendered": null,
                     "searchText": null
                 },
-                {
-                    "item": "Ranger (LLAR)",
-                    "userData": {
-                        "group": 3
-                    },
-                    "rendered": null,
-                    "searchText": null
-                },
-                {
-                    "item": "Hunter (Hunter)",
-                    "userData": {
-                        "group": 3
-                    },
-                    "rendered": null,
-                    "searchText": null
-                },
-                {
-                    "item": "Summoner (S5E)",
-                    "userData": {
-                        "group": 3
-                    },
-                    "rendered": null,
-                    "searchText": null
-                },
-                {
-                    "item": "Witch (WHW)",
-                    "userData": {
-                        "group": 3
-                    },
-                    "rendered": null,
-                    "searchText": null
-                },
-                {
-                    "item": "Shaman (LLSH)",
-                    "userData": {
-                        "group": 3
-                    },
-                    "rendered": null,
-                    "searchText": null
-                },
-                {
-                    "item": "Blue Mage (FFXIV5E)",
-                    "userData": {
-                        "group": 3
-                    },
-                    "rendered": null,
-                    "searchText": null
-                },
+                
                 {
                     "item": "White Mage (FFXIV5E)",
                     "userData": {
@@ -1354,22 +1181,6 @@
                 },
                 {
                     "item": "Magus (BHM)",
-                    "userData": {
-                        "group": 3
-                    },
-                    "rendered": null,
-                    "searchText": null
-                },
-                {
-                    "item": "Shaman (LLSHC)",
-                    "userData": {
-                        "group": 3
-                    },
-                    "rendered": null,
-                    "searchText": null
-                },
-                {
-                    "item": "Adaptive Ranger (AR)",
                     "userData": {
                         "group": 3
                     },
@@ -1396,25 +1207,6 @@
             "_fTimeType": [
                 "action",
                 "hour"
-            ],
-            "_fDurationType": "Instant",
-            "_fRangeType": "Point",
-            "_fAreaTags": [],
-            "_fAffectsCreatureType": [
-                "aberration",
-                "beast",
-                "celestial",
-                "construct",
-                "dragon",
-                "elemental",
-                "fey",
-                "fiend",
-                "giant",
-                "humanoid",
-                "monstrosity",
-                "ooze",
-                "plant",
-                "undead"
             ]
         }
 	]
