@@ -216,151 +216,26 @@
 				}
 			}
 		},
-        {
-            "name": "Plant Growth",
-            "source": "PHB",
-            "page": 266,
-            "srd": true,
-            "level": 3,
-            "school": "T",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "action"
-                },
-                {
-                    "number": 8,
-                    "unit": "hour"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "feet",
-                    "amount": 150
-                }
-            },
-            "components": {
-                "v": true,
-                "s": true
-            },
-            "duration": [
-                {
-                    "type": "instant"
-                }
-            ],
-            "entries": [
-                "This spell channels vitality into plants within a specific area. There are two possible uses for the spell, granting either immediate or long-term benefits.",
-                "If you cast this spell using 1 action, choose a point within range. All normal plants in a 100-foot radius centered on that point become thick and overgrown. A creature moving through the area must spend 4 feet of movement for every 1 foot it moves.",
-                "You can exclude one or more areas of any size within the spell's area from being affected.",
-                "If you cast this spell over 8 hours, you enrich the land. All plants in a half-mile radius centered on a point within range become enriched for 1 year. The plants yield twice the normal amount of food when harvested."
-            ],
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Bard",
-                        "source": "PHB"
-                    },
-                    {
-                        "name": "Druid",
-                        "source": "PHB"
-                    },
-                    {
-                        "name": "Ranger",
-                        "source": "PHB"
-                    }
-                ],
-                "fromSubclass": [
-                    {
-                        "class": {
-                            "name": "Cleric",
-                            "source": "PHB"
-                        },
-                        "subclass": {
-                            "name": "Nature Domain",
-                            "shortName": "Nature",
-                            "source": "PHB"
-                        }
-                    },
-                    {
-                        "class": {
-                            "name": "Druid",
-                            "source": "PHB"
-                        },
-                        "subclass": {
-                            "name": "Circle of the Land",
-                            "shortName": "Land",
-                            "source": "PHB",
-                            "subSubclass": "Forest"
-                        }
-                    },
-                    {
-                        "class": {
-                            "name": "Druid",
-                            "source": "PHB"
-                        },
-                        "subclass": {
-                            "name": "Circle of Wildfire",
-                            "shortName": "Wildfire",
-                            "source": "TCE"
-                        }
-                    },
-                    {
-                        "class": {
-                            "name": "Paladin",
-                            "source": "PHB"
-                        },
-                        "subclass": {
-                            "name": "Oath of the Ancients",
-                            "shortName": "Ancients",
-                            "source": "PHB"
-                        }
-                    },
-                    {
-                        "class": {
-                            "name": "Warlock",
-                            "source": "PHB"
-                        },
-                        "subclass": {
-                            "name": "The Archfey",
-                            "shortName": "Archfey",
-                            "source": "PHB"
-                        }
-                    }
-                ]
-            },
-            "backgrounds": [
-                {
-                    "name": "Golgari Agent",
-                    "source": "GGR"
-                },
-                {
-                    "name": "Selesnya Initiate",
-                    "source": "GGR"
-                }
-            ]
-        },
-  {
-    "name": "Animate 2 Magic 2",
-    "level": 4,
-    "school": "E",
-    "time_number": 1,
-    "time_unit": "action",
-    "range_type": "point",
-    "range_distance": 60,
-    "duration_type": "timed",
-    "duration_amount": 8,
-    "classes_name": "Sorcerer",
-    "classes_source": "PHB",
-    "entries": "A magical effect is transformed into a being of living magic, an animate spell. Choose a spell effect of 6th level or higher within range. That spell ends, and an animate spell is formed in a space of your choice within range of the spell. The animate spell is of a school according to the effect you targeted. For example, if you targeted an evocation spell with this spell, you would create a {@creature living evocation|TPK}. You cannot command the animate spell, which is an independent creature beyond your control, though it is initially friendly to you and your allies.",
-    "source": "TPK",
-    "page": 22,
-    "components_v": "TRUE",
-    "components_s": "TRUE",
-    "miscTags": "SMN",
-    "fluff_spellFluff_name": "Animate Magic",
-    "fluff_spellFluff_source": "TPK"
-  }
-
+		{
+   	 "name": "Animate 2 Magic 2",
+   	 "level": 4,
+    	"school": "E",
+   	 "time_number": 1,
+    	"time_unit": "action",
+   	 "range_type": "point",
+   	 "range_distance": 60,
+   	 "duration_type": "timed",
+   	 "duration_amount": 8,
+   	 "classes_name": "Sorcerer",
+  	  "classes_source": "PHB",
+  	  "entries": "A magical effect is transformed into a being of living magic, an animate spell. Choose a spell effect of 6th level or higher within range. That spell ends, and an animate spell is formed in a space of your choice within range of the spell. The animate spell is of a school according to the effect you targeted. For example, if you targeted an evocation spell with this spell, you would create a {@creature living evocation|TPK}. You cannot command the animate spell, which is an independent creature beyond your control, though it is initially friendly to you and your allies.",
+  	  "source": "TPK",
+  	  "page": 22,
+  	  "components_v": "TRUE",
+   	 "components_s": "TRUE",
+	    "miscTags": "SMN",
+  	  "fluff_spellFluff_name": "Animate Magic",
+  	  "fluff_spellFluff_source": "TPK"
+  		}
 	]
 }
