@@ -215,6 +215,1207 @@
 					"source": "TPK"
 				}
 			}
-		}
+		},
+        {
+            "name": "Plant Growth",
+            "source": "PHB",
+            "page": 266,
+            "srd": true,
+            "level": 3,
+            "school": "T",
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                },
+                {
+                    "number": 8,
+                    "unit": "hour"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 150
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "entries": [
+                "This spell channels vitality into plants within a specific area. There are two possible uses for the spell, granting either immediate or long-term benefits.",
+                "If you cast this spell using 1 action, choose a point within range. All normal plants in a 100-foot radius centered on that point become thick and overgrown. A creature moving through the area must spend 4 feet of movement for every 1 foot it moves.",
+                "You can exclude one or more areas of any size within the spell's area from being affected.",
+                "If you cast this spell over 8 hours, you enrich the land. All plants in a half-mile radius centered on a point within range become enriched for 1 year. The plants yield twice the normal amount of food when harvested."
+            ],
+            "__prop": "spell",
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Bard",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Druid",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Ranger",
+                        "source": "PHB"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Cleric",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Nature Domain",
+                            "shortName": "Nature",
+                            "source": "PHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Druid",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Circle of the Land",
+                            "shortName": "Land",
+                            "source": "PHB",
+                            "subSubclass": "Forest"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Druid",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Circle of Wildfire",
+                            "shortName": "Wildfire",
+                            "source": "TCE"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Paladin",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Oath of the Ancients",
+                            "shortName": "Ancients",
+                            "source": "PHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Warlock",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "The Archfey",
+                            "shortName": "Archfey",
+                            "source": "PHB"
+                        }
+                    }
+                ]
+            },
+            "backgrounds": [
+                {
+                    "name": "Golgari Agent",
+                    "source": "GGR"
+                },
+                {
+                    "name": "Selesnya Initiate",
+                    "source": "GGR"
+                }
+            ],
+            "_isMutEntity": true,
+            "_tmpSourcesInit": true,
+            "_tmpClasses": {
+                "fromClassList": [
+                    {
+                        "name": "Ranger (Alternate)",
+                        "source": "LLAR"
+                    },
+                    {
+                        "name": "Hunter",
+                        "source": "Hunter"
+                    },
+                    {
+                        "name": "Summoner",
+                        "source": "s5e"
+                    },
+                    {
+                        "name": "Witch",
+                        "source": "WalrockHomebrewWitch"
+                    },
+                    {
+                        "name": "Shaman",
+                        "source": "LLSH"
+                    },
+                    {
+                        "name": "Blue Mage",
+                        "source": "FFXIV"
+                    },
+                    {
+                        "name": "White Mage",
+                        "source": "FFXIV"
+                    },
+                    {
+                        "name": "Occultist",
+                        "source": "KT:O"
+                    },
+                    {
+                        "name": "Magus",
+                        "source": "BHMagus"
+                    },
+                    {
+                        "name": "Shaman",
+                        "source": "llshc"
+                    },
+                    {
+                        "name": "Adaptive Ranger",
+                        "source": "AdaptiveRanger"
+                    },
+                    {
+                        "name": "Ranger",
+                        "source": "YARV"
+                    }
+                ],
+                "fromSubclass": [
+                    {
+                        "class": {
+                            "name": "Sorcerer",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Verdant Bloodline",
+                            "shortName": "Verdant Bloodline",
+                            "source": "ASO"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Druid",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Circle of the Forest",
+                            "shortName": "Forest",
+                            "source": "KorvinagorCirclesOfTheLand"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Ranger (Alternate)",
+                            "source": "LLAR"
+                        },
+                        "subclass": {
+                            "name": "Druidic Guardian",
+                            "shortName": "Druidic Guardian",
+                            "source": "LLAR:E"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Druid",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Circle of the Primeval Guardian",
+                            "shortName": "Primeval Guardian",
+                            "source": "CoA"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Druid",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Circle of the Bloom",
+                            "shortName": "Bloom",
+                            "source": "EBCotOSCC"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Druid",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Circle of the Guardians",
+                            "shortName": "Guardians",
+                            "source": "LL:DC"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Druid",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Circle of the Sower",
+                            "shortName": "Sower",
+                            "source": "LL:DC"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Druid",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Alternate Circle of the Land",
+                            "shortName": "Land (LL)",
+                            "source": "LL:DC",
+                            "subSubclass": "Forest"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Warlock",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "The Primeval Growth",
+                            "shortName": "The Primeval Growth",
+                            "source": "OWP"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Dream Shifter",
+                            "source": "DreamS"
+                        },
+                        "subclass": {
+                            "name": "Wonder Eidolon",
+                            "shortName": "Wonder",
+                            "source": "DreamS"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Ranger",
+                            "source": "YARV"
+                        },
+                        "subclass": {
+                            "name": "Path of the Scout",
+                            "shortName": "Scout",
+                            "source": "YARV"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Artificer",
+                            "source": "tca"
+                        },
+                        "subclass": {
+                            "name": "Research & Development",
+                            "shortName": "Research & Development",
+                            "source": "tca",
+                            "subSubclass": "Biology"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Sorcerer",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Orchard Origin",
+                            "shortName": "Orchard",
+                            "source": "OrchardSorcv1"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Sorcerer",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Wild Magic (Variant Magic)",
+                            "shortName": "Wild (Variant Magic)",
+                            "source": "GSOSV"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Warlock",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "The Great Tree",
+                            "shortName": "Great Tree",
+                            "source": "TRo12subclasses"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Variant Sorcerer",
+                            "source": "VariantSorcerer_By_devikyn"
+                        },
+                        "subclass": {
+                            "name": "Wild Magic",
+                            "shortName": "Wild",
+                            "source": "VariantSorcerer_By_devikyn-PHB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Warlock",
+                            "source": "UW"
+                        },
+                        "subclass": {
+                            "name": "The Archfey",
+                            "shortName": "Archfey",
+                            "source": "UW"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Witch",
+                            "source": "DMHavuhkWitch"
+                        },
+                        "subclass": {
+                            "name": "Coven of the Wyld",
+                            "shortName": "The Wyld",
+                            "source": "DMHavuhkWitch"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Alternate Monk",
+                            "source": "LLAM"
+                        },
+                        "subclass": {
+                            "name": "Way of the Wu Jen",
+                            "shortName": "Wu Jen",
+                            "source": "LLAM"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Alternate Barbarian",
+                            "source": "LLAB"
+                        },
+                        "subclass": {
+                            "name": "Path of the Warden",
+                            "shortName": "Warden",
+                            "source": "LLABE"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Alternate Sorcerer",
+                            "source": "LaserLlamaAlternateSorcerer"
+                        },
+                        "subclass": {
+                            "name": "Greensinger",
+                            "shortName": "Greensinger",
+                            "source": "LaserLlamaAlternateSorcererExpanded"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Merchant",
+                            "source": "TPM"
+                        },
+                        "subclass": {
+                            "name": "Gourmand",
+                            "shortName": "Gourmand",
+                            "source": "TPM"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Barbarian",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Path of the Bloodrager",
+                            "shortName": "Bloodrager",
+                            "source": "SCOE",
+                            "subSubclass": "Archfey"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Druid",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Circle of Seeds",
+                            "shortName": "Seeds",
+                            "source": "SCOE"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Warlock",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "The Creeping Vine",
+                            "shortName": "Creeping Vine",
+                            "source": "TCEE1"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Warlock",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "The Blackthorn Grove",
+                            "shortName": "Blackthorn Grove",
+                            "source": "COFSA"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Sorcerer",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Blackthorn Lineage",
+                            "shortName": "Blackthorn",
+                            "source": "COFSA"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Magus",
+                            "source": "BHMagus"
+                        },
+                        "subclass": {
+                            "name": "The Sylvan Circle",
+                            "shortName": "Sylvan Circle",
+                            "source": "BHMagus"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Barbarian",
+                            "source": "phb"
+                        },
+                        "subclass": {
+                            "name": "Path of the Warden",
+                            "shortName": "Warden",
+                            "source": "llpp"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Witch",
+                            "source": "VSS"
+                        },
+                        "subclass": {
+                            "name": "Green Magic",
+                            "shortName": "Green",
+                            "source": "VSS"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Druid",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Circle of Seeds",
+                            "shortName": "Seeds",
+                            "source": "TEB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Sorcerer",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Green Thumb",
+                            "shortName": "Green Thumb",
+                            "source": "TEB"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Ranger",
+                            "source": "PHB"
+                        },
+                        "subclass": {
+                            "name": "Soulkeeper",
+                            "shortName": "Soulkeeper",
+                            "source": "NCSK"
+                        }
+                    },
+                    {
+                        "class": {
+                            "name": "Martial Ranger",
+                            "source": "TMR"
+                        },
+                        "subclass": {
+                            "name": "Warden",
+                            "shortName": "Warden",
+                            "source": "TMR"
+                        }
+                    }
+                ]
+            },
+            "_tmpRaces": [],
+            "_tmpBackgrounds": [],
+            "_tmpFeats": [],
+            "_tmpOptionalfeatures": [],
+            "_tmpGroups": [],
+            "_normalisedTime": 1.5,
+            "_normalisedRange": 1800,
+            "_fSources": "PHB",
+            "_isConc": false,
+            "_fMeta": [
+                "Verbal",
+                "Somatic",
+                "SRD"
+            ],
+            "_fClasses": [
+                {
+                    "item": "Bard",
+                    "userData": {
+                        "group": 0
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Druid",
+                    "userData": {
+                        "group": 0
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Ranger",
+                    "userData": {
+                        "group": 0
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Ranger (LLAR)",
+                    "userData": {
+                        "group": 3
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Hunter (Hunter)",
+                    "userData": {
+                        "group": 3
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Summoner (S5E)",
+                    "userData": {
+                        "group": 3
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Witch (WHW)",
+                    "userData": {
+                        "group": 3
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Shaman (LLSH)",
+                    "userData": {
+                        "group": 3
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Blue Mage (FFXIV5E)",
+                    "userData": {
+                        "group": 3
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "White Mage (FFXIV5E)",
+                    "userData": {
+                        "group": 3
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Occultist (KT:O)",
+                    "userData": {
+                        "group": 3
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Magus (BHM)",
+                    "userData": {
+                        "group": 3
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Shaman (LLSHC)",
+                    "userData": {
+                        "group": 3
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Adaptive Ranger (AR)",
+                    "userData": {
+                        "group": 3
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Ranger (YARV)",
+                    "userData": {
+                        "group": 3
+                    },
+                    "rendered": null,
+                    "searchText": null
+                }
+            ],
+            "_fSubclasses": [
+                {
+                    "item": "Cleric: Nature",
+                    "nest": "Cleric",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Druid: Land, Forest",
+                    "nest": "Druid",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Druid: Wildfire",
+                    "nest": "Druid",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Paladin: Ancients",
+                    "nest": "Paladin",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Warlock: Archfey",
+                    "nest": "Warlock",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Sorcerer: Verdant Bloodline (ASO)",
+                    "nest": "Sorcerer",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Druid: Forest (CotL)",
+                    "nest": "Druid",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Ranger (Alternate): Druidic Guardian (LLAR:E)",
+                    "nest": "Ranger (Alternate)",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Druid: Primeval Guardian (CoA)",
+                    "nest": "Druid",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Druid: Bloom (EBCotOSCC)",
+                    "nest": "Druid",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Druid: Guardians (LL:DC)",
+                    "nest": "Druid",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Druid: Sower (LL:DC)",
+                    "nest": "Druid",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Druid: Land (LL:DC), Forest",
+                    "nest": "Druid",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Warlock: The Primeval Growth (OWP)",
+                    "nest": "Warlock",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Dream Shifter: Wonder (DreamS)",
+                    "nest": "Dream Shifter",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Ranger: Scout (YARV)",
+                    "nest": "Ranger",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Artificer: Research & Development (CA), Biology",
+                    "nest": "Artificer",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Sorcerer: Orchard (RJOOS)",
+                    "nest": "Sorcerer",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Sorcerer: Wild (GSOSV)",
+                    "nest": "Sorcerer",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Warlock: Great Tree (TRo12)",
+                    "nest": "Warlock",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Variant Sorcerer: Wild (PHB)",
+                    "nest": "Variant Sorcerer",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Warlock: Archfey (UW)",
+                    "nest": "Warlock",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Witch: The Wyld (DMHW)",
+                    "nest": "Witch",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Alternate Monk: Wu Jen (LLAM)",
+                    "nest": "Alternate Monk",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Alternate Barbarian: Warden (LLABE)",
+                    "nest": "Alternate Barbarian",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Alternate Sorcerer: Greensinger (LLAS:E)",
+                    "nest": "Alternate Sorcerer",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Merchant: Gourmand (TPM)",
+                    "nest": "Merchant",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Barbarian: Bloodrager (SCOE), Archfey",
+                    "nest": "Barbarian",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Druid: Seeds (SCOE)",
+                    "nest": "Druid",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Warlock: Creeping Vine (TCEE1)",
+                    "nest": "Warlock",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Warlock: Blackthorn Grove (CoFS:A)",
+                    "nest": "Warlock",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Sorcerer: Blackthorn (CoFS:A)",
+                    "nest": "Sorcerer",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Magus: Sylvan Circle (BHM)",
+                    "nest": "Magus",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Barbarian: Warden (LL:PP)",
+                    "nest": "Barbarian",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Witch: Green (VSS)",
+                    "nest": "Witch",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Druid: Seeds (TEB)",
+                    "nest": "Druid",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Sorcerer: Green Thumb (TEB)",
+                    "nest": "Sorcerer",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Ranger: Soulkeeper (Soulkeeper)",
+                    "nest": "Ranger",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Martial Ranger: Warden (TMR)",
+                    "nest": "Martial Ranger",
+                    "userData": {
+                        "group": false
+                    },
+                    "rendered": null,
+                    "searchText": null
+                }
+            ],
+            "_fVariantClasses": [],
+            "_fClassesAndVariantClasses": [
+                {
+                    "item": "Bard",
+                    "userData": {
+                        "group": 0
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Druid",
+                    "userData": {
+                        "group": 0
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Ranger",
+                    "userData": {
+                        "group": 0
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Ranger (LLAR)",
+                    "userData": {
+                        "group": 3
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Hunter (Hunter)",
+                    "userData": {
+                        "group": 3
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Summoner (S5E)",
+                    "userData": {
+                        "group": 3
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Witch (WHW)",
+                    "userData": {
+                        "group": 3
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Shaman (LLSH)",
+                    "userData": {
+                        "group": 3
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Blue Mage (FFXIV5E)",
+                    "userData": {
+                        "group": 3
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "White Mage (FFXIV5E)",
+                    "userData": {
+                        "group": 3
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Occultist (KT:O)",
+                    "userData": {
+                        "group": 3
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Magus (BHM)",
+                    "userData": {
+                        "group": 3
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Shaman (LLSHC)",
+                    "userData": {
+                        "group": 3
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Adaptive Ranger (AR)",
+                    "userData": {
+                        "group": 3
+                    },
+                    "rendered": null,
+                    "searchText": null
+                },
+                {
+                    "item": "Ranger (YARV)",
+                    "userData": {
+                        "group": 3
+                    },
+                    "rendered": null,
+                    "searchText": null
+                }
+            ],
+            "_fRaces": [],
+            "_fBackgrounds": [
+                "Golgari Agent",
+                "Selesnya Initiate"
+            ],
+            "_fFeats": [],
+            "_fOptionalfeatures": [],
+            "_fGroups": [],
+            "_fTimeType": [
+                "action",
+                "hour"
+            ],
+            "_fDurationType": "Instant",
+            "_fRangeType": "Point",
+            "_fAreaTags": [],
+            "_fAffectsCreatureType": [
+                "aberration",
+                "beast",
+                "celestial",
+                "construct",
+                "dragon",
+                "elemental",
+                "fey",
+                "fiend",
+                "giant",
+                "humanoid",
+                "monstrosity",
+                "ooze",
+                "plant",
+                "undead"
+            ]
+        }
 	]
 }
