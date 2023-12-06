@@ -1,0 +1,69 @@
+{
+	"fileType": "spells-sublist",
+	"siteVersion": "1.195.0",
+	"name": "Halloween King",
+	"saveId": "8646f996-740f-4c11-a238-b1ccdde2b0cd",
+	"items": [
+		{
+			"h": "corruption_cofsa"
+		},
+		{
+			"h": "death%20armor_elminsters%20guide%20to%20magic"
+		},
+		{
+			"h": "blasphemy_cofsa"
+		},
+		{
+			"h": "dark%20heraldry_dms"
+		},
+		{
+			"h": "frightful%20breath_expccodex"
+		},
+		{
+			"h": "mass%20leech_helianasguidetomonsterhunting"
+		},
+		{
+			"h": "drain_bh%3asp"
+		},
+		{
+			"h": "emotion%20drain_mlpplaneshift"
+		},
+		{
+			"h": "frightful%20strike_elminsters%20guide%20to%20magic"
+		},
+		{
+			"h": "hollowing%20curse_vss"
+		},
+		{
+			"h": "castigate_theincompletetomeofspells"
+		},
+		{
+			"h": "decomposition_elminsters%20guide%20to%20magic"
+		},
+		{
+			"h": "mortiferous%20pulse_helianasguidetomonsterhunting"
+		},
+		{
+			"h": "spike%20growth_phb"
+		},
+		{
+			"h": "entangle_yastah"
+		},
+		{
+			"h": "plant%20growth_phb"
+		}
+	],
+	"sources": [
+		"COFSA",
+		"Elminsters Guide to Magic",
+		"DMS",
+		"ExpCCodex",
+		"HelianasGuidetoMonsterHunting",
+		"BH:SP",
+		"mlpplaneshift",
+		"VSS",
+		"TheInCompleteTomeofSpells",
+		"PHB",
+		"Yastah"
+	]
+}
