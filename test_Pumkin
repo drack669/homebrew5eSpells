@@ -1,1 +1,220 @@
-
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Pumking Spells",
+				"abbreviation": "PS",
+				"full": "PumpkingSpells",
+				"version": "",
+				"url": "https://drive.google.com/file/d/1PHpOenx-jkwEuHLblDCB7WdSnF1C89xS/view",
+				"authors": [
+					"5e Tools "
+				],
+				"convertedBy": [
+					"Anonymus"
+				]
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 1696710914
+	},
+	"spell": [
+		{
+		"name": "Blade Ward",
+			"source": "EvolvingCantrips",
+			"page": 218,
+			"level": 0,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"You extend your hand and trace a sigil of warding in the air. Until the end of your next turn, you have resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At 5th Level",
+					"entries": [
+						"You can cast this spell on a creature of your choice that you can see within 30 feet of you. "
+					]
+				},
+				{
+					"type": "entries",
+					"name": "At 11th Level",
+					"entries": [
+						"You can ignore the verbal component of the spell."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "At 17th Level",
+					"entries": [
+						"When you cast this spell on another creature, you also gain its benefits."
+					]
+				}
+			],
+			"damageResist": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"source": "PHB",
+							"shortName": "Eldritch Knight"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"source": "PHB",
+							"shortName": "Arcane Trickster"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcana Domain",
+							"source": "SCAG",
+							"shortName": "Arcana"
+						}
+					},
+					{
+						"class": {
+							"name": "Blood Hunter",
+							"source": "CR2020"
+						},
+						"subclass": {
+							"name": "Profane Soul",
+							"source": "CR2020",
+							"shortName": "Profane Soul"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				}
+			],
+			"miscTags": [
+				"SGT"
+			]
+		},
+        {
+			"name": "Animate Magic",
+			"level": 9,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"A magical effect is transformed into a being of living magic, an animate spell. Choose a spell effect of 6th level or higher within range. That spell ends, and an animate spell is formed in a space of your choice within range of the spell. The animate spell is of a school according to the effect you targeted. For example, if you targeted an evocation spell with this spell, you would create a {@creature living evocation|TPK}. You cannot command the animate spell, which is an independent creature beyond your control, though it is initially friendly to you and your allies."
+			],
+			"source": "TPK",
+			"page": 22,
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"miscTags": [
+				"SMN"
+			],
+			"fluff": {
+				"_spellFluff": {
+					"name": "Animate Magic",
+					"source": "TPK"
+				}
+			}
+		}
+	]
+}
