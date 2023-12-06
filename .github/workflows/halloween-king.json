@@ -1,69 +1,7627 @@
-{
-	"fileType": "spells-sublist",
-	"siteVersion": "1.195.0",
-	"name": "Halloween King",
-	"saveId": "8646f996-740f-4c11-a238-b1ccdde2b0cd",
-	"items": [
-		{
-			"h": "corruption_cofsa"
+[
+	{
+		"name": "Corruption",
+		"source": "COFSA",
+		"page": 164,
+		"level": 1,
+		"school": "N",
+		"time": [
+			{
+				"number": 1,
+				"unit": "minute"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"amount": 120,
+				"type": "feet"
+			}
 		},
-		{
-			"h": "death%20armor_elminsters%20guide%20to%20magic"
+		"components": {
+			"v": true,
+			"s": true
 		},
-		{
-			"h": "blasphemy_cofsa"
+		"duration": [
+			{
+				"type": "timed",
+				"duration": {
+					"amount": 1,
+					"type": "minute"
+				}
+			}
+		],
+		"entries": [
+			{
+				"type": "quote",
+				"entries": [
+					"Slow and insidious, yet deadly nevertheless. "
+				]
+			},
+			"Your inflict a withering curse upon a 5-foot square of ground at a location you can see within range, withering plants and darkening the earth with fell power. At the start of each of your turns for the duration, the corruptive curse grows 5 feet in every direction. Whenever a creature starts its turn in a space afflicted by the curse, it must make a Charisma saving throw. If it fails, it takes {@damage 1d6} necrotic damage."
+		],
+		"entriesHigherLevel": [
+			{
+				"name": "At Higher Levels",
+				"entries": [
+					"When you cast this spell using a spell slot of 2nd level or higher, the necrotic damage increases by {@scaledamage 1d6|1-9|1d6} per spell slot level above 1st."
+				],
+				"type": "entries"
+			}
+		],
+		"damageInflict": [
+			"necrotic"
+		],
+		"savingThrow": [
+			"charisma"
+		],
+		"miscTags": [
+			"SCL",
+			"SGT"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Warlock",
+					"source": "PHB"
+				}
+			]
 		},
-		{
-			"h": "dark%20heraldry_dms"
+		"__prop": "spell",
+		"__diagnostic": {
+			"filename": "Genuine Fantasy Press; The Compendium of Forgotten Secrets - Awakening.json"
 		},
-		{
-			"h": "frightful%20breath_expccodex"
+		"_tmpSourcesInit": true,
+		"_tmpClasses": {
+			"fromClassList": [
+				{
+					"name": "Warlock",
+					"source": "EldArc"
+				},
+				{
+					"name": "Tattooist",
+					"source": "ToMT"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Fighter",
+						"source": "phb"
+					},
+					"subclass": {
+						"name": "Witch Knight",
+						"shortName": "Witch Knight",
+						"source": "llfafs"
+					}
+				},
+				{
+					"class": {
+						"name": "Blood Hunter",
+						"source": "BH2022"
+					},
+					"subclass": {
+						"name": "Order of the Profane Soul",
+						"shortName": "Profane Soul",
+						"source": "BH2022"
+					}
+				},
+				{
+					"class": {
+						"name": "Blood Hunter (Balanced)",
+						"source": "BHBB"
+					},
+					"subclass": {
+						"name": "Order of the Profane Soul",
+						"shortName": "Profane Soul",
+						"source": "BHBB"
+					}
+				},
+				{
+					"class": {
+						"name": "Blood Hunter",
+						"source": "BH2020"
+					},
+					"subclass": {
+						"name": "Order of the Profane Soul",
+						"shortName": "Profane Soul",
+						"source": "BH2020"
+					}
+				},
+				{
+					"class": {
+						"name": "Vessel",
+						"source": "TVC"
+					},
+					"subclass": {
+						"name": "Altered Mage",
+						"shortName": "Altered Mage",
+						"source": "TVC"
+					}
+				},
+				{
+					"class": {
+						"name": "Alternate Sorcerer",
+						"source": "LaserLlamaAlternateSorcerer"
+					},
+					"subclass": {
+						"name": "The Chained",
+						"shortName": "The Chained",
+						"source": "LaserLlamaAlternateSorcererExpanded"
+					}
+				},
+				{
+					"class": {
+						"name": "Alternate Fighter",
+						"source": "LLAF"
+					},
+					"subclass": {
+						"name": "Witch Knight",
+						"shortName": "Witch Knight",
+						"source": "LLAF:E"
+					}
+				},
+				{
+					"class": {
+						"name": "Barbarian",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Path of the Bloodrager",
+						"shortName": "Bloodrager",
+						"source": "SCOE"
+					}
+				},
+				{
+					"class": {
+						"name": "Investigator",
+						"source": "VSS"
+					},
+					"subclass": {
+						"name": "Occultist",
+						"shortName": "Occultist",
+						"source": "VSS"
+					}
+				}
+			]
 		},
-		{
-			"h": "mass%20leech_helianasguidetomonsterhunting"
+		"_tmpRaces": [],
+		"_tmpBackgrounds": [],
+		"_tmpFeats": [],
+		"_tmpOptionalfeatures": [],
+		"_tmpGroups": [],
+		"_normalisedTime": 60,
+		"_normalisedRange": 1440,
+		"_fSources": "COFSA",
+		"_isConc": false,
+		"_fMeta": [
+			"Verbal",
+			"Somatic",
+			"SCL",
+			"SGT"
+		],
+		"_fClasses": [
+			{
+				"item": "Warlock",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock (EldArc)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Tattooist (ToMT)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fSubclasses": [
+			{
+				"item": "Fighter: Witch Knight (LLFAFS)",
+				"nest": "Fighter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Blood Hunter: Profane Soul (BH2022)",
+				"nest": "Blood Hunter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Blood Hunter (Balanced): Profane Soul (FFBHBB)",
+				"nest": "Blood Hunter (Balanced)",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Blood Hunter: Profane Soul (BH2020)",
+				"nest": "Blood Hunter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Vessel: Altered Mage (TVC)",
+				"nest": "Vessel",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Alternate Sorcerer: The Chained (LLAS:E)",
+				"nest": "Alternate Sorcerer",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Alternate Fighter: Witch Knight (LLAF:E)",
+				"nest": "Alternate Fighter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Barbarian: Bloodrager (SCOE)",
+				"nest": "Barbarian",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Investigator: Occultist (VSS)",
+				"nest": "Investigator",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fVariantClasses": [],
+		"_fClassesAndVariantClasses": [
+			{
+				"item": "Warlock",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock (EldArc)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Tattooist (ToMT)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fRaces": [],
+		"_fBackgrounds": [],
+		"_fFeats": [],
+		"_fOptionalfeatures": [],
+		"_fGroups": [],
+		"_fTimeType": [
+			"minute"
+		],
+		"_fDurationType": "1 Minute",
+		"_fRangeType": "Point",
+		"_fAreaTags": [],
+		"_fAffectsCreatureType": [
+			"aberration",
+			"beast",
+			"celestial",
+			"construct",
+			"dragon",
+			"elemental",
+			"fey",
+			"fiend",
+			"giant",
+			"humanoid",
+			"monstrosity",
+			"ooze",
+			"plant",
+			"undead"
+		]
+	},
+	{
+		"name": "Death Armor",
+		"source": "Elminsters Guide to Magic",
+		"page": 39,
+		"level": 2,
+		"school": "N",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "self"
+			}
 		},
-		{
-			"h": "drain_bh%3asp"
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "paste made from ground bones"
 		},
-		{
-			"h": "emotion%20drain_mlpplaneshift"
+		"duration": [
+			{
+				"type": "timed",
+				"duration": {
+					"type": "minute",
+					"amount": 1
+				},
+				"concentration": true
+			}
+		],
+		"entries": [
+			"After casting this spell, a shroud of dark flames wreathes your body. For the spell's duration, any creature within 5 feet of you that touches or strikes you with an unarmed or melee weapon attack takes an amount of necrotic damage equal to {@dice 1d4} + your spellcasting ability modifier."
+		],
+		"entriesHigherLevel": [
+			{
+				"name": "At Higher Levels",
+				"entries": [
+					"When you cast this spell using a spell slot of 2nd level or higher, the amount of necrotic damage increases by {@dice 1d4} for each slot level above 1st."
+				],
+				"type": "entries"
+			}
+		],
+		"damageInflict": [
+			"necrotic"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Wizard",
+					"source": "PHB"
+				},
+				{
+					"name": "Sorcerer",
+					"source": "PHB"
+				},
+				{
+					"name": "Warlock",
+					"source": "PHB"
+				}
+			]
 		},
-		{
-			"h": "frightful%20strike_elminsters%20guide%20to%20magic"
+		"__prop": "spell",
+		"__diagnostic": {
+			"filename": "Jeremy Forbing; Elminsters Guide to Magic.json"
 		},
-		{
-			"h": "hollowing%20curse_vss"
+		"_tmpSourcesInit": true,
+		"_tmpClasses": {
+			"fromClassList": [
+				{
+					"name": "Warlock",
+					"source": "EldArc"
+				},
+				{
+					"name": "Tattooist",
+					"source": "ToMT"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Fighter",
+						"source": "phb"
+					},
+					"subclass": {
+						"name": "Witch Knight",
+						"shortName": "Witch Knight",
+						"source": "llfafs"
+					}
+				},
+				{
+					"class": {
+						"name": "Blood Hunter",
+						"source": "BH2022"
+					},
+					"subclass": {
+						"name": "Order of the Profane Soul",
+						"shortName": "Profane Soul",
+						"source": "BH2022"
+					}
+				},
+				{
+					"class": {
+						"name": "Blood Hunter (Balanced)",
+						"source": "BHBB"
+					},
+					"subclass": {
+						"name": "Order of the Profane Soul",
+						"shortName": "Profane Soul",
+						"source": "BHBB"
+					}
+				},
+				{
+					"class": {
+						"name": "Blood Hunter",
+						"source": "BH2020"
+					},
+					"subclass": {
+						"name": "Order of the Profane Soul",
+						"shortName": "Profane Soul",
+						"source": "BH2020"
+					}
+				},
+				{
+					"class": {
+						"name": "Vessel",
+						"source": "TVC"
+					},
+					"subclass": {
+						"name": "Altered Mage",
+						"shortName": "Altered Mage",
+						"source": "TVC"
+					}
+				},
+				{
+					"class": {
+						"name": "Alternate Sorcerer",
+						"source": "LaserLlamaAlternateSorcerer"
+					},
+					"subclass": {
+						"name": "The Chained",
+						"shortName": "The Chained",
+						"source": "LaserLlamaAlternateSorcererExpanded"
+					}
+				},
+				{
+					"class": {
+						"name": "Alternate Fighter",
+						"source": "LLAF"
+					},
+					"subclass": {
+						"name": "Witch Knight",
+						"shortName": "Witch Knight",
+						"source": "LLAF:E"
+					}
+				},
+				{
+					"class": {
+						"name": "Barbarian",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Path of the Bloodrager",
+						"shortName": "Bloodrager",
+						"source": "SCOE"
+					}
+				},
+				{
+					"class": {
+						"name": "Investigator",
+						"source": "VSS"
+					},
+					"subclass": {
+						"name": "Occultist",
+						"shortName": "Occultist",
+						"source": "VSS"
+					}
+				}
+			]
 		},
-		{
-			"h": "castigate_theincompletetomeofspells"
+		"_tmpRaces": [],
+		"_tmpBackgrounds": [],
+		"_tmpFeats": [],
+		"_tmpOptionalfeatures": [],
+		"_tmpGroups": [],
+		"_normalisedTime": 1,
+		"_normalisedRange": 0,
+		"_fSources": "Elminsters Guide to Magic",
+		"_isConc": true,
+		"_fMeta": [
+			"Concentration",
+			"Verbal",
+			"Somatic",
+			"Material",
+			"SCL"
+		],
+		"_fClasses": [
+			{
+				"item": "Wizard",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Sorcerer",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock (EldArc)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Tattooist (ToMT)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fSubclasses": [
+			{
+				"item": "Fighter: Witch Knight (LLFAFS)",
+				"nest": "Fighter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Blood Hunter: Profane Soul (BH2022)",
+				"nest": "Blood Hunter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Blood Hunter (Balanced): Profane Soul (FFBHBB)",
+				"nest": "Blood Hunter (Balanced)",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Blood Hunter: Profane Soul (BH2020)",
+				"nest": "Blood Hunter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Vessel: Altered Mage (TVC)",
+				"nest": "Vessel",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Alternate Sorcerer: The Chained (LLAS:E)",
+				"nest": "Alternate Sorcerer",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Alternate Fighter: Witch Knight (LLAF:E)",
+				"nest": "Alternate Fighter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Barbarian: Bloodrager (SCOE)",
+				"nest": "Barbarian",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Investigator: Occultist (VSS)",
+				"nest": "Investigator",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fVariantClasses": [],
+		"_fClassesAndVariantClasses": [
+			{
+				"item": "Wizard",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Sorcerer",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock (EldArc)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Tattooist (ToMT)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fRaces": [],
+		"_fBackgrounds": [],
+		"_fFeats": [],
+		"_fOptionalfeatures": [],
+		"_fGroups": [],
+		"_fTimeType": [
+			"action"
+		],
+		"_fDurationType": "1 Minute",
+		"_fRangeType": "Self",
+		"_fAreaTags": [],
+		"_fAffectsCreatureType": [
+			"aberration",
+			"beast",
+			"celestial",
+			"construct",
+			"dragon",
+			"elemental",
+			"fey",
+			"fiend",
+			"giant",
+			"humanoid",
+			"monstrosity",
+			"ooze",
+			"plant",
+			"undead"
+		]
+	},
+	{
+		"name": "Blasphemy",
+		"source": "COFSA",
+		"page": 162,
+		"level": 3,
+		"school": "A",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "radius",
+			"distance": {
+				"amount": 60,
+				"type": "feet"
+			}
 		},
-		{
-			"h": "decomposition_elminsters%20guide%20to%20magic"
+		"components": {
+			"v": true
 		},
-		{
-			"h": "mortiferous%20pulse_helianasguidetomonsterhunting"
+		"duration": [
+			{
+				"type": "timed",
+				"duration": {
+					"amount": 1,
+					"type": "minute"
+				}
+			}
+		],
+		"entries": [
+			{
+				"type": "quote",
+				"entries": [
+					"Defy those who create life, for their life is equally false."
+				]
+			},
+			"You curse, and will away the healing magics of nature and the gods. Each time a creature within a 60-foot radius of you would recover hit points from a spell, it must make a Charisma saving throw. If it fails, it does not recover hit points and instead takes {@damage 1d6} psychic damage. You can end this spell as an action."
+		],
+		"damageInflict": [
+			"psychic"
+		],
+		"savingThrow": [
+			"charisma"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Bard",
+					"source": "PHB"
+				}
+			]
 		},
-		{
-			"h": "spike%20growth_phb"
+		"__prop": "spell",
+		"__diagnostic": {
+			"filename": "Genuine Fantasy Press; The Compendium of Forgotten Secrets - Awakening.json"
 		},
-		{
-			"h": "entangle_yastah"
+		"_tmpSourcesInit": true,
+		"_tmpClasses": {
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "The Accursed Archive",
+						"shortName": "Accursed Archive",
+						"source": "COFSA"
+					}
+				},
+				{
+					"class": {
+						"name": "Alternate Sorcerer",
+						"source": "LaserLlamaAlternateSorcerer"
+					},
+					"subclass": {
+						"name": "Faeblood",
+						"shortName": "Faeblood",
+						"source": "LaserLlamaAlternateSorcererExpanded"
+					}
+				},
+				{
+					"class": {
+						"name": "Rogue",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Troubadour",
+						"shortName": "Troubadour",
+						"source": "llroa"
+					}
+				},
+				{
+					"class": {
+						"name": "Warlord",
+						"source": "llwc"
+					},
+					"subclass": {
+						"name": "Academy of Skalds",
+						"shortName": "Skalds",
+						"source": "llwc"
+					}
+				}
+			],
+			"fromClassList": [
+				{
+					"name": "Tattooist",
+					"source": "ToMT"
+				}
+			]
 		},
-		{
-			"h": "plant%20growth_phb"
-		}
-	],
-	"sources": [
-		"COFSA",
-		"Elminsters Guide to Magic",
-		"DMS",
-		"ExpCCodex",
-		"HelianasGuidetoMonsterHunting",
-		"BH:SP",
-		"mlpplaneshift",
-		"VSS",
-		"TheInCompleteTomeofSpells",
-		"PHB",
-		"Yastah"
-	]
-}
+		"_tmpRaces": [],
+		"_tmpBackgrounds": [],
+		"_tmpFeats": [],
+		"_tmpOptionalfeatures": [],
+		"_tmpGroups": [],
+		"_normalisedTime": 1,
+		"_normalisedRange": 723,
+		"_fSources": "COFSA",
+		"_isConc": false,
+		"_fMeta": [
+			"Verbal"
+		],
+		"_fClasses": [
+			{
+				"item": "Bard",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Tattooist (ToMT)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fSubclasses": [
+			{
+				"item": "Warlock: Accursed Archive (CoFS:A)",
+				"nest": "Warlock",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Alternate Sorcerer: Faeblood (LLAS:E)",
+				"nest": "Alternate Sorcerer",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Rogue: Troubadour (LLROA)",
+				"nest": "Rogue",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlord: Skalds (LLWC)",
+				"nest": "Warlord",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fVariantClasses": [],
+		"_fClassesAndVariantClasses": [
+			{
+				"item": "Bard",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Tattooist (ToMT)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fRaces": [],
+		"_fBackgrounds": [],
+		"_fFeats": [],
+		"_fOptionalfeatures": [],
+		"_fGroups": [],
+		"_fTimeType": [
+			"action"
+		],
+		"_fDurationType": "1 Minute",
+		"_fRangeType": "Self (Area)",
+		"_fAreaTags": [],
+		"_fAffectsCreatureType": [
+			"aberration",
+			"beast",
+			"celestial",
+			"construct",
+			"dragon",
+			"elemental",
+			"fey",
+			"fiend",
+			"giant",
+			"humanoid",
+			"monstrosity",
+			"ooze",
+			"plant",
+			"undead"
+		]
+	},
+	{
+		"name": "Dark Heraldry",
+		"source": "DMS",
+		"page": 57,
+		"level": 3,
+		"school": "N",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 60
+			}
+		},
+		"components": {
+			"v": true
+		},
+		"duration": [
+			{
+				"type": "timed",
+				"duration": {
+					"type": "minute",
+					"amount": 1
+				},
+				"concentration": true
+			}
+		],
+		"entries": [
+			"Dark entities herald your entry into combat, instilling an existential dread in your enemies. Designate a number of creatures up to your spellcasting ability modifier (minimum of one) that you can see within range and that have an alignment different from yours. Each of those creatures takes {@damage 5d8} psychic damage and becomes {@condition frightened} of you; a creature that makes a successful Wisdom saving throw takes half as much damage and is not {@condition frightened}.",
+			"A creature {@condition frightened} in this way repeats the saving throw at the end of each of its turns, ending the effect on itself on a success. The creature makes this saving throw with disadvantage if you can see it."
+		],
+		"entriesHigherLevel": [
+			{
+				"name": "At Higher Levels",
+				"entries": [
+					"When you cast this spell using a spell slot of 4th level or higher, you can target one additional creature for each slot level above 3rd."
+				],
+				"type": "entries"
+			}
+		],
+		"damageInflict": [
+			"psychic"
+		],
+		"conditionInflict": [
+			"frightened"
+		],
+		"savingThrow": [
+			"wisdom"
+		],
+		"miscTags": [
+			"SGT"
+		],
+		"areaTags": [
+			"MT"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Druid",
+					"source": "PHB"
+				},
+				{
+					"name": "Warlock",
+					"source": "PHB"
+				}
+			]
+		},
+		"__prop": "spell",
+		"__diagnostic": {
+			"filename": "Kobold Press; Deep Magic for 5th Edition.json"
+		},
+		"_tmpSourcesInit": true,
+		"_tmpClasses": {
+			"fromClassList": [
+				{
+					"name": "Warlock",
+					"source": "EldArc"
+				},
+				{
+					"name": "Tattooist",
+					"source": "ToMT"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Fighter",
+						"source": "phb"
+					},
+					"subclass": {
+						"name": "Witch Knight",
+						"shortName": "Witch Knight",
+						"source": "llfafs"
+					}
+				},
+				{
+					"class": {
+						"name": "Blood Hunter",
+						"source": "BH2022"
+					},
+					"subclass": {
+						"name": "Order of the Profane Soul",
+						"shortName": "Profane Soul",
+						"source": "BH2022"
+					}
+				},
+				{
+					"class": {
+						"name": "Blood Hunter (Balanced)",
+						"source": "BHBB"
+					},
+					"subclass": {
+						"name": "Order of the Profane Soul",
+						"shortName": "Profane Soul",
+						"source": "BHBB"
+					}
+				},
+				{
+					"class": {
+						"name": "Blood Hunter",
+						"source": "BH2020"
+					},
+					"subclass": {
+						"name": "Order of the Profane Soul",
+						"shortName": "Profane Soul",
+						"source": "BH2020"
+					}
+				},
+				{
+					"class": {
+						"name": "Vessel",
+						"source": "TVC"
+					},
+					"subclass": {
+						"name": "Altered Mage",
+						"shortName": "Altered Mage",
+						"source": "TVC"
+					}
+				},
+				{
+					"class": {
+						"name": "Alternate Sorcerer",
+						"source": "LaserLlamaAlternateSorcerer"
+					},
+					"subclass": {
+						"name": "The Chained",
+						"shortName": "The Chained",
+						"source": "LaserLlamaAlternateSorcererExpanded"
+					}
+				},
+				{
+					"class": {
+						"name": "Alternate Fighter",
+						"source": "LLAF"
+					},
+					"subclass": {
+						"name": "Witch Knight",
+						"shortName": "Witch Knight",
+						"source": "LLAF:E"
+					}
+				},
+				{
+					"class": {
+						"name": "Barbarian",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Path of the Bloodrager",
+						"shortName": "Bloodrager",
+						"source": "SCOE"
+					}
+				},
+				{
+					"class": {
+						"name": "Investigator",
+						"source": "VSS"
+					},
+					"subclass": {
+						"name": "Occultist",
+						"shortName": "Occultist",
+						"source": "VSS"
+					}
+				}
+			]
+		},
+		"_tmpRaces": [],
+		"_tmpBackgrounds": [],
+		"_tmpFeats": [],
+		"_tmpOptionalfeatures": [],
+		"_tmpGroups": [],
+		"_normalisedTime": 1,
+		"_normalisedRange": 720,
+		"_fSources": "DMS",
+		"_isConc": true,
+		"_fMeta": [
+			"Concentration",
+			"Verbal",
+			"SGT",
+			"SCL"
+		],
+		"_fClasses": [
+			{
+				"item": "Druid",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock (EldArc)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Tattooist (ToMT)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fSubclasses": [
+			{
+				"item": "Fighter: Witch Knight (LLFAFS)",
+				"nest": "Fighter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Blood Hunter: Profane Soul (BH2022)",
+				"nest": "Blood Hunter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Blood Hunter (Balanced): Profane Soul (FFBHBB)",
+				"nest": "Blood Hunter (Balanced)",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Blood Hunter: Profane Soul (BH2020)",
+				"nest": "Blood Hunter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Vessel: Altered Mage (TVC)",
+				"nest": "Vessel",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Alternate Sorcerer: The Chained (LLAS:E)",
+				"nest": "Alternate Sorcerer",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Alternate Fighter: Witch Knight (LLAF:E)",
+				"nest": "Alternate Fighter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Barbarian: Bloodrager (SCOE)",
+				"nest": "Barbarian",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Investigator: Occultist (VSS)",
+				"nest": "Investigator",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fVariantClasses": [],
+		"_fClassesAndVariantClasses": [
+			{
+				"item": "Druid",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock (EldArc)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Tattooist (ToMT)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fRaces": [],
+		"_fBackgrounds": [],
+		"_fFeats": [],
+		"_fOptionalfeatures": [],
+		"_fGroups": [],
+		"_fTimeType": [
+			"action"
+		],
+		"_fDurationType": "1 Minute",
+		"_fRangeType": "Point",
+		"_fAreaTags": [
+			"MT"
+		],
+		"_fAffectsCreatureType": [
+			"aberration",
+			"beast",
+			"celestial",
+			"construct",
+			"dragon",
+			"elemental",
+			"fey",
+			"fiend",
+			"giant",
+			"humanoid",
+			"monstrosity",
+			"ooze",
+			"plant",
+			"undead"
+		]
+	},
+	{
+		"source": "ExpCCodex",
+		"name": "Frightful Breath",
+		"page": 17,
+		"level": 3,
+		"school": "V",
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Sorcerer",
+					"source": "PHB"
+				},
+				{
+					"name": "Wizard",
+					"source": "PHB"
+				}
+			]
+		},
+		"time": [
+			{
+				"unit": "action",
+				"number": 1
+			}
+		],
+		"range": {
+			"type": "cone",
+			"distance": {
+				"type": "feet",
+				"amount": 30
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "dried ectoplasm from a {@creature ghost dragon|CCodex}"
+		},
+		"duration": [
+			{
+				"type": "instant"
+			}
+		],
+		"entries": [
+			"Icy terror escapes your hands in a screaming torrent. Each living creature in a 30-foot cone must succeed on a Wisdom saving throw or take {@damage 5d10} psychic damage and be {@condition frightened} for 1 minute. A creature that succeeds on its saving throw takes half as much damage and isn't {@condition frightened}. A {@condition frightened} creature can make another Wisdom saving throw at the end of each of its turns. On a success, the creature is no longer {@condition frightened}.",
+			"A creature killed by this spell has a {@chance 10|10%} chance of returning as a ghost."
+		],
+		"areaTags": [
+			"C"
+		],
+		"savingThrow": [
+			"wisdom"
+		],
+		"conditionInflict": [
+			"frightened"
+		],
+		"damageInflict": [
+			"psychic"
+		],
+		"affectsCreatureType": [
+			"aberration",
+			"beast",
+			"celestial",
+			"dragon",
+			"elemental",
+			"fey",
+			"fiend",
+			"giant",
+			"humanoid",
+			"monstrosity",
+			"plant",
+			"ooze"
+		],
+		"__prop": "spell",
+		"__diagnostic": {
+			"filename": "Kobold Press; Expanding Codex.json"
+		},
+		"_tmpSourcesInit": true,
+		"_tmpClasses": {
+			"fromClassList": [
+				{
+					"name": "Sorcerer Reworked",
+					"source": "SorcRework"
+				},
+				{
+					"name": "Variant Sorcerer",
+					"source": "VariantSorcerer_By_devikyn"
+				},
+				{
+					"name": "Haruspex",
+					"source": "KOMA"
+				},
+				{
+					"name": "Tattooist",
+					"source": "ToMT"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Barbarian",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Path of the Bloodrager",
+						"shortName": "Bloodrager",
+						"source": "PotB"
+					}
+				},
+				{
+					"class": {
+						"name": "Dragon Knight",
+						"source": "DK"
+					},
+					"subclass": {
+						"name": "Elemental Practice",
+						"shortName": "Elemental",
+						"source": "DK"
+					}
+				},
+				{
+					"class": {
+						"name": "Barbarian",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Path of the Sacred Kin",
+						"shortName": "Sacred Kin",
+						"source": "XLNEE"
+					}
+				}
+			]
+		},
+		"_tmpRaces": [],
+		"_tmpBackgrounds": [],
+		"_tmpFeats": [],
+		"_tmpOptionalfeatures": [],
+		"_tmpGroups": [],
+		"_normalisedTime": 1,
+		"_normalisedRange": 362,
+		"_fSources": "ExpCCodex",
+		"_isConc": false,
+		"_fMeta": [
+			"Verbal",
+			"Somatic",
+			"Material"
+		],
+		"_fClasses": [
+			{
+				"item": "Sorcerer",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Wizard",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Sorcerer Reworked (SR)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Variant Sorcerer (VS)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Haruspex (KOMA)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Tattooist (ToMT)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fSubclasses": [
+			{
+				"item": "Barbarian: Bloodrager (B:PotB)",
+				"nest": "Barbarian",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Dragon Knight: Elemental (DK)",
+				"nest": "Dragon Knight",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Barbarian: Sacred Kin (XLNEE)",
+				"nest": "Barbarian",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fVariantClasses": [],
+		"_fClassesAndVariantClasses": [
+			{
+				"item": "Sorcerer",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Wizard",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Sorcerer Reworked (SR)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Variant Sorcerer (VS)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Haruspex (KOMA)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Tattooist (ToMT)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fRaces": [],
+		"_fBackgrounds": [],
+		"_fFeats": [],
+		"_fOptionalfeatures": [],
+		"_fGroups": [],
+		"_fTimeType": [
+			"action"
+		],
+		"_fDurationType": "Instant",
+		"_fRangeType": "Self (Area)",
+		"_fAreaTags": [
+			"C"
+		],
+		"_fAffectsCreatureType": [
+			"aberration",
+			"beast",
+			"celestial",
+			"dragon",
+			"elemental",
+			"fey",
+			"fiend",
+			"giant",
+			"humanoid",
+			"monstrosity",
+			"plant",
+			"ooze"
+		]
+	},
+	{
+		"name": "Mass Leech",
+		"level": 3,
+		"school": "N",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "sphere",
+			"distance": {
+				"type": "feet",
+				"amount": 20
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "a live leech that has fed on humanoid blood in the past 24 hours"
+		},
+		"duration": [
+			{
+				"type": "instant",
+				"concentration": false
+			}
+		],
+		"entries": [
+			"You drain the life force of those around you, turning their limbs heavy and their bones cold Each creature of your choice within 20 feet of you must make a Constitution saving throw A target takes {@damage 2d8} necrotic damage on a failure, or half as much damage on a success The caster regains hit points equal to half the total amount of necrotic damage dealt to Small or larger creatures by this casting of this spell"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Cleric",
+					"source": "PHB"
+				},
+				{
+					"name": "Warlock",
+					"source": "PHB"
+				},
+				{
+					"name": "Wizard",
+					"source": "PHB"
+				},
+				{
+					"name": "Tamer",
+					"source": "HelianasGuidetoMonsterHunting"
+				}
+			]
+		},
+		"source": "HelianasGuidetoMonsterHunting",
+		"damageInflict": [
+			"necrotic"
+		],
+		"savingThrow": [
+			"constitution"
+		],
+		"entriesHigherLevel": [
+			{
+				"type": "entries",
+				"name": "At Higher Levels",
+				"entries": [
+					"When you cast this spell using a spell slot of 4th level or higher, the damage increases by {@scaledamage  2d8|3-9|1d8} for each slot level above 3rd."
+				]
+			}
+		],
+		"foundrySystem": {
+			"target.value": 6,
+			"target.units": "m",
+			"target.type": "sphere",
+			"actionType": "save",
+			"scaling.mode": "level",
+			"scaling.formula": "d8",
+			"damage.parts.0.0": "2d8",
+			"damage.parts.0.1": "necrotic"
+		},
+		"foundryFlags": {
+			"midiProperties.halfdam": true
+		},
+		"__prop": "spell",
+		"__diagnostic": {
+			"filename": "Loot Tavern; Heliana's Guide To Monster Hunting.json"
+		},
+		"_tmpSourcesInit": true,
+		"_tmpClasses": {
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Tamer",
+						"source": "HelianasGuidetoMonsterHunting"
+					},
+					"subclass": {
+						"name": "Splicer",
+						"shortName": "Splicer",
+						"source": "HelianasGuidetoMonsterHunting"
+					}
+				},
+				{
+					"class": {
+						"name": "Fighter",
+						"source": "phb"
+					},
+					"subclass": {
+						"name": "Witch Knight",
+						"shortName": "Witch Knight",
+						"source": "llfafs"
+					}
+				},
+				{
+					"class": {
+						"name": "Blood Hunter",
+						"source": "BH2022"
+					},
+					"subclass": {
+						"name": "Order of the Profane Soul",
+						"shortName": "Profane Soul",
+						"source": "BH2022"
+					}
+				},
+				{
+					"class": {
+						"name": "Blood Hunter (Balanced)",
+						"source": "BHBB"
+					},
+					"subclass": {
+						"name": "Order of the Profane Soul",
+						"shortName": "Profane Soul",
+						"source": "BHBB"
+					}
+				},
+				{
+					"class": {
+						"name": "Blood Hunter",
+						"source": "BH2020"
+					},
+					"subclass": {
+						"name": "Order of the Profane Soul",
+						"shortName": "Profane Soul",
+						"source": "BH2020"
+					}
+				},
+				{
+					"class": {
+						"name": "Vessel",
+						"source": "TVC"
+					},
+					"subclass": {
+						"name": "Altered Mage",
+						"shortName": "Altered Mage",
+						"source": "TVC"
+					}
+				},
+				{
+					"class": {
+						"name": "Alternate Sorcerer",
+						"source": "LaserLlamaAlternateSorcerer"
+					},
+					"subclass": {
+						"name": "The Chained",
+						"shortName": "The Chained",
+						"source": "LaserLlamaAlternateSorcererExpanded"
+					}
+				},
+				{
+					"class": {
+						"name": "Alternate Fighter",
+						"source": "LLAF"
+					},
+					"subclass": {
+						"name": "Witch Knight",
+						"shortName": "Witch Knight",
+						"source": "LLAF:E"
+					}
+				},
+				{
+					"class": {
+						"name": "Barbarian",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Path of the Bloodrager",
+						"shortName": "Bloodrager",
+						"source": "SCOE"
+					}
+				},
+				{
+					"class": {
+						"name": "Investigator",
+						"source": "VSS"
+					},
+					"subclass": {
+						"name": "Occultist",
+						"shortName": "Occultist",
+						"source": "VSS"
+					}
+				}
+			],
+			"fromClassList": [
+				{
+					"name": "Warlock",
+					"source": "EldArc"
+				},
+				{
+					"name": "Tattooist",
+					"source": "ToMT"
+				}
+			]
+		},
+		"_tmpRaces": [],
+		"_tmpBackgrounds": [],
+		"_tmpFeats": [],
+		"_tmpOptionalfeatures": [],
+		"_tmpGroups": [],
+		"_normalisedTime": 1,
+		"_normalisedRange": 245,
+		"_fSources": "HelianasGuidetoMonsterHunting",
+		"_isConc": false,
+		"_fMeta": [
+			"Verbal",
+			"Somatic",
+			"Material",
+			"SCL"
+		],
+		"_fClasses": [
+			{
+				"item": "Cleric",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Wizard",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Tamer (HGtMH)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock (EldArc)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Tattooist (ToMT)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fSubclasses": [
+			{
+				"item": "Tamer: Splicer (HGtMH)",
+				"nest": "Tamer",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Fighter: Witch Knight (LLFAFS)",
+				"nest": "Fighter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Blood Hunter: Profane Soul (BH2022)",
+				"nest": "Blood Hunter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Blood Hunter (Balanced): Profane Soul (FFBHBB)",
+				"nest": "Blood Hunter (Balanced)",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Blood Hunter: Profane Soul (BH2020)",
+				"nest": "Blood Hunter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Vessel: Altered Mage (TVC)",
+				"nest": "Vessel",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Alternate Sorcerer: The Chained (LLAS:E)",
+				"nest": "Alternate Sorcerer",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Alternate Fighter: Witch Knight (LLAF:E)",
+				"nest": "Alternate Fighter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Barbarian: Bloodrager (SCOE)",
+				"nest": "Barbarian",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Investigator: Occultist (VSS)",
+				"nest": "Investigator",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fVariantClasses": [],
+		"_fClassesAndVariantClasses": [
+			{
+				"item": "Cleric",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Wizard",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Tamer (HGtMH)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock (EldArc)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Tattooist (ToMT)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fRaces": [],
+		"_fBackgrounds": [],
+		"_fFeats": [],
+		"_fOptionalfeatures": [],
+		"_fGroups": [],
+		"_fTimeType": [
+			"action"
+		],
+		"_fDurationType": "Instant",
+		"_fRangeType": "Self (Area)",
+		"_fAreaTags": [],
+		"_fAffectsCreatureType": [
+			"aberration",
+			"beast",
+			"celestial",
+			"construct",
+			"dragon",
+			"elemental",
+			"fey",
+			"fiend",
+			"giant",
+			"humanoid",
+			"monstrosity",
+			"ooze",
+			"plant",
+			"undead"
+		]
+	},
+	{
+		"name": "Drain",
+		"source": "BH:SP",
+		"page": 11,
+		"level": 1,
+		"school": "N",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 30
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "a red ribbon"
+		},
+		"duration": [
+			{
+				"type": "instant"
+			}
+		],
+		"entries": [
+			"Stretching out your hand and pointing your finger at a creature within range, a flash of negative energy briefly connects the two of you. The targeted creature must succeed on a Constitution saving throw or take {@damage 3d4} necrotic damage. If the creature fails its saving throw, you gain a number of temporary hit points equivalent to the damage the creature takes. You lose any temporary hit points granted by this spell after one minute."
+		],
+		"entriesHigherLevel": [
+			{
+				"type": "entries",
+				"name": "At Higher Levels",
+				"entries": [
+					"When you cast this spell using a spell slot of 2nd level or higher, each level beyond the first adds {@dice 2d4} to the damage dealt by this spell."
+				]
+			}
+		],
+		"damageInflict": [
+			"necrotic"
+		],
+		"savingThrow": [
+			"constitution"
+		],
+		"miscTags": [
+			"THP"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Warlock",
+					"source": "PHB"
+				}
+			]
+		},
+		"__prop": "spell",
+		"__diagnostic": {
+			"filename": "Benjamin Huffman; Spiritualist.json"
+		},
+		"_tmpSourcesInit": true,
+		"_tmpClasses": {
+			"fromClassList": [
+				{
+					"name": "Spiritualist",
+					"source": "BH:SP"
+				},
+				{
+					"name": "Warlock",
+					"source": "EldArc"
+				},
+				{
+					"name": "Tattooist",
+					"source": "ToMT"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Fighter",
+						"source": "phb"
+					},
+					"subclass": {
+						"name": "Witch Knight",
+						"shortName": "Witch Knight",
+						"source": "llfafs"
+					}
+				},
+				{
+					"class": {
+						"name": "Blood Hunter",
+						"source": "BH2022"
+					},
+					"subclass": {
+						"name": "Order of the Profane Soul",
+						"shortName": "Profane Soul",
+						"source": "BH2022"
+					}
+				},
+				{
+					"class": {
+						"name": "Blood Hunter (Balanced)",
+						"source": "BHBB"
+					},
+					"subclass": {
+						"name": "Order of the Profane Soul",
+						"shortName": "Profane Soul",
+						"source": "BHBB"
+					}
+				},
+				{
+					"class": {
+						"name": "Blood Hunter",
+						"source": "BH2020"
+					},
+					"subclass": {
+						"name": "Order of the Profane Soul",
+						"shortName": "Profane Soul",
+						"source": "BH2020"
+					}
+				},
+				{
+					"class": {
+						"name": "Vessel",
+						"source": "TVC"
+					},
+					"subclass": {
+						"name": "Altered Mage",
+						"shortName": "Altered Mage",
+						"source": "TVC"
+					}
+				},
+				{
+					"class": {
+						"name": "Alternate Sorcerer",
+						"source": "LaserLlamaAlternateSorcerer"
+					},
+					"subclass": {
+						"name": "The Chained",
+						"shortName": "The Chained",
+						"source": "LaserLlamaAlternateSorcererExpanded"
+					}
+				},
+				{
+					"class": {
+						"name": "Alternate Fighter",
+						"source": "LLAF"
+					},
+					"subclass": {
+						"name": "Witch Knight",
+						"shortName": "Witch Knight",
+						"source": "LLAF:E"
+					}
+				},
+				{
+					"class": {
+						"name": "Barbarian",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Path of the Bloodrager",
+						"shortName": "Bloodrager",
+						"source": "SCOE"
+					}
+				},
+				{
+					"class": {
+						"name": "Investigator",
+						"source": "VSS"
+					},
+					"subclass": {
+						"name": "Occultist",
+						"shortName": "Occultist",
+						"source": "VSS"
+					}
+				}
+			]
+		},
+		"_tmpRaces": [],
+		"_tmpBackgrounds": [],
+		"_tmpFeats": [],
+		"_tmpOptionalfeatures": [],
+		"_tmpGroups": [],
+		"_normalisedTime": 1,
+		"_normalisedRange": 360,
+		"_fSources": "BH:SP",
+		"_isConc": false,
+		"_fMeta": [
+			"Verbal",
+			"Somatic",
+			"Material",
+			"THP",
+			"SCL"
+		],
+		"_fClasses": [
+			{
+				"item": "Warlock",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Spiritualist (BH:SP)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock (EldArc)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Tattooist (ToMT)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fSubclasses": [
+			{
+				"item": "Fighter: Witch Knight (LLFAFS)",
+				"nest": "Fighter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Blood Hunter: Profane Soul (BH2022)",
+				"nest": "Blood Hunter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Blood Hunter (Balanced): Profane Soul (FFBHBB)",
+				"nest": "Blood Hunter (Balanced)",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Blood Hunter: Profane Soul (BH2020)",
+				"nest": "Blood Hunter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Vessel: Altered Mage (TVC)",
+				"nest": "Vessel",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Alternate Sorcerer: The Chained (LLAS:E)",
+				"nest": "Alternate Sorcerer",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Alternate Fighter: Witch Knight (LLAF:E)",
+				"nest": "Alternate Fighter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Barbarian: Bloodrager (SCOE)",
+				"nest": "Barbarian",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Investigator: Occultist (VSS)",
+				"nest": "Investigator",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fVariantClasses": [],
+		"_fClassesAndVariantClasses": [
+			{
+				"item": "Warlock",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Spiritualist (BH:SP)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock (EldArc)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Tattooist (ToMT)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fRaces": [],
+		"_fBackgrounds": [],
+		"_fFeats": [],
+		"_fOptionalfeatures": [],
+		"_fGroups": [],
+		"_fTimeType": [
+			"action"
+		],
+		"_fDurationType": "Instant",
+		"_fRangeType": "Point",
+		"_fAreaTags": [],
+		"_fAffectsCreatureType": [
+			"aberration",
+			"beast",
+			"celestial",
+			"construct",
+			"dragon",
+			"elemental",
+			"fey",
+			"fiend",
+			"giant",
+			"humanoid",
+			"monstrosity",
+			"ooze",
+			"plant",
+			"undead"
+		]
+	},
+	{
+		"name": "Emotion Drain",
+		"level": 1,
+		"school": "N",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 10
+			}
+		},
+		"duration": [
+			{
+				"type": "instant"
+			}
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Druid",
+					"source": "PHB"
+				},
+				{
+					"name": "Cleric",
+					"source": "PHB"
+				},
+				{
+					"name": "Sorcerer",
+					"source": "PHB"
+				},
+				{
+					"name": "Warlock",
+					"source": "PHB"
+				}
+			]
+		},
+		"source": "mlpplaneshift",
+		"page": 32,
+		"components": {
+			"s": true,
+			"m": "Piece of beetle chitin"
+		},
+		"entries": [
+			"You drain thick tendrils of emotion from one creature you can see within range. When you cast this spell, choose one of the following effects:",
+			{
+				"type": "list",
+				"items": [
+					"- The {@condition charmed} or {@condition frightened} condition ends on that target.",
+					"- The target makes a Constitution save, taking {@damage 2d8} psychic damage on a failed save, or half as much damage on a successful one."
+				]
+			},
+			"Damage dealt by this spell does not end the {@condition charmed} condition if it would normally do so, and a creature reduced to 0 hit points by this spell falls {@condition unconscious} and is stable."
+		],
+		"entriesHigherLevel": [
+			{
+				"type": "entries",
+				"name": "At Higher Levels",
+				"entries": [
+					"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by {@dice 1d8} for each slot level above 1st"
+				]
+			}
+		],
+		"races": [
+			{
+				"name": "Changeling (Orthodox)",
+				"source": "mlpplaneshift",
+				"baseName": "Changeling",
+				"baseSource": "mlpplaneshift"
+			}
+		],
+		"damageInflict": [
+			"psychic"
+		],
+		"savingThrow": [
+			"constitution"
+		],
+		"areaTags": [
+			"ST"
+		],
+		"miscTags": [
+			"SCL"
+		],
+		"__prop": "spell",
+		"__diagnostic": {
+			"filename": "Rynosaur94; Planeshift Equestria.json"
+		},
+		"_tmpSourcesInit": true,
+		"_tmpClasses": {
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Changeling Queen",
+						"shortName": "Changeling",
+						"source": "mlpplaneshift"
+					}
+				},
+				{
+					"class": {
+						"name": "Fighter",
+						"source": "phb"
+					},
+					"subclass": {
+						"name": "Witch Knight",
+						"shortName": "Witch Knight",
+						"source": "llfafs"
+					}
+				},
+				{
+					"class": {
+						"name": "Blood Hunter",
+						"source": "BH2022"
+					},
+					"subclass": {
+						"name": "Order of the Profane Soul",
+						"shortName": "Profane Soul",
+						"source": "BH2022"
+					}
+				},
+				{
+					"class": {
+						"name": "Blood Hunter (Balanced)",
+						"source": "BHBB"
+					},
+					"subclass": {
+						"name": "Order of the Profane Soul",
+						"shortName": "Profane Soul",
+						"source": "BHBB"
+					}
+				},
+				{
+					"class": {
+						"name": "Blood Hunter",
+						"source": "BH2020"
+					},
+					"subclass": {
+						"name": "Order of the Profane Soul",
+						"shortName": "Profane Soul",
+						"source": "BH2020"
+					}
+				},
+				{
+					"class": {
+						"name": "Vessel",
+						"source": "TVC"
+					},
+					"subclass": {
+						"name": "Altered Mage",
+						"shortName": "Altered Mage",
+						"source": "TVC"
+					}
+				},
+				{
+					"class": {
+						"name": "Alternate Sorcerer",
+						"source": "LaserLlamaAlternateSorcerer"
+					},
+					"subclass": {
+						"name": "The Chained",
+						"shortName": "The Chained",
+						"source": "LaserLlamaAlternateSorcererExpanded"
+					}
+				},
+				{
+					"class": {
+						"name": "Alternate Fighter",
+						"source": "LLAF"
+					},
+					"subclass": {
+						"name": "Witch Knight",
+						"shortName": "Witch Knight",
+						"source": "LLAF:E"
+					}
+				},
+				{
+					"class": {
+						"name": "Barbarian",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Path of the Bloodrager",
+						"shortName": "Bloodrager",
+						"source": "SCOE"
+					}
+				},
+				{
+					"class": {
+						"name": "Investigator",
+						"source": "VSS"
+					},
+					"subclass": {
+						"name": "Occultist",
+						"shortName": "Occultist",
+						"source": "VSS"
+					}
+				}
+			],
+			"fromClassList": [
+				{
+					"name": "Warlock",
+					"source": "EldArc"
+				},
+				{
+					"name": "Tattooist",
+					"source": "ToMT"
+				}
+			]
+		},
+		"_tmpRaces": [],
+		"_tmpBackgrounds": [],
+		"_tmpFeats": [],
+		"_tmpOptionalfeatures": [],
+		"_tmpGroups": [],
+		"_normalisedTime": 1,
+		"_normalisedRange": 120,
+		"_fSources": "mlpplaneshift",
+		"_isConc": false,
+		"_fMeta": [
+			"Somatic",
+			"Material",
+			"SCL"
+		],
+		"_fClasses": [
+			{
+				"item": "Druid",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Cleric",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Sorcerer",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock (EldArc)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Tattooist (ToMT)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fSubclasses": [
+			{
+				"item": "Warlock: Changeling (PSE)",
+				"nest": "Warlock",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Fighter: Witch Knight (LLFAFS)",
+				"nest": "Fighter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Blood Hunter: Profane Soul (BH2022)",
+				"nest": "Blood Hunter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Blood Hunter (Balanced): Profane Soul (FFBHBB)",
+				"nest": "Blood Hunter (Balanced)",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Blood Hunter: Profane Soul (BH2020)",
+				"nest": "Blood Hunter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Vessel: Altered Mage (TVC)",
+				"nest": "Vessel",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Alternate Sorcerer: The Chained (LLAS:E)",
+				"nest": "Alternate Sorcerer",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Alternate Fighter: Witch Knight (LLAF:E)",
+				"nest": "Alternate Fighter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Barbarian: Bloodrager (SCOE)",
+				"nest": "Barbarian",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Investigator: Occultist (VSS)",
+				"nest": "Investigator",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fVariantClasses": [],
+		"_fClassesAndVariantClasses": [
+			{
+				"item": "Druid",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Cleric",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Sorcerer",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock (EldArc)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Tattooist (ToMT)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fRaces": [
+			{
+				"item": "Changeling (Orthodox) (PSE)",
+				"nest": "Changeling",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null,
+				"btnMini": {}
+			}
+		],
+		"_fBackgrounds": [],
+		"_fFeats": [],
+		"_fOptionalfeatures": [],
+		"_fGroups": [],
+		"_fTimeType": [
+			"action"
+		],
+		"_fDurationType": "Instant",
+		"_fRangeType": "Point",
+		"_fAreaTags": [
+			"ST"
+		],
+		"_fAffectsCreatureType": [
+			"aberration",
+			"beast",
+			"celestial",
+			"construct",
+			"dragon",
+			"elemental",
+			"fey",
+			"fiend",
+			"giant",
+			"humanoid",
+			"monstrosity",
+			"ooze",
+			"plant",
+			"undead"
+		]
+	},
+	{
+		"name": "Frightful Strike",
+		"source": "Elminsters Guide to Magic",
+		"page": 50,
+		"level": 1,
+		"school": "E",
+		"time": [
+			{
+				"number": 1,
+				"unit": "reaction",
+				"condition": "which you take when you hit a creature with a melee attack using a weapon"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 5
+			}
+		},
+		"components": {
+			"v": true,
+			"m": "a weapon with at least one drop of blood on it"
+		},
+		"duration": [
+			{
+				"type": "timed",
+				"duration": {
+					"type": "round",
+					"amount": 1
+				}
+			}
+		],
+		"entries": [
+			"You bark or whisper a terrifying threat to your target creature as your weapon strikes. The target you hit with the weapon attack takes an amount of additional psychic damage equal to {@dice 1d4} + your Charisma modifier, and it becomes frightened of you until the end of its next turn."
+		],
+		"entriesHigherLevel": [
+			{
+				"name": "At Higher Levels",
+				"entries": [
+					"When you cast this spell using a spell slot of 2nd level or higher, the psychic damage is increased by {@dice 1d4} for each slot level above 1st."
+				],
+				"type": "entries"
+			}
+		],
+		"damageInflict": [
+			"psychic"
+		],
+		"miscTags": [
+			"SCL"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Wizard",
+					"source": "PHB"
+				},
+				{
+					"name": "Sorcerer",
+					"source": "PHB"
+				},
+				{
+					"name": "Warlock",
+					"source": "PHB"
+				},
+				{
+					"name": "Paladin",
+					"source": "PHB"
+				},
+				{
+					"name": "Ranger",
+					"source": "PHB"
+				},
+				{
+					"name": "Bard",
+					"source": "PHB"
+				},
+				{
+					"name": "Druid",
+					"source": "PHB"
+				}
+			]
+		},
+		"__prop": "spell",
+		"__diagnostic": {
+			"filename": "Jeremy Forbing; Elminsters Guide to Magic.json"
+		},
+		"_tmpSourcesInit": true,
+		"_tmpClasses": {
+			"fromClassList": [
+				{
+					"name": "Warlock",
+					"source": "EldArc"
+				},
+				{
+					"name": "Tattooist",
+					"source": "ToMT"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Fighter",
+						"source": "phb"
+					},
+					"subclass": {
+						"name": "Witch Knight",
+						"shortName": "Witch Knight",
+						"source": "llfafs"
+					}
+				},
+				{
+					"class": {
+						"name": "Blood Hunter",
+						"source": "BH2022"
+					},
+					"subclass": {
+						"name": "Order of the Profane Soul",
+						"shortName": "Profane Soul",
+						"source": "BH2022"
+					}
+				},
+				{
+					"class": {
+						"name": "Blood Hunter (Balanced)",
+						"source": "BHBB"
+					},
+					"subclass": {
+						"name": "Order of the Profane Soul",
+						"shortName": "Profane Soul",
+						"source": "BHBB"
+					}
+				},
+				{
+					"class": {
+						"name": "Blood Hunter",
+						"source": "BH2020"
+					},
+					"subclass": {
+						"name": "Order of the Profane Soul",
+						"shortName": "Profane Soul",
+						"source": "BH2020"
+					}
+				},
+				{
+					"class": {
+						"name": "Vessel",
+						"source": "TVC"
+					},
+					"subclass": {
+						"name": "Altered Mage",
+						"shortName": "Altered Mage",
+						"source": "TVC"
+					}
+				},
+				{
+					"class": {
+						"name": "Alternate Sorcerer",
+						"source": "LaserLlamaAlternateSorcerer"
+					},
+					"subclass": {
+						"name": "The Chained",
+						"shortName": "The Chained",
+						"source": "LaserLlamaAlternateSorcererExpanded"
+					}
+				},
+				{
+					"class": {
+						"name": "Alternate Fighter",
+						"source": "LLAF"
+					},
+					"subclass": {
+						"name": "Witch Knight",
+						"shortName": "Witch Knight",
+						"source": "LLAF:E"
+					}
+				},
+				{
+					"class": {
+						"name": "Barbarian",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Path of the Bloodrager",
+						"shortName": "Bloodrager",
+						"source": "SCOE"
+					}
+				},
+				{
+					"class": {
+						"name": "Investigator",
+						"source": "VSS"
+					},
+					"subclass": {
+						"name": "Occultist",
+						"shortName": "Occultist",
+						"source": "VSS"
+					}
+				}
+			]
+		},
+		"_tmpRaces": [],
+		"_tmpBackgrounds": [],
+		"_tmpFeats": [],
+		"_tmpOptionalfeatures": [],
+		"_tmpGroups": [],
+		"_normalisedTime": 3,
+		"_normalisedRange": 60,
+		"_fSources": "Elminsters Guide to Magic",
+		"_isConc": false,
+		"_fMeta": [
+			"Verbal",
+			"Material",
+			"SCL"
+		],
+		"_fClasses": [
+			{
+				"item": "Wizard",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Sorcerer",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Paladin",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Ranger",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Bard",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Druid",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock (EldArc)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Tattooist (ToMT)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fSubclasses": [
+			{
+				"item": "Fighter: Witch Knight (LLFAFS)",
+				"nest": "Fighter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Blood Hunter: Profane Soul (BH2022)",
+				"nest": "Blood Hunter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Blood Hunter (Balanced): Profane Soul (FFBHBB)",
+				"nest": "Blood Hunter (Balanced)",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Blood Hunter: Profane Soul (BH2020)",
+				"nest": "Blood Hunter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Vessel: Altered Mage (TVC)",
+				"nest": "Vessel",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Alternate Sorcerer: The Chained (LLAS:E)",
+				"nest": "Alternate Sorcerer",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Alternate Fighter: Witch Knight (LLAF:E)",
+				"nest": "Alternate Fighter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Barbarian: Bloodrager (SCOE)",
+				"nest": "Barbarian",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Investigator: Occultist (VSS)",
+				"nest": "Investigator",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fVariantClasses": [],
+		"_fClassesAndVariantClasses": [
+			{
+				"item": "Wizard",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Sorcerer",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Paladin",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Ranger",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Bard",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Druid",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock (EldArc)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Tattooist (ToMT)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fRaces": [],
+		"_fBackgrounds": [],
+		"_fFeats": [],
+		"_fOptionalfeatures": [],
+		"_fGroups": [],
+		"_fTimeType": [
+			"reaction"
+		],
+		"_fDurationType": "1 Round",
+		"_fRangeType": "Point",
+		"_fAreaTags": [],
+		"_fAffectsCreatureType": [
+			"aberration",
+			"beast",
+			"celestial",
+			"construct",
+			"dragon",
+			"elemental",
+			"fey",
+			"fiend",
+			"giant",
+			"humanoid",
+			"monstrosity",
+			"ooze",
+			"plant",
+			"undead"
+		]
+	},
+	{
+		"name": "Hollowing Curse",
+		"source": "VSS",
+		"page": 344,
+		"level": 1,
+		"school": "N",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 30
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [
+			{
+				"type": "timed",
+				"duration": {
+					"type": "minute",
+					"amount": 1,
+					"upTo": true
+				},
+				"concentration": true
+			}
+		],
+		"entries": [
+			"Tendrils of black mist extend from your fingertips, latching onto a creature and draining its vitality. Choose a creature you can see within range to make a Dexterity saving throw. On a failed save, the target takes {@damage 2d6} necrotic damage and is cursed for up to one minute. On a successful save, the target takes half as much damage and is not cursed. While the target is cursed, you can use your action to deal {@damage 1d6} necrotic damage to it automatically. The curse ends early if you use your action to do anything else, or if the target is ever outside the spell's range or if it has total cover from you. A remove curse spell also ends this curse."
+		],
+		"entriesHigherLevel": [
+			{
+				"name": "At Higher Levels",
+				"entries": [
+					"When you cast this spell using a spell slot of 2nd level or higher, the initial and secondary damage each increases by {@scaledamage 1d6|1-9|1d6} for each slot level above 1st."
+				],
+				"type": "entries"
+			}
+		],
+		"damageInflict": [
+			"necrotic"
+		],
+		"savingThrow": [
+			"dexterity"
+		],
+		"miscTags": [
+			"SCL"
+		],
+		"areaTags": [
+			"ST"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Wizard",
+					"source": "PHB"
+				},
+				{
+					"name": "Warlock",
+					"source": "PHB"
+				},
+				{
+					"name": "Sorcerer",
+					"source": "PHB"
+				}
+			]
+		},
+		"__prop": "spell",
+		"__diagnostic": {
+			"filename": "Mage Hand Press; Valda's Spire of Secrets.json"
+		},
+		"_tmpSourcesInit": true,
+		"_tmpClasses": {
+			"fromClassList": [
+				{
+					"name": "Necromancer",
+					"source": "VSS"
+				},
+				{
+					"name": "Witch",
+					"source": "VSS"
+				},
+				{
+					"name": "Warlock",
+					"source": "EldArc"
+				},
+				{
+					"name": "Tattooist",
+					"source": "ToMT"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Witch",
+						"source": "VSS"
+					},
+					"subclass": {
+						"name": "Blood Magic",
+						"shortName": "Blood",
+						"source": "VSS"
+					}
+				},
+				{
+					"class": {
+						"name": "Fighter",
+						"source": "phb"
+					},
+					"subclass": {
+						"name": "Witch Knight",
+						"shortName": "Witch Knight",
+						"source": "llfafs"
+					}
+				},
+				{
+					"class": {
+						"name": "Blood Hunter",
+						"source": "BH2022"
+					},
+					"subclass": {
+						"name": "Order of the Profane Soul",
+						"shortName": "Profane Soul",
+						"source": "BH2022"
+					}
+				},
+				{
+					"class": {
+						"name": "Blood Hunter (Balanced)",
+						"source": "BHBB"
+					},
+					"subclass": {
+						"name": "Order of the Profane Soul",
+						"shortName": "Profane Soul",
+						"source": "BHBB"
+					}
+				},
+				{
+					"class": {
+						"name": "Blood Hunter",
+						"source": "BH2020"
+					},
+					"subclass": {
+						"name": "Order of the Profane Soul",
+						"shortName": "Profane Soul",
+						"source": "BH2020"
+					}
+				},
+				{
+					"class": {
+						"name": "Vessel",
+						"source": "TVC"
+					},
+					"subclass": {
+						"name": "Altered Mage",
+						"shortName": "Altered Mage",
+						"source": "TVC"
+					}
+				},
+				{
+					"class": {
+						"name": "Alternate Sorcerer",
+						"source": "LaserLlamaAlternateSorcerer"
+					},
+					"subclass": {
+						"name": "The Chained",
+						"shortName": "The Chained",
+						"source": "LaserLlamaAlternateSorcererExpanded"
+					}
+				},
+				{
+					"class": {
+						"name": "Alternate Fighter",
+						"source": "LLAF"
+					},
+					"subclass": {
+						"name": "Witch Knight",
+						"shortName": "Witch Knight",
+						"source": "LLAF:E"
+					}
+				},
+				{
+					"class": {
+						"name": "Barbarian",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Path of the Bloodrager",
+						"shortName": "Bloodrager",
+						"source": "SCOE"
+					}
+				},
+				{
+					"class": {
+						"name": "Investigator",
+						"source": "VSS"
+					},
+					"subclass": {
+						"name": "Occultist",
+						"shortName": "Occultist",
+						"source": "VSS"
+					}
+				}
+			]
+		},
+		"_tmpRaces": [],
+		"_tmpBackgrounds": [],
+		"_tmpFeats": [],
+		"_tmpOptionalfeatures": [],
+		"_tmpGroups": [],
+		"_normalisedTime": 1,
+		"_normalisedRange": 360,
+		"_fSources": "VSS",
+		"_isConc": true,
+		"_fMeta": [
+			"Concentration",
+			"Verbal",
+			"Somatic",
+			"SCL"
+		],
+		"_fClasses": [
+			{
+				"item": "Wizard",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Sorcerer",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Necromancer (VSS)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Witch (VSS)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock (EldArc)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Tattooist (ToMT)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fSubclasses": [
+			{
+				"item": "Witch: Blood (VSS)",
+				"nest": "Witch",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Fighter: Witch Knight (LLFAFS)",
+				"nest": "Fighter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Blood Hunter: Profane Soul (BH2022)",
+				"nest": "Blood Hunter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Blood Hunter (Balanced): Profane Soul (FFBHBB)",
+				"nest": "Blood Hunter (Balanced)",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Blood Hunter: Profane Soul (BH2020)",
+				"nest": "Blood Hunter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Vessel: Altered Mage (TVC)",
+				"nest": "Vessel",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Alternate Sorcerer: The Chained (LLAS:E)",
+				"nest": "Alternate Sorcerer",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Alternate Fighter: Witch Knight (LLAF:E)",
+				"nest": "Alternate Fighter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Barbarian: Bloodrager (SCOE)",
+				"nest": "Barbarian",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Investigator: Occultist (VSS)",
+				"nest": "Investigator",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fVariantClasses": [],
+		"_fClassesAndVariantClasses": [
+			{
+				"item": "Wizard",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Sorcerer",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Necromancer (VSS)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Witch (VSS)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock (EldArc)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Tattooist (ToMT)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fRaces": [],
+		"_fBackgrounds": [],
+		"_fFeats": [],
+		"_fOptionalfeatures": [],
+		"_fGroups": [],
+		"_fTimeType": [
+			"action"
+		],
+		"_fDurationType": "1 Minute",
+		"_fRangeType": "Point",
+		"_fAreaTags": [
+			"ST"
+		],
+		"_fAffectsCreatureType": [
+			"aberration",
+			"beast",
+			"celestial",
+			"construct",
+			"dragon",
+			"elemental",
+			"fey",
+			"fiend",
+			"giant",
+			"humanoid",
+			"monstrosity",
+			"ooze",
+			"plant",
+			"undead"
+		]
+	},
+	{
+		"name": "Castigate",
+		"source": "TheInCompleteTomeofSpells",
+		"page": 19,
+		"level": 2,
+		"school": "E",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 60
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [
+			{
+				"type": "instant"
+			}
+		],
+		"entries": [
+			"You deliver a blasting rebuke upon your foes. Choose a number of creatures equal to your spellcasting ability modifier who are in a 20-foot-radius sphere centered on a point you choose within range. Each creature must make a Charisma saving throw. On a failure, the creature takes {@damage 1d8} acid damage and {@damage 2d8} psychic damage and is {@condition deafened} for 1 minute, stung by your blistering words. The creature takes half damage and isn't {@condition deafened} on a successful save."
+		],
+		"entriesHigherLevel": [
+			{
+				"name": "At Higher Levels",
+				"entries": [
+					"When you cast this spell using a spell slot of 3rd-level or higher, you inflict an additional {@damage 1d8} psychic damage for each slot level above 2nd."
+				],
+				"type": "entries"
+			}
+		],
+		"damageInflict": [
+			"acid",
+			"psychic"
+		],
+		"conditionInflict": [
+			"deafened"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Bard",
+					"source": "PHB"
+				},
+				{
+					"name": "Cleric",
+					"source": "PHB"
+				},
+				{
+					"name": "Paladin",
+					"source": "PHB"
+				}
+			]
+		},
+		"__prop": "spell",
+		"__diagnostic": {
+			"filename": "Faolyn; The (In)Complete Tome of Spells.json"
+		},
+		"_tmpSourcesInit": true,
+		"_tmpClasses": {
+			"fromClassList": [
+				{
+					"name": "Warpriest",
+					"source": "DanDWikiWarpriest"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Arbiter",
+						"source": "AvCA"
+					},
+					"subclass": {
+						"name": "Prophet's Retainer",
+						"shortName": "Prophet's Retainer",
+						"source": "AvCA"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer Reworked",
+						"source": "SorcRework"
+					},
+					"subclass": {
+						"name": "Divine Soul",
+						"shortName": "Divine Soul",
+						"source": "SorcRework"
+					}
+				},
+				{
+					"class": {
+						"name": "Alternate Sorcerer",
+						"source": "LaserLlamaAlternateSorcerer"
+					},
+					"subclass": {
+						"name": "Alternate Divine Soul",
+						"shortName": "Divine Soul",
+						"source": "LaserLlamaAlternateSorcerer"
+					}
+				},
+				{
+					"class": {
+						"name": "Fighter",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Bone Knight",
+						"shortName": "Bone Knight",
+						"source": "MorgraveMiscellany"
+					}
+				},
+				{
+					"class": {
+						"name": "Rogue",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Divine Herald",
+						"shortName": "Divine Herald",
+						"source": "MorgraveMiscellany"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Alicorn Bloodline",
+						"shortName": "Alicorn",
+						"source": "mlpplaneshift"
+					}
+				},
+				{
+					"class": {
+						"name": "Rogue",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Temple Raider",
+						"shortName": "Temple Raider",
+						"source": "TCEE1"
+					}
+				},
+				{
+					"class": {
+						"name": "Rogue",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Wayfinder",
+						"shortName": "Wayfinder",
+						"source": "TCEE2"
+					}
+				},
+				{
+					"class": {
+						"name": "Rogue",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Divine Herald",
+						"shortName": "Divine Herald",
+						"source": "XLNEE"
+					}
+				},
+				{
+					"class": {
+						"name": "Rogue",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Soulspy",
+						"shortName": "Soulspy",
+						"source": "ToH"
+					}
+				}
+			]
+		},
+		"_tmpRaces": [],
+		"_tmpBackgrounds": [],
+		"_tmpFeats": [],
+		"_tmpOptionalfeatures": [],
+		"_tmpGroups": [],
+		"_normalisedTime": 1,
+		"_normalisedRange": 720,
+		"_fSources": "TheInCompleteTomeofSpells",
+		"_isConc": false,
+		"_fMeta": [
+			"Verbal",
+			"Somatic",
+			"SCL"
+		],
+		"_fClasses": [
+			{
+				"item": "Bard",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Cleric",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Paladin",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warpriest (D&DW)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fSubclasses": [
+			{
+				"item": "Arbiter: Prophet's Retainer (AvCA)",
+				"nest": "Arbiter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Sorcerer Reworked: Divine Soul (SR)",
+				"nest": "Sorcerer Reworked",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Alternate Sorcerer: Divine Soul (LLAS)",
+				"nest": "Alternate Sorcerer",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Fighter: Bone Knight (MoMi)",
+				"nest": "Fighter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Rogue: Divine Herald (MoMi)",
+				"nest": "Rogue",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Sorcerer: Alicorn (PSE)",
+				"nest": "Sorcerer",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Rogue: Temple Raider (TCEE1)",
+				"nest": "Rogue",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Rogue: Wayfinder (TCEE2)",
+				"nest": "Rogue",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Rogue: Divine Herald (XLNEE)",
+				"nest": "Rogue",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Rogue: Soulspy (ToH)",
+				"nest": "Rogue",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fVariantClasses": [],
+		"_fClassesAndVariantClasses": [
+			{
+				"item": "Bard",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Cleric",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Paladin",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warpriest (D&DW)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fRaces": [],
+		"_fBackgrounds": [],
+		"_fFeats": [],
+		"_fOptionalfeatures": [],
+		"_fGroups": [],
+		"_fTimeType": [
+			"action"
+		],
+		"_fDurationType": "Instant",
+		"_fRangeType": "Point",
+		"_fAreaTags": [],
+		"_fAffectsCreatureType": [
+			"aberration",
+			"beast",
+			"celestial",
+			"construct",
+			"dragon",
+			"elemental",
+			"fey",
+			"fiend",
+			"giant",
+			"humanoid",
+			"monstrosity",
+			"ooze",
+			"plant",
+			"undead"
+		]
+	},
+	{
+		"name": "Decomposition",
+		"source": "Elminsters Guide to Magic",
+		"page": 40,
+		"level": 2,
+		"school": "N",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "radius",
+			"distance": {
+				"type": "feet",
+				"amount": 30
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [
+			{
+				"type": "timed",
+				"duration": {
+					"type": "minute",
+					"amount": 1
+				},
+				"concentration": true
+			}
+		],
+		"entries": [
+			"When you cast this spell, an aura of decay surrounds you. For the duration, whenever a hostile creature within range takes damage, it must make a Constitution saving throw. On a failed saving throw, it suffers a festering wound. This wound inflicts 5 necrotic damage on the creature at the start of each of its turns.",
+			"A creature suffering from a festering wound can make a new Constitution saving throw at the end of each of its turns. A successful saving throw stops the ongoing necrotic damage from that wound and causes the creature to be immune to the effects of this spell for 1 minute. A creature can suffer from only one festering wound at a time."
+		],
+		"entriesHigherLevel": [
+			{
+				"name": "At Higher Levels",
+				"entries": [
+					"When you cast this spell using a spell slot of 3rd level or higher, the amount of necrotic damage increases by 5 for each slot level above 2nd."
+				],
+				"type": "entries"
+			}
+		],
+		"damageInflict": [
+			"necrotic"
+		],
+		"savingThrow": [
+			"constitution"
+		],
+		"miscTags": [
+			"SCL"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Druid",
+					"source": "PHB"
+				}
+			]
+		},
+		"__prop": "spell",
+		"__diagnostic": {
+			"filename": "Jeremy Forbing; Elminsters Guide to Magic.json"
+		},
+		"_tmpSourcesInit": true,
+		"_tmpClasses": {
+			"fromClassList": [],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Commoner",
+						"source": "LLC"
+					},
+					"subclass": {
+						"name": "Old Timer",
+						"shortName": "Old Timer",
+						"source": "LLC"
+					}
+				},
+				{
+					"class": {
+						"name": "Alternate Sorcerer",
+						"source": "LaserLlamaAlternateSorcerer"
+					},
+					"subclass": {
+						"name": "Greensinger",
+						"shortName": "Greensinger",
+						"source": "LaserLlamaAlternateSorcererExpanded"
+					}
+				},
+				{
+					"class": {
+						"name": "Martial Ranger",
+						"source": "TMR"
+					},
+					"subclass": {
+						"name": "Warden",
+						"shortName": "Warden",
+						"source": "TMR"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Fey Magic",
+						"shortName": "Fey Magic",
+						"source": "XLNEE"
+					}
+				},
+				{
+					"class": {
+						"name": "Warden",
+						"source": "VSS"
+					},
+					"subclass": {
+						"name": "Soulblood Shaman",
+						"shortName": "Soulblood Shaman",
+						"source": "VSS"
+					}
+				},
+				{
+					"class": {
+						"name": "Rogue",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Underfoot",
+						"shortName": "Underfoot",
+						"source": "ToH"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Spore Sorcery",
+						"shortName": "Spore",
+						"source": "ToH"
+					}
+				}
+			]
+		},
+		"_tmpRaces": [],
+		"_tmpBackgrounds": [],
+		"_tmpFeats": [],
+		"_tmpOptionalfeatures": [],
+		"_tmpGroups": [],
+		"_normalisedTime": 1,
+		"_normalisedRange": 363,
+		"_fSources": "Elminsters Guide to Magic",
+		"_isConc": true,
+		"_fMeta": [
+			"Concentration",
+			"Verbal",
+			"Somatic",
+			"SCL"
+		],
+		"_fClasses": [
+			{
+				"item": "Druid",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fSubclasses": [
+			{
+				"item": "Commoner: Old Timer (LLC)",
+				"nest": "Commoner",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Alternate Sorcerer: Greensinger (LLAS:E)",
+				"nest": "Alternate Sorcerer",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Martial Ranger: Warden (TMR)",
+				"nest": "Martial Ranger",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Sorcerer: Fey Magic (XLNEE)",
+				"nest": "Sorcerer",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warden: Soulblood Shaman (VSS)",
+				"nest": "Warden",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Rogue: Underfoot (ToH)",
+				"nest": "Rogue",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Sorcerer: Spore (ToH)",
+				"nest": "Sorcerer",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fVariantClasses": [],
+		"_fClassesAndVariantClasses": [
+			{
+				"item": "Druid",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fRaces": [],
+		"_fBackgrounds": [],
+		"_fFeats": [],
+		"_fOptionalfeatures": [],
+		"_fGroups": [],
+		"_fTimeType": [
+			"action"
+		],
+		"_fDurationType": "1 Minute",
+		"_fRangeType": "Self (Area)",
+		"_fAreaTags": [],
+		"_fAffectsCreatureType": [
+			"aberration",
+			"beast",
+			"celestial",
+			"construct",
+			"dragon",
+			"elemental",
+			"fey",
+			"fiend",
+			"giant",
+			"humanoid",
+			"monstrosity",
+			"ooze",
+			"plant",
+			"undead"
+		]
+	},
+	{
+		"name": "Mortiferous Pulse",
+		"level": 2,
+		"school": "BM",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "line",
+			"distance": {
+				"type": "feet",
+				"amount": 50
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "a dead animal"
+		},
+		"duration": [
+			{
+				"type": "instant",
+				"concentration": false
+			}
+		],
+		"entries": [
+			"You summon a bolt of negative energy to stimulate and transmit necrotic pathogens into those that stand before you, decaying their internal viscera Each creature in a 5-foot-wide, 50-foot-long line extending from you must make a Dexterity saving throw, taking {@damage 3d8} necrotic damage on a failed save, or half as much damage on a successful one"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Druid",
+					"source": "PHB"
+				},
+				{
+					"name": "Warlock",
+					"source": "PHB"
+				}
+			]
+		},
+		"source": "HelianasGuidetoMonsterHunting",
+		"damageInflict": [
+			"necrotic"
+		],
+		"savingThrow": [
+			"dexterity"
+		],
+		"entriesHigherLevel": [
+			{
+				"type": "entries",
+				"name": "At Higher Levels",
+				"entries": [
+					"When you cast this spell using a spell slot of 3rd level or higher, the damage increases by {@scaledamage  3d8|2-9|1d8} for each slot level above 2nd."
+				]
+			}
+		],
+		"foundrySystem": {
+			"target.value": 15,
+			"target.units": "m",
+			"target.type": "line",
+			"actionType": "save",
+			"scaling.mode": "level",
+			"scaling.formula": "d8",
+			"damage.parts.0.0": "3d8",
+			"damage.parts.0.1": "necrotic"
+		},
+		"foundryFlags": {
+			"midiProperties.halfdam": true
+		},
+		"__prop": "spell",
+		"__diagnostic": {
+			"filename": "Loot Tavern; Heliana's Guide To Monster Hunting.json"
+		},
+		"_tmpSourcesInit": true,
+		"_tmpClasses": {
+			"fromClassList": [
+				{
+					"name": "Warlock",
+					"source": "EldArc"
+				},
+				{
+					"name": "Tattooist",
+					"source": "ToMT"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Fighter",
+						"source": "phb"
+					},
+					"subclass": {
+						"name": "Witch Knight",
+						"shortName": "Witch Knight",
+						"source": "llfafs"
+					}
+				},
+				{
+					"class": {
+						"name": "Blood Hunter",
+						"source": "BH2022"
+					},
+					"subclass": {
+						"name": "Order of the Profane Soul",
+						"shortName": "Profane Soul",
+						"source": "BH2022"
+					}
+				},
+				{
+					"class": {
+						"name": "Blood Hunter (Balanced)",
+						"source": "BHBB"
+					},
+					"subclass": {
+						"name": "Order of the Profane Soul",
+						"shortName": "Profane Soul",
+						"source": "BHBB"
+					}
+				},
+				{
+					"class": {
+						"name": "Blood Hunter",
+						"source": "BH2020"
+					},
+					"subclass": {
+						"name": "Order of the Profane Soul",
+						"shortName": "Profane Soul",
+						"source": "BH2020"
+					}
+				},
+				{
+					"class": {
+						"name": "Vessel",
+						"source": "TVC"
+					},
+					"subclass": {
+						"name": "Altered Mage",
+						"shortName": "Altered Mage",
+						"source": "TVC"
+					}
+				},
+				{
+					"class": {
+						"name": "Alternate Sorcerer",
+						"source": "LaserLlamaAlternateSorcerer"
+					},
+					"subclass": {
+						"name": "The Chained",
+						"shortName": "The Chained",
+						"source": "LaserLlamaAlternateSorcererExpanded"
+					}
+				},
+				{
+					"class": {
+						"name": "Alternate Fighter",
+						"source": "LLAF"
+					},
+					"subclass": {
+						"name": "Witch Knight",
+						"shortName": "Witch Knight",
+						"source": "LLAF:E"
+					}
+				},
+				{
+					"class": {
+						"name": "Barbarian",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Path of the Bloodrager",
+						"shortName": "Bloodrager",
+						"source": "SCOE"
+					}
+				},
+				{
+					"class": {
+						"name": "Investigator",
+						"source": "VSS"
+					},
+					"subclass": {
+						"name": "Occultist",
+						"shortName": "Occultist",
+						"source": "VSS"
+					}
+				}
+			]
+		},
+		"_tmpRaces": [],
+		"_tmpBackgrounds": [],
+		"_tmpFeats": [],
+		"_tmpOptionalfeatures": [],
+		"_tmpGroups": [],
+		"_normalisedTime": 1,
+		"_normalisedRange": 601,
+		"_fSources": "HelianasGuidetoMonsterHunting",
+		"_isConc": false,
+		"_fMeta": [
+			"Verbal",
+			"Somatic",
+			"Material",
+			"SCL"
+		],
+		"_fClasses": [
+			{
+				"item": "Druid",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock (EldArc)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Tattooist (ToMT)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fSubclasses": [
+			{
+				"item": "Fighter: Witch Knight (LLFAFS)",
+				"nest": "Fighter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Blood Hunter: Profane Soul (BH2022)",
+				"nest": "Blood Hunter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Blood Hunter (Balanced): Profane Soul (FFBHBB)",
+				"nest": "Blood Hunter (Balanced)",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Blood Hunter: Profane Soul (BH2020)",
+				"nest": "Blood Hunter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Vessel: Altered Mage (TVC)",
+				"nest": "Vessel",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Alternate Sorcerer: The Chained (LLAS:E)",
+				"nest": "Alternate Sorcerer",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Alternate Fighter: Witch Knight (LLAF:E)",
+				"nest": "Alternate Fighter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Barbarian: Bloodrager (SCOE)",
+				"nest": "Barbarian",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Investigator: Occultist (VSS)",
+				"nest": "Investigator",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fVariantClasses": [],
+		"_fClassesAndVariantClasses": [
+			{
+				"item": "Druid",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock (EldArc)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Tattooist (ToMT)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fRaces": [],
+		"_fBackgrounds": [],
+		"_fFeats": [],
+		"_fOptionalfeatures": [],
+		"_fGroups": [],
+		"_fTimeType": [
+			"action"
+		],
+		"_fDurationType": "Instant",
+		"_fRangeType": "Self (Area)",
+		"_fAreaTags": [
+			"L"
+		],
+		"_fAffectsCreatureType": [
+			"aberration",
+			"beast",
+			"celestial",
+			"construct",
+			"dragon",
+			"elemental",
+			"fey",
+			"fiend",
+			"giant",
+			"humanoid",
+			"monstrosity",
+			"ooze",
+			"plant",
+			"undead"
+		]
+	},
+	{
+		"name": "Spike Growth",
+		"source": "PHB",
+		"page": 277,
+		"srd": true,
+		"level": 2,
+		"school": "T",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 150
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true,
+			"m": "seven sharp thorns or seven small twigs, each sharpened to a point"
+		},
+		"duration": [
+			{
+				"type": "timed",
+				"duration": {
+					"type": "minute",
+					"amount": 10
+				},
+				"concentration": true
+			}
+		],
+		"entries": [
+			"The ground in a 20-foot radius centered on a point within range twists and sprouts hard spikes and thorns. The area becomes {@quickref difficult terrain||3} for the duration. When a creature moves into or within the area, it takes {@damage 2d4} piercing damage for every 5 feet it travels.",
+			"The transformation of the ground is camouflaged to look natural. Any creature that can't see the area at the time the spell is cast must make a Wisdom ({@skill Perception}) check against your spell save DC to recognize the terrain as hazardous before entering it."
+		],
+		"damageInflict": [
+			"piercing"
+		],
+		"abilityCheck": [
+			"wisdom"
+		],
+		"miscTags": [
+			"DFT"
+		],
+		"areaTags": [
+			"R"
+		],
+		"__prop": "spell",
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Druid",
+					"source": "PHB"
+				},
+				{
+					"name": "Ranger",
+					"source": "PHB"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Nature Domain",
+						"shortName": "Nature",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Druid",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Circle of the Land",
+						"shortName": "Land",
+						"source": "PHB",
+						"subSubclass": "Arctic"
+					}
+				},
+				{
+					"class": {
+						"name": "Druid",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Circle of the Land",
+						"shortName": "Land",
+						"source": "PHB",
+						"subSubclass": "Mountain"
+					}
+				},
+				{
+					"class": {
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "The Genie",
+						"shortName": "Genie",
+						"source": "TCE",
+						"subSubclass": "Dao"
+					}
+				}
+			]
+		},
+		"races": [
+			{
+				"name": "Halfling (Lotusden)",
+				"source": "EGW",
+				"baseName": "Halfling",
+				"baseSource": "PHB"
+			}
+		],
+		"feats": [
+			{
+				"name": "Adept of the Red Robes",
+				"source": "DSotDQ"
+			}
+		],
+		"_isMutEntity": true,
+		"_tmpSourcesInit": true,
+		"_tmpClasses": {
+			"fromClassList": [
+				{
+					"name": "Ranger (Alternate)",
+					"source": "LLAR"
+				},
+				{
+					"name": "Hunter",
+					"source": "Hunter"
+				},
+				{
+					"name": "Summoner",
+					"source": "s5e"
+				},
+				{
+					"name": "Dirge",
+					"source": "redditUA"
+				},
+				{
+					"name": "Witch",
+					"source": "WalrockHomebrewWitch"
+				},
+				{
+					"name": "Warden",
+					"source": "Zorindis"
+				},
+				{
+					"name": "Shaman",
+					"source": "LLSH"
+				},
+				{
+					"name": "Blue Mage",
+					"source": "FFXIV"
+				},
+				{
+					"name": "Dancer",
+					"source": "FFXIV"
+				},
+				{
+					"name": "Red Mage",
+					"source": "FFXIV"
+				},
+				{
+					"name": "White Mage",
+					"source": "FFXIV"
+				},
+				{
+					"name": "Occultist",
+					"source": "KT:O"
+				},
+				{
+					"name": "Dirge",
+					"source": "redditUA-modnar"
+				},
+				{
+					"name": "Marksman",
+					"source": "DXMarksman"
+				},
+				{
+					"name": "Magus",
+					"source": "BHMagus"
+				},
+				{
+					"name": "Shaman",
+					"source": "llshc"
+				},
+				{
+					"name": "Adaptive Ranger",
+					"source": "AdaptiveRanger"
+				},
+				{
+					"name": "Ranger",
+					"source": "YARV"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Earth Sorcery",
+						"shortName": "Earth Sorcery",
+						"source": "ASO"
+					}
+				},
+				{
+					"class": {
+						"name": "Druid",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Circle of the Forest",
+						"shortName": "Forest",
+						"source": "KorvinagorCirclesOfTheLand"
+					}
+				},
+				{
+					"class": {
+						"name": "Ranger (Alternate)",
+						"source": "LLAR"
+					},
+					"subclass": {
+						"name": "Druidic Guardian",
+						"shortName": "Druidic Guardian",
+						"source": "LLAR:E"
+					}
+				},
+				{
+					"class": {
+						"name": "Druid",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Circle of the Primeval Guardian",
+						"shortName": "Primeval Guardian",
+						"source": "CoA"
+					}
+				},
+				{
+					"class": {
+						"name": "Druid",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Circle of the Sower",
+						"shortName": "Sower",
+						"source": "LL:DC"
+					}
+				},
+				{
+					"class": {
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "The Primeval Growth",
+						"shortName": "The Primeval Growth",
+						"source": "OWP"
+					}
+				},
+				{
+					"class": {
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "The Titan",
+						"shortName": "The Titan",
+						"source": "OWP"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Orchard Origin",
+						"shortName": "Orchard",
+						"source": "OrchardSorcv1"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Draconic Bloodline (Variant Magic)",
+						"shortName": "Draconic (Variant Magic)",
+						"source": "GSOSV"
+					}
+				},
+				{
+					"class": {
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "The Great Tree",
+						"shortName": "Great Tree",
+						"source": "TRo12subclasses"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer Reworked",
+						"source": "SorcRework"
+					},
+					"subclass": {
+						"name": "Draconic Bloodline",
+						"shortName": "Draconic",
+						"source": "SorcRework"
+					}
+				},
+				{
+					"class": {
+						"name": "Warlock",
+						"source": "UW"
+					},
+					"subclass": {
+						"name": "The Genie",
+						"shortName": "Genie",
+						"source": "UW",
+						"subSubclass": "Dao"
+					}
+				},
+				{
+					"class": {
+						"name": "Witch",
+						"source": "DMHavuhkWitch"
+					},
+					"subclass": {
+						"name": "Coven of the Wyld",
+						"shortName": "The Wyld",
+						"source": "DMHavuhkWitch"
+					}
+				},
+				{
+					"class": {
+						"name": "Alternate Monk",
+						"source": "LLAM"
+					},
+					"subclass": {
+						"name": "Way of the Wu Jen",
+						"shortName": "Wu Jen",
+						"source": "LLAM"
+					}
+				},
+				{
+					"class": {
+						"name": "Alternate Barbarian",
+						"source": "LLAB"
+					},
+					"subclass": {
+						"name": "Path of the Warden",
+						"shortName": "Warden",
+						"source": "LLABE"
+					}
+				},
+				{
+					"class": {
+						"name": "Alternate Sorcerer",
+						"source": "LaserLlamaAlternateSorcerer"
+					},
+					"subclass": {
+						"name": "Stoneblood",
+						"shortName": "Stoneblood",
+						"source": "LaserLlamaAlternateSorcerer"
+					}
+				},
+				{
+					"class": {
+						"name": "Alternate Sorcerer",
+						"source": "LaserLlamaAlternateSorcerer"
+					},
+					"subclass": {
+						"name": "Greensinger",
+						"shortName": "Greensinger",
+						"source": "LaserLlamaAlternateSorcererExpanded"
+					}
+				},
+				{
+					"class": {
+						"name": "Artificer",
+						"source": "TCE"
+					},
+					"subclass": {
+						"name": "Biomancer",
+						"shortName": "Biomancer",
+						"source": "mlpplaneshift"
+					}
+				},
+				{
+					"class": {
+						"name": "Druid",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Circle of Seeds",
+						"shortName": "Seeds",
+						"source": "SCOE"
+					}
+				},
+				{
+					"class": {
+						"name": "Wychlaran",
+						"source": "rcg"
+					},
+					"subclass": {
+						"name": "Praxis of Tradition (Hathran)",
+						"shortName": "Tradition",
+						"source": "rcg"
+					}
+				},
+				{
+					"class": {
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "The Creeping Vine",
+						"shortName": "Creeping Vine",
+						"source": "TCEE1"
+					}
+				},
+				{
+					"class": {
+						"name": "Magus",
+						"source": "BHMagus"
+					},
+					"subclass": {
+						"name": "The Sylvan Circle",
+						"shortName": "Sylvan Circle",
+						"source": "BHMagus"
+					}
+				},
+				{
+					"class": {
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "The Harvest",
+						"shortName": "Harvest",
+						"source": "AlexClippingerTomeOfThePact"
+					}
+				},
+				{
+					"class": {
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Guardian of the Deep Scale",
+						"shortName": "Scale",
+						"source": "BBcw"
+					}
+				},
+				{
+					"class": {
+						"name": "Barbarian",
+						"source": "phb"
+					},
+					"subclass": {
+						"name": "Path of the Warden",
+						"shortName": "Warden",
+						"source": "llpp"
+					}
+				},
+				{
+					"class": {
+						"name": "Druid",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Circle of the Green",
+						"shortName": "Green",
+						"source": "ToH"
+					}
+				},
+				{
+					"class": {
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Oath of Safeguarding",
+						"shortName": "Safeguarding",
+						"source": "ToH"
+					}
+				},
+				{
+					"class": {
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Old Wood",
+						"shortName": "Old Wood",
+						"source": "ToH"
+					}
+				},
+				{
+					"class": {
+						"name": "Druid",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Circle of Seeds",
+						"shortName": "Seeds",
+						"source": "TEB"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Green Thumb",
+						"shortName": "Green Thumb",
+						"source": "TEB"
+					}
+				},
+				{
+					"class": {
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Soulkeeper",
+						"shortName": "Soulkeeper",
+						"source": "NCSK"
+					}
+				},
+				{
+					"class": {
+						"name": "Martial Ranger",
+						"source": "TMR"
+					},
+					"subclass": {
+						"name": "Warden",
+						"shortName": "Warden",
+						"source": "TMR"
+					}
+				}
+			]
+		},
+		"_tmpRaces": [],
+		"_tmpBackgrounds": [],
+		"_tmpFeats": [],
+		"_tmpOptionalfeatures": [],
+		"_tmpGroups": [],
+		"_normalisedTime": 1,
+		"_normalisedRange": 1800,
+		"_fSources": "PHB",
+		"_isConc": true,
+		"_fMeta": [
+			"Concentration",
+			"Verbal",
+			"Somatic",
+			"Material",
+			"DFT",
+			"SRD"
+		],
+		"_fClasses": [
+			{
+				"item": "Druid",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Ranger",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Ranger (LLAR)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Hunter (Hunter)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Summoner (S5E)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Dirge",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Witch (WHW)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warden (Zorindis)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Shaman (LLSH)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Blue Mage (FFXIV5E)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Dancer (FFXIV5E)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Red Mage (FFXIV5E)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "White Mage (FFXIV5E)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Occultist (KT:O)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Dirge (R/UA)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Marksman (DXM)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Magus (BHM)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Shaman (LLSHC)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Adaptive Ranger (AR)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Ranger (YARV)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fSubclasses": [
+			{
+				"item": "Cleric: Nature",
+				"nest": "Cleric",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Druid: Land, Arctic",
+				"nest": "Druid",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Druid: Land, Mountain",
+				"nest": "Druid",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock: Genie, Dao",
+				"nest": "Warlock",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Sorcerer: Earth Sorcery (ASO)",
+				"nest": "Sorcerer",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Druid: Forest (CotL)",
+				"nest": "Druid",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Ranger (Alternate): Druidic Guardian (LLAR:E)",
+				"nest": "Ranger (Alternate)",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Druid: Primeval Guardian (CoA)",
+				"nest": "Druid",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Druid: Sower (LL:DC)",
+				"nest": "Druid",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock: The Primeval Growth (OWP)",
+				"nest": "Warlock",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock: The Titan (OWP)",
+				"nest": "Warlock",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Sorcerer: Orchard (RJOOS)",
+				"nest": "Sorcerer",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Sorcerer: Draconic (GSOSV)",
+				"nest": "Sorcerer",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock: Great Tree (TRo12)",
+				"nest": "Warlock",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Sorcerer Reworked: Draconic (SR)",
+				"nest": "Sorcerer Reworked",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock: Genie (UW), Dao",
+				"nest": "Warlock",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Witch: The Wyld (DMHW)",
+				"nest": "Witch",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Alternate Monk: Wu Jen (LLAM)",
+				"nest": "Alternate Monk",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Alternate Barbarian: Warden (LLABE)",
+				"nest": "Alternate Barbarian",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Alternate Sorcerer: Stoneblood (LLAS)",
+				"nest": "Alternate Sorcerer",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Alternate Sorcerer: Greensinger (LLAS:E)",
+				"nest": "Alternate Sorcerer",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Artificer: Biomancer (PSE)",
+				"nest": "Artificer",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Druid: Seeds (SCOE)",
+				"nest": "Druid",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Wychlaran: Tradition (RCG)",
+				"nest": "Wychlaran",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock: Creeping Vine (TCEE1)",
+				"nest": "Warlock",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Magus: Sylvan Circle (BHM)",
+				"nest": "Magus",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock: Harvest (TOEP)",
+				"nest": "Warlock",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock: Scale (BBcw)",
+				"nest": "Warlock",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Barbarian: Warden (LL:PP)",
+				"nest": "Barbarian",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Druid: Green (ToH)",
+				"nest": "Druid",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Paladin: Safeguarding (ToH)",
+				"nest": "Paladin",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock: Old Wood (ToH)",
+				"nest": "Warlock",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Druid: Seeds (TEB)",
+				"nest": "Druid",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Sorcerer: Green Thumb (TEB)",
+				"nest": "Sorcerer",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Ranger: Soulkeeper (Soulkeeper)",
+				"nest": "Ranger",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Martial Ranger: Warden (TMR)",
+				"nest": "Martial Ranger",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fVariantClasses": [],
+		"_fClassesAndVariantClasses": [
+			{
+				"item": "Druid",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Ranger",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Ranger (LLAR)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Hunter (Hunter)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Summoner (S5E)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Dirge",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Witch (WHW)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warden (Zorindis)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Shaman (LLSH)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Blue Mage (FFXIV5E)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Dancer (FFXIV5E)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Red Mage (FFXIV5E)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "White Mage (FFXIV5E)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Occultist (KT:O)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Dirge (R/UA)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Marksman (DXM)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Magus (BHM)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Shaman (LLSHC)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Adaptive Ranger (AR)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Ranger (YARV)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fRaces": [
+			{
+				"item": "Halfling (Lotusden)",
+				"nest": "Halfling",
+				"userData": {
+					"group": 1
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fBackgrounds": [],
+		"_fFeats": [
+			"Adept of the Red Robes"
+		],
+		"_fOptionalfeatures": [],
+		"_fGroups": [],
+		"_fTimeType": [
+			"action"
+		],
+		"_fDurationType": "10 Minutes",
+		"_fRangeType": "Point",
+		"_fAreaTags": [
+			"R"
+		],
+		"_fAffectsCreatureType": [
+			"aberration",
+			"beast",
+			"celestial",
+			"construct",
+			"dragon",
+			"elemental",
+			"fey",
+			"fiend",
+			"giant",
+			"humanoid",
+			"monstrosity",
+			"ooze",
+			"plant",
+			"undead"
+		]
+	},
+	{
+		"name": "Entangle",
+		"source": "Yastah",
+		"level": 1,
+		"school": "C",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 90
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [
+			{
+				"type": "timed",
+				"duration": {
+					"type": "minute",
+					"amount": 1
+				},
+				"concentration": true
+			}
+		],
+		"entries": [
+			"Grasping weeds and vines sprout from the ground in a 20-foot square starting from a point within range. For the duration, these plants turn the ground in the area into difficult terrain.",
+			"A creature in the area when you cast the spell must succeed on a Strength saving throw or be {@condition restrained} by the entangling plants until the spell ends. A creature {@condition restrained} by the plants can use its action to make a Strength check against your spell save DC. On a success, it frees itself.",
+			"When the spell ends, the conjured plants wilt away."
+		],
+		"conditionInflict": [
+			"restrained"
+		],
+		"savingThrow": [
+			"strength"
+		],
+		"abilityCheck": [
+			"strength"
+		],
+		"areaTags": [
+			"Q"
+		],
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Druid",
+					"source": "Yastah"
+				},
+				{
+					"name": "Ranger",
+					"source": "Yastah"
+				},
+				{
+					"name": "Summoner",
+					"source": "Yastah"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Warlock",
+						"source": "Yastah"
+					},
+					"subclass": {
+						"name": "Vienna",
+						"source": "Yastah",
+						"shortName": "Vienna"
+					}
+				}
+			]
+		},
+		"__prop": "spell",
+		"__diagnostic": {
+			"filename": "Sokan; Yastah.json"
+		},
+		"_tmpSourcesInit": true,
+		"_tmpClasses": {
+			"fromClassList": []
+		},
+		"_tmpRaces": [],
+		"_tmpBackgrounds": [],
+		"_tmpFeats": [],
+		"_tmpOptionalfeatures": [],
+		"_tmpGroups": [],
+		"_normalisedTime": 1,
+		"_normalisedRange": 1080,
+		"_fSources": "Yastah",
+		"_isConc": true,
+		"_fMeta": [
+			"Concentration",
+			"Verbal",
+			"Somatic"
+		],
+		"_fClasses": [
+			{
+				"item": "Druid (Yastah)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Ranger (Yastah)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Summoner (Yastah)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fSubclasses": [
+			{
+				"item": "Warlock: Vienna (Yastah)",
+				"nest": "Warlock",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fVariantClasses": [],
+		"_fClassesAndVariantClasses": [
+			{
+				"item": "Druid (Yastah)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Ranger (Yastah)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Summoner (Yastah)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fRaces": [],
+		"_fBackgrounds": [],
+		"_fFeats": [],
+		"_fOptionalfeatures": [],
+		"_fGroups": [],
+		"_fTimeType": [
+			"action"
+		],
+		"_fDurationType": "1 Minute",
+		"_fRangeType": "Point",
+		"_fAreaTags": [
+			"Q"
+		],
+		"_fAffectsCreatureType": [
+			"aberration",
+			"beast",
+			"celestial",
+			"construct",
+			"dragon",
+			"elemental",
+			"fey",
+			"fiend",
+			"giant",
+			"humanoid",
+			"monstrosity",
+			"ooze",
+			"plant",
+			"undead"
+		]
+	},
+	{
+		"name": "Plant Growth",
+		"source": "PHB",
+		"page": 266,
+		"srd": true,
+		"level": 3,
+		"school": "T",
+		"time": [
+			{
+				"number": 1,
+				"unit": "action"
+			},
+			{
+				"number": 8,
+				"unit": "hour"
+			}
+		],
+		"range": {
+			"type": "point",
+			"distance": {
+				"type": "feet",
+				"amount": 150
+			}
+		},
+		"components": {
+			"v": true,
+			"s": true
+		},
+		"duration": [
+			{
+				"type": "instant"
+			}
+		],
+		"entries": [
+			"This spell channels vitality into plants within a specific area. There are two possible uses for the spell, granting either immediate or long-term benefits.",
+			"If you cast this spell using 1 action, choose a point within range. All normal plants in a 100-foot radius centered on that point become thick and overgrown. A creature moving through the area must spend 4 feet of movement for every 1 foot it moves.",
+			"You can exclude one or more areas of any size within the spell's area from being affected.",
+			"If you cast this spell over 8 hours, you enrich the land. All plants in a half-mile radius centered on a point within range become enriched for 1 year. The plants yield twice the normal amount of food when harvested."
+		],
+		"__prop": "spell",
+		"classes": {
+			"fromClassList": [
+				{
+					"name": "Bard",
+					"source": "PHB"
+				},
+				{
+					"name": "Druid",
+					"source": "PHB"
+				},
+				{
+					"name": "Ranger",
+					"source": "PHB"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Nature Domain",
+						"shortName": "Nature",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Druid",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Circle of the Land",
+						"shortName": "Land",
+						"source": "PHB",
+						"subSubclass": "Forest"
+					}
+				},
+				{
+					"class": {
+						"name": "Druid",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Circle of Wildfire",
+						"shortName": "Wildfire",
+						"source": "TCE"
+					}
+				},
+				{
+					"class": {
+						"name": "Paladin",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Oath of the Ancients",
+						"shortName": "Ancients",
+						"source": "PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "The Archfey",
+						"shortName": "Archfey",
+						"source": "PHB"
+					}
+				}
+			]
+		},
+		"backgrounds": [
+			{
+				"name": "Golgari Agent",
+				"source": "GGR"
+			},
+			{
+				"name": "Selesnya Initiate",
+				"source": "GGR"
+			}
+		],
+		"_isMutEntity": true,
+		"_tmpSourcesInit": true,
+		"_tmpClasses": {
+			"fromClassList": [
+				{
+					"name": "Ranger (Alternate)",
+					"source": "LLAR"
+				},
+				{
+					"name": "Hunter",
+					"source": "Hunter"
+				},
+				{
+					"name": "Summoner",
+					"source": "s5e"
+				},
+				{
+					"name": "Witch",
+					"source": "WalrockHomebrewWitch"
+				},
+				{
+					"name": "Shaman",
+					"source": "LLSH"
+				},
+				{
+					"name": "Blue Mage",
+					"source": "FFXIV"
+				},
+				{
+					"name": "White Mage",
+					"source": "FFXIV"
+				},
+				{
+					"name": "Occultist",
+					"source": "KT:O"
+				},
+				{
+					"name": "Magus",
+					"source": "BHMagus"
+				},
+				{
+					"name": "Shaman",
+					"source": "llshc"
+				},
+				{
+					"name": "Adaptive Ranger",
+					"source": "AdaptiveRanger"
+				},
+				{
+					"name": "Ranger",
+					"source": "YARV"
+				}
+			],
+			"fromSubclass": [
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Verdant Bloodline",
+						"shortName": "Verdant Bloodline",
+						"source": "ASO"
+					}
+				},
+				{
+					"class": {
+						"name": "Druid",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Circle of the Forest",
+						"shortName": "Forest",
+						"source": "KorvinagorCirclesOfTheLand"
+					}
+				},
+				{
+					"class": {
+						"name": "Ranger (Alternate)",
+						"source": "LLAR"
+					},
+					"subclass": {
+						"name": "Druidic Guardian",
+						"shortName": "Druidic Guardian",
+						"source": "LLAR:E"
+					}
+				},
+				{
+					"class": {
+						"name": "Druid",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Circle of the Primeval Guardian",
+						"shortName": "Primeval Guardian",
+						"source": "CoA"
+					}
+				},
+				{
+					"class": {
+						"name": "Druid",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Circle of the Bloom",
+						"shortName": "Bloom",
+						"source": "EBCotOSCC"
+					}
+				},
+				{
+					"class": {
+						"name": "Druid",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Circle of the Guardians",
+						"shortName": "Guardians",
+						"source": "LL:DC"
+					}
+				},
+				{
+					"class": {
+						"name": "Druid",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Circle of the Sower",
+						"shortName": "Sower",
+						"source": "LL:DC"
+					}
+				},
+				{
+					"class": {
+						"name": "Druid",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Alternate Circle of the Land",
+						"shortName": "Land (LL)",
+						"source": "LL:DC",
+						"subSubclass": "Forest"
+					}
+				},
+				{
+					"class": {
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "The Primeval Growth",
+						"shortName": "The Primeval Growth",
+						"source": "OWP"
+					}
+				},
+				{
+					"class": {
+						"name": "Dream Shifter",
+						"source": "DreamS"
+					},
+					"subclass": {
+						"name": "Wonder Eidolon",
+						"shortName": "Wonder",
+						"source": "DreamS"
+					}
+				},
+				{
+					"class": {
+						"name": "Ranger",
+						"source": "YARV"
+					},
+					"subclass": {
+						"name": "Path of the Scout",
+						"shortName": "Scout",
+						"source": "YARV"
+					}
+				},
+				{
+					"class": {
+						"name": "Artificer",
+						"source": "tca"
+					},
+					"subclass": {
+						"name": "Research & Development",
+						"shortName": "Research & Development",
+						"source": "tca",
+						"subSubclass": "Biology"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Orchard Origin",
+						"shortName": "Orchard",
+						"source": "OrchardSorcv1"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Wild Magic (Variant Magic)",
+						"shortName": "Wild (Variant Magic)",
+						"source": "GSOSV"
+					}
+				},
+				{
+					"class": {
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "The Great Tree",
+						"shortName": "Great Tree",
+						"source": "TRo12subclasses"
+					}
+				},
+				{
+					"class": {
+						"name": "Variant Sorcerer",
+						"source": "VariantSorcerer_By_devikyn"
+					},
+					"subclass": {
+						"name": "Wild Magic",
+						"shortName": "Wild",
+						"source": "VariantSorcerer_By_devikyn-PHB"
+					}
+				},
+				{
+					"class": {
+						"name": "Warlock",
+						"source": "UW"
+					},
+					"subclass": {
+						"name": "The Archfey",
+						"shortName": "Archfey",
+						"source": "UW"
+					}
+				},
+				{
+					"class": {
+						"name": "Witch",
+						"source": "DMHavuhkWitch"
+					},
+					"subclass": {
+						"name": "Coven of the Wyld",
+						"shortName": "The Wyld",
+						"source": "DMHavuhkWitch"
+					}
+				},
+				{
+					"class": {
+						"name": "Alternate Monk",
+						"source": "LLAM"
+					},
+					"subclass": {
+						"name": "Way of the Wu Jen",
+						"shortName": "Wu Jen",
+						"source": "LLAM"
+					}
+				},
+				{
+					"class": {
+						"name": "Alternate Barbarian",
+						"source": "LLAB"
+					},
+					"subclass": {
+						"name": "Path of the Warden",
+						"shortName": "Warden",
+						"source": "LLABE"
+					}
+				},
+				{
+					"class": {
+						"name": "Alternate Sorcerer",
+						"source": "LaserLlamaAlternateSorcerer"
+					},
+					"subclass": {
+						"name": "Greensinger",
+						"shortName": "Greensinger",
+						"source": "LaserLlamaAlternateSorcererExpanded"
+					}
+				},
+				{
+					"class": {
+						"name": "Merchant",
+						"source": "TPM"
+					},
+					"subclass": {
+						"name": "Gourmand",
+						"shortName": "Gourmand",
+						"source": "TPM"
+					}
+				},
+				{
+					"class": {
+						"name": "Barbarian",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Path of the Bloodrager",
+						"shortName": "Bloodrager",
+						"source": "SCOE",
+						"subSubclass": "Archfey"
+					}
+				},
+				{
+					"class": {
+						"name": "Druid",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Circle of Seeds",
+						"shortName": "Seeds",
+						"source": "SCOE"
+					}
+				},
+				{
+					"class": {
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "The Creeping Vine",
+						"shortName": "Creeping Vine",
+						"source": "TCEE1"
+					}
+				},
+				{
+					"class": {
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "The Blackthorn Grove",
+						"shortName": "Blackthorn Grove",
+						"source": "COFSA"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Blackthorn Lineage",
+						"shortName": "Blackthorn",
+						"source": "COFSA"
+					}
+				},
+				{
+					"class": {
+						"name": "Magus",
+						"source": "BHMagus"
+					},
+					"subclass": {
+						"name": "The Sylvan Circle",
+						"shortName": "Sylvan Circle",
+						"source": "BHMagus"
+					}
+				},
+				{
+					"class": {
+						"name": "Barbarian",
+						"source": "phb"
+					},
+					"subclass": {
+						"name": "Path of the Warden",
+						"shortName": "Warden",
+						"source": "llpp"
+					}
+				},
+				{
+					"class": {
+						"name": "Witch",
+						"source": "VSS"
+					},
+					"subclass": {
+						"name": "Green Magic",
+						"shortName": "Green",
+						"source": "VSS"
+					}
+				},
+				{
+					"class": {
+						"name": "Druid",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Circle of Seeds",
+						"shortName": "Seeds",
+						"source": "TEB"
+					}
+				},
+				{
+					"class": {
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Green Thumb",
+						"shortName": "Green Thumb",
+						"source": "TEB"
+					}
+				},
+				{
+					"class": {
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					"subclass": {
+						"name": "Soulkeeper",
+						"shortName": "Soulkeeper",
+						"source": "NCSK"
+					}
+				},
+				{
+					"class": {
+						"name": "Martial Ranger",
+						"source": "TMR"
+					},
+					"subclass": {
+						"name": "Warden",
+						"shortName": "Warden",
+						"source": "TMR"
+					}
+				}
+			]
+		},
+		"_tmpRaces": [],
+		"_tmpBackgrounds": [],
+		"_tmpFeats": [],
+		"_tmpOptionalfeatures": [],
+		"_tmpGroups": [],
+		"_normalisedTime": 1.5,
+		"_normalisedRange": 1800,
+		"_fSources": "PHB",
+		"_isConc": false,
+		"_fMeta": [
+			"Verbal",
+			"Somatic",
+			"SRD"
+		],
+		"_fClasses": [
+			{
+				"item": "Bard",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Druid",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Ranger",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Ranger (LLAR)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Hunter (Hunter)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Summoner (S5E)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Witch (WHW)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Shaman (LLSH)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Blue Mage (FFXIV5E)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "White Mage (FFXIV5E)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Occultist (KT:O)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Magus (BHM)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Shaman (LLSHC)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Adaptive Ranger (AR)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Ranger (YARV)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fSubclasses": [
+			{
+				"item": "Cleric: Nature",
+				"nest": "Cleric",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Druid: Land, Forest",
+				"nest": "Druid",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Druid: Wildfire",
+				"nest": "Druid",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Paladin: Ancients",
+				"nest": "Paladin",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock: Archfey",
+				"nest": "Warlock",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Sorcerer: Verdant Bloodline (ASO)",
+				"nest": "Sorcerer",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Druid: Forest (CotL)",
+				"nest": "Druid",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Ranger (Alternate): Druidic Guardian (LLAR:E)",
+				"nest": "Ranger (Alternate)",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Druid: Primeval Guardian (CoA)",
+				"nest": "Druid",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Druid: Bloom (EBCotOSCC)",
+				"nest": "Druid",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Druid: Guardians (LL:DC)",
+				"nest": "Druid",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Druid: Sower (LL:DC)",
+				"nest": "Druid",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Druid: Land (LL:DC), Forest",
+				"nest": "Druid",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock: The Primeval Growth (OWP)",
+				"nest": "Warlock",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Dream Shifter: Wonder (DreamS)",
+				"nest": "Dream Shifter",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Ranger: Scout (YARV)",
+				"nest": "Ranger",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Artificer: Research & Development (CA), Biology",
+				"nest": "Artificer",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Sorcerer: Orchard (RJOOS)",
+				"nest": "Sorcerer",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Sorcerer: Wild (GSOSV)",
+				"nest": "Sorcerer",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock: Great Tree (TRo12)",
+				"nest": "Warlock",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Variant Sorcerer: Wild (PHB)",
+				"nest": "Variant Sorcerer",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock: Archfey (UW)",
+				"nest": "Warlock",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Witch: The Wyld (DMHW)",
+				"nest": "Witch",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Alternate Monk: Wu Jen (LLAM)",
+				"nest": "Alternate Monk",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Alternate Barbarian: Warden (LLABE)",
+				"nest": "Alternate Barbarian",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Alternate Sorcerer: Greensinger (LLAS:E)",
+				"nest": "Alternate Sorcerer",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Merchant: Gourmand (TPM)",
+				"nest": "Merchant",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Barbarian: Bloodrager (SCOE), Archfey",
+				"nest": "Barbarian",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Druid: Seeds (SCOE)",
+				"nest": "Druid",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock: Creeping Vine (TCEE1)",
+				"nest": "Warlock",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Warlock: Blackthorn Grove (CoFS:A)",
+				"nest": "Warlock",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Sorcerer: Blackthorn (CoFS:A)",
+				"nest": "Sorcerer",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Magus: Sylvan Circle (BHM)",
+				"nest": "Magus",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Barbarian: Warden (LL:PP)",
+				"nest": "Barbarian",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Witch: Green (VSS)",
+				"nest": "Witch",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Druid: Seeds (TEB)",
+				"nest": "Druid",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Sorcerer: Green Thumb (TEB)",
+				"nest": "Sorcerer",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Ranger: Soulkeeper (Soulkeeper)",
+				"nest": "Ranger",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Martial Ranger: Warden (TMR)",
+				"nest": "Martial Ranger",
+				"userData": {
+					"group": false
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fVariantClasses": [],
+		"_fClassesAndVariantClasses": [
+			{
+				"item": "Bard",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Druid",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Ranger",
+				"userData": {
+					"group": 0
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Ranger (LLAR)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Hunter (Hunter)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Summoner (S5E)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Witch (WHW)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Shaman (LLSH)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Blue Mage (FFXIV5E)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "White Mage (FFXIV5E)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Occultist (KT:O)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Magus (BHM)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Shaman (LLSHC)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Adaptive Ranger (AR)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			},
+			{
+				"item": "Ranger (YARV)",
+				"userData": {
+					"group": 3
+				},
+				"rendered": null,
+				"searchText": null
+			}
+		],
+		"_fRaces": [],
+		"_fBackgrounds": [
+			"Golgari Agent",
+			"Selesnya Initiate"
+		],
+		"_fFeats": [],
+		"_fOptionalfeatures": [],
+		"_fGroups": [],
+		"_fTimeType": [
+			"action",
+			"hour"
+		],
+		"_fDurationType": "Instant",
+		"_fRangeType": "Point",
+		"_fAreaTags": [],
+		"_fAffectsCreatureType": [
+			"aberration",
+			"beast",
+			"celestial",
+			"construct",
+			"dragon",
+			"elemental",
+			"fey",
+			"fiend",
+			"giant",
+			"humanoid",
+			"monstrosity",
+			"ooze",
+			"plant",
+			"undead"
+		]
+	}
+]
