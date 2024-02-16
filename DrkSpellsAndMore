@@ -2170,6 +2170,392 @@
 				"ST",
 				"MT"
 			]
+		},
+		{
+			"uniqueId": "4cf2777a-3174-4a78-a70d-a141816ca48e",
+			"name": "Toque Frio",
+			"level": 0,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"Creas una mano esquelética y fantasmal en el espacio de una criatura dentro del alcance. Realiza un ataque con hechizo a distancia contra la criatura para atacarla con el frío de la tumba. Con un impacto, el objetivo sufre {@dice 1d8} de daño necrótico y no puede recuperar puntos de golpe hasta el comienzo de tu siguiente turno. Hasta entonces, la mano se aferra al objetivo.",
+				"Si golpeas a un objetivo no-muerto, también tiene desventaja en las tiradas de ataque contra ti hasta el final de tu siguiente turno."
+			],
+			"source": "PHBEspaol",
+			"page": 221,
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"El daño de este hechizo aumenta en {@dice 1d8} cuando alcanzas el nivel 5 ( {@dice 2d8} ), el nivel 11 ( {@dice 3d8} ) y el nivel 17 ( {@dice 4d8} )."
+					]
+				}
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"uniqueId": "81577dc6-0f0b-442f-85a4-b01257507faa",
+			"name": "Frio Espectral",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"Creas una brisa fria y espectral en el espacio de una criatura dentro del alcance. Realiza un ataque con hechizo a distancia contra la criatura para atacarla con el frío arcano. Con un impacto, el objetivo sufre {@dice 1d8} de daño frio y no puede recuperar puntos de golpe hasta el comienzo de tu siguiente turno. Hasta entonces, la brisa se intensifica sobre el objetivo.",
+				"Si golpeas a un objetivo demoniaco (no gelido), también tiene desventaja en las tiradas de ataque contra ti hasta el final de tu siguiente turno."
+			],
+			"source": "PHBEspaol",
+			"page": "-",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"El daño de este hechizo aumenta en {@dice 1d8} cuando alcanzas el nivel 5 ( {@dice 2d8} ), el nivel 11 ( {@dice 3d8} ) y el nivel 17 ( {@dice 4d8} )."
+					]
+				}
+			],
+			"damageInflict": [
+				"cold"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+        {
+            "uniqueId": "3f1e6a87-7d4c-4b82-92e8-fc3592c9d6b0",
+			"name": "Calor Espectral",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 120
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"Creas un calor insondable y espectral en el espacio de una criatura dentro del alcance. Realiza un ataque con hechizo a distancia contra la criatura para atacarla con el calor arcano. Con un impacto, el objetivo sufre {@dice 1d8} de daño fuego y no puede recuperar puntos de golpe hasta el comienzo de tu siguiente turno. Hasta entonces, la brisa se intensifica sobre el objetivo.",
+				"Si golpeas a un objetivo celestial (no ardiente), también tiene desventaja en las tiradas de ataque contra ti hasta el final de tu siguiente turno."
+			],
+			"source": "PHBEspaol",
+			"page": "-",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"El daño de este hechizo aumenta en {@dice 1d8} cuando alcanzas el nivel 5 ( {@dice 2d8} ), el nivel 11 ( {@dice 3d8} ) y el nivel 17 ( {@dice 4d8} )."
+					]
+				}
+			],
+			"damageInflict": [
+				"fire"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"areaTags": [
+				"ST"
+			]
+        	},
+		{
+			"name": "Salpicadura Acida",
+			"source": "DMDrackSpellsandMore",
+			"page": 211,
+			"basicRules": true,
+			"level": 0,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Lanzas una burbuja de ácido. Elige una criatura que puedas ver dentro del alcance, o elige dos criaturas que puedas ver dentro del alcance y que estén dentro de 5 pies una de la otra. Un objetivo debe tener éxito en una tirada de salvación de Destreza o recibir {@dice 1d6} de daño ácido.",
+				"El daño de este hechizo aumenta en {@dice 1d6} cuando alcanzas el nivel 5 ({@dice 2d6}), el nivel 11 ({@dice 3d6}) y el nivel 17 ({@dice 4d6})."
+			],
+			"scalingLevelDice": {
+				"label": "acid damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"damageInflict": [
+				"acid"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST",
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Genasi (Water)",
+					"source": "MPMM",
+					"baseName": "Genasi",
+					"baseSource": "MPMM"
+				},
+				{
+					"name": "Kobold",
+					"source": "MPMM"
+				},
+				{
+					"name": "Half-Elf (Variant; Moon Elf or Sun Elf Descent)",
+					"source": "SCAG",
+					"baseName": "Half-Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Merfolk (Ixalan; Blue)",
+					"source": "PSX",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				},
+				{
+					"name": "Merfolk (Zendikar; Ula Creed)",
+					"source": "PSZ",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				}
+			],
+			"optionalfeatures": [
+				{
+					"name": "Pact of the Tome",
+					"source": "PHB",
+					"featureType": [
+						"PB"
+					]
+				}
+			],
+			"backgrounds": [
+				{
+					"name": "Simic Scientist",
+					"source": "GGR"
+				}
+			],
+			"feats": [
+				{
+					"name": "Aberrant Dragonmark",
+					"source": "ERLW"
+				},
+				{
+					"name": "Artificer Initiate",
+					"source": "TCE"
+				},
+				{
+					"name": "Initiate of High Sorcery",
+					"source": "DSotDQ"
+				},
+				{
+					"name": "Magic Initiate",
+					"source": "PHB"
+				}
+			]
 		}
 	]
 }
