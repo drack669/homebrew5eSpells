@@ -2,29 +2,26 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "Pumking Spells",
-				"abbreviation": "PS",
-				"full": "PumpkingSpells",
-				"version": "",
-				"url": "https://drive.google.com/file/d/1PHpOenx-jkwEuHLblDCB7WdSnF1C89xS/view",
+				"json": "PHBEspaol",
+				"abbreviation": "PHBSpanish",
+				"full": "PHB Español",
+				"url": "",
 				"authors": [
-					"5e Tools "
+					"D&D"
 				],
 				"convertedBy": [
-					"Anonymus"
-				]
+					"Drack"
+				],
+				"color": "#11a8e8"
 			}
-		],
-		"dateAdded": 0,
-		"dateLastModified": 1696710914
+		]
 	},
 	"spell": [
 		{
-		"name": "Blade Ward",
-			"source": "EvolvingCantrips",
-			"page": 218,
+			"uniqueId": "4cf2777a-3174-4a78-a70d-a141816ca48e",
+			"name": "Toque Frio",
 			"level": 0,
-			"school": "A",
+			"school": "N",
 			"time": [
 				{
 					"number": 1,
@@ -34,12 +31,9 @@
 			"range": {
 				"type": "point",
 				"distance": {
-					"type": "self"
+					"type": "feet",
+					"amount": 120
 				}
-			},
-			"components": {
-				"v": true,
-				"s": true
 			},
 			"duration": [
 				{
@@ -50,41 +44,10 @@
 					}
 				}
 			],
-			"entries": [
-				"You extend your hand and trace a sigil of warding in the air. Until the end of your next turn, you have resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks."
-			],
-			"entriesHigherLevel": [
-				{
-					"type": "entries",
-					"name": "At 5th Level",
-					"entries": [
-						"You can cast this spell on a creature of your choice that you can see within 30 feet of you. "
-					]
-				},
-				{
-					"type": "entries",
-					"name": "At 11th Level",
-					"entries": [
-						"You can ignore the verbal component of the spell."
-					]
-				},
-				{
-					"type": "entries",
-					"name": "At 17th Level",
-					"entries": [
-						"When you cast this spell on another creature, you also gain its benefits."
-					]
-				}
-			],
-			"damageResist": [
-				"bludgeoning",
-				"piercing",
-				"slashing"
-			],
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Wizard",
 						"source": "PHB"
 					},
 					{
@@ -94,74 +57,42 @@
 					{
 						"name": "Warlock",
 						"source": "PHB"
-					},
-					{
-						"name": "Wizard",
-						"source": "PHB"
-					}
-				],
-				"fromSubclass": [
-					{
-						"class": {
-							"name": "Fighter",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Eldritch Knight",
-							"source": "PHB",
-							"shortName": "Eldritch Knight"
-						}
-					},
-					{
-						"class": {
-							"name": "Rogue",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Arcane Trickster",
-							"source": "PHB",
-							"shortName": "Arcane Trickster"
-						}
-					},
-					{
-						"class": {
-							"name": "Cleric",
-							"source": "PHB"
-						},
-						"subclass": {
-							"name": "Arcana Domain",
-							"source": "SCAG",
-							"shortName": "Arcana"
-						}
-					},
-					{
-						"class": {
-							"name": "Blood Hunter",
-							"source": "CR2020"
-						},
-						"subclass": {
-							"name": "Profane Soul",
-							"source": "CR2020",
-							"shortName": "Profane Soul"
-						}
 					}
 				]
 			},
-			"races": [
+			"entries": [
+				"Creas una mano esquelética y fantasmal en el espacio de una criatura dentro del alcance. Realiza un ataque con hechizo a distancia contra la criatura para atacarla con el frío de la tumba. Con un impacto, el objetivo sufre {@dice 1d8} de daño necrótico y no puede recuperar puntos de golpe hasta el comienzo de tu siguiente turno. Hasta entonces, la mano se aferra al objetivo.",
+				"Si golpeas a un objetivo no-muerto, también tiene desventaja en las tiradas de ataque contra ti hasta el final de tu siguiente turno."
+			],
+			"source": "PHBEspaol",
+			"page": 221,
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"entriesHigherLevel": [
 				{
-					"name": "Elf (High)",
-					"source": "PHB",
-					"baseName": "Elf",
-					"baseSource": "PHB"
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"El daño de este hechizo aumenta en {@dice 1d8} cuando alcanzas el nivel 5 ( {@dice 2d8} ), el nivel 11 ( {@dice 3d8} ) y el nivel 17 ( {@dice 4d8} )."
+					]
 				}
 			],
-			"miscTags": [
-				"SGT"
+			"damageInflict": [
+				"necrotic"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"areaTags": [
+				"ST"
 			]
 		},
-        {
-			"name": "Animate Magic",
-			"level": 9,
+		{
+			"uniqueId": "81577dc6-0f0b-442f-85a4-b01257507faa",
+			"name": "Frio Espectral",
+			"level": 0,
 			"school": "T",
 			"time": [
 				{
@@ -173,53 +104,72 @@
 				"type": "point",
 				"distance": {
 					"type": "feet",
-					"amount": 60
+					"amount": 120
 				}
 			},
 			"duration": [
 				{
 					"type": "timed",
 					"duration": {
-						"type": "hour",
-						"amount": 8
+						"type": "round",
+						"amount": 1
 					}
 				}
 			],
 			"classes": {
 				"fromClassList": [
 					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
 						"name": "Sorcerer",
 						"source": "PHB"
 					},
 					{
-						"name": "Wizard",
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
 						"source": "PHB"
 					}
 				]
 			},
 			"entries": [
-				"A magical effect is transformed into a being of living magic, an animate spell. Choose a spell effect of 6th level or higher within range. That spell ends, and an animate spell is formed in a space of your choice within range of the spell. The animate spell is of a school according to the effect you targeted. For example, if you targeted an evocation spell with this spell, you would create a {@creature living evocation|TPK}. You cannot command the animate spell, which is an independent creature beyond your control, though it is initially friendly to you and your allies."
+				"Creas una brisa fria y espectral en el espacio de una criatura dentro del alcance. Realiza un ataque con hechizo a distancia contra la criatura para atacarla con el frío arcano. Con un impacto, el objetivo sufre {@dice 1d8} de daño frio y no puede recuperar puntos de golpe hasta el comienzo de tu siguiente turno. Hasta entonces, la brisa se intensifica sobre el objetivo.",
+				"Si golpeas a un objetivo demoniaco (no gelido), también tiene desventaja en las tiradas de ataque contra ti hasta el final de tu siguiente turno."
 			],
-			"source": "TPK",
-			"page": 22,
+			"source": "PHBEspaol",
+			"page": "-",
 			"components": {
 				"v": true,
 				"s": true
 			},
-			"miscTags": [
-				"SMN"
-			],
-			"fluff": {
-				"_spellFluff": {
-					"name": "Animate Magic",
-					"source": "TPK"
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"El daño de este hechizo aumenta en {@dice 1d8} cuando alcanzas el nivel 5 ( {@dice 2d8} ), el nivel 11 ( {@dice 3d8} ) y el nivel 17 ( {@dice 4d8} )."
+					]
 				}
-			}
+			],
+			"damageInflict": [
+				"cold"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"areaTags": [
+				"ST"
+			]
 		},
         {
-			"name": "Animate 2 Magic 2",
-			"level": 2,
-			"school": "E",
+            "uniqueId": "3f1e6a87-7d4c-4b82-92e8-fc3592c9d6b0",
+			"name": "Calor Espectral",
+			"level": 0,
+			"school": "T",
 			"time": [
 				{
 					"number": 1,
@@ -230,48 +180,62 @@
 				"type": "point",
 				"distance": {
 					"type": "feet",
-					"amount": 60
+					"amount": 120
 				}
 			},
 			"duration": [
 				{
 					"type": "timed",
 					"duration": {
-						"type": "hour",
-						"amount": 8
+						"type": "round",
+						"amount": 1
 					}
 				}
 			],
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Warlock",
+						"name": "Wizard",
 						"source": "PHB"
 					},
 					{
-						"name": "Fighter",
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
 						"source": "PHB"
 					}
 				]
 			},
 			"entries": [
-				"A magical effect is transformed into a being of living magic, an animate spell. Choose a spell effect of 6th level or higher within range. That spell ends, and an animate spell is formed in a space of your choice within range of the spell. The animate spell is of a school according to the effect you targeted. For example, if you targeted an evocation spell with this spell, you would create a {@creature living evocation|TPK}. You cannot command the animate spell, which is an independent creature beyond your control, though it is initially friendly to you and your allies."
+				"Creas un calor insondable y espectral en el espacio de una criatura dentro del alcance. Realiza un ataque con hechizo a distancia contra la criatura para atacarla con el calor arcano. Con un impacto, el objetivo sufre {@dice 1d8} de daño fuego y no puede recuperar puntos de golpe hasta el comienzo de tu siguiente turno. Hasta entonces, la brisa se intensifica sobre el objetivo.",
+				"Si golpeas a un objetivo celestial (no ardiente), también tiene desventaja en las tiradas de ataque contra ti hasta el final de tu siguiente turno."
 			],
-			"source": "TPK",
-			"page": 22,
+			"source": "PHBEspaol",
+			"page": "-",
 			"components": {
 				"v": true,
 				"s": true
 			},
-			"miscTags": [
-				"SMN"
-			],
-			"fluff": {
-				"_spellFluff": {
-					"name": "Animate Magic",
-					"source": "TPK"
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"El daño de este hechizo aumenta en {@dice 1d8} cuando alcanzas el nivel 5 ( {@dice 2d8} ), el nivel 11 ( {@dice 3d8} ) y el nivel 17 ( {@dice 4d8} )."
+					]
 				}
-			}
-		}   
+			],
+			"damageInflict": [
+				"fire"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"areaTags": [
+				"ST"
+			]
+        }
 	]
 }
