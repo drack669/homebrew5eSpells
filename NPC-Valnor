@@ -551,6 +551,648 @@
 				"intelligence",
 				"wisdom"
 			]
+		},
+		{
+			"name": "Bard Lv 4",
+			"source": "NPCsforValnor",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item chain shirt|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "8d8 + 8",
+				"average": 44
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 15,
+			"con": 13,
+			"int": 10,
+			"wis": 12,
+			"cha": 18,
+			"skill": {
+				"acrobatics": "+4",
+				"perception": "+5",
+				"performance": "+8",
+				"animal handling": "+2",
+				"arcana": "+1",
+				"athletics": "+0",
+				"deception": "+4",
+				"history": "+1",
+				"insight": "+2",
+				"intimidation": "+4",
+				"investigation": "+1",
+				"medicine": "+2",
+				"nature": "+1",
+				"persuasion": "+4",
+				"religion": "+1",
+				"sleight of hand": "+3",
+				"survival": "+2",
+				"stealth": "+3"
+			},
+			"passive": 15,
+			"languages": [
+				"any two languages"
+			],
+			"cr": "3",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The bard makes two Shortsword or Shortbow attacks. It can replace one attack with a use of Spellcasting."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 80/320 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Cacophony {@recharge 4}",
+					"entries": [
+						"Each creature in a 15-foot cube originating from the bard must make a {@dc 12} Constitution saving throw. On a failed save, a creature takes 9 ({@damage 2d8}) thunder damage and is pushed up to 10 feet away from the bard. On a successful save, a creature takes half as much damage and isn't pushed."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Taunt (2/Day)",
+					"entries": [
+						"The bard targets one creature within 30 feet of it. If the target can hear the bard, the target must succeed on a {@dc 12} Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of the bard's next turn."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/bard.mp3"
+			},
+			"attachedItems": [
+				"shortbow|phb",
+				"shortsword|phb"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"X"
+			],
+			"miscTags": [
+				"MW",
+				"MLW",
+				"RW",
+				"AOE"
+			],
+			"conditionInflictSpell": [
+				"charmed",
+				"invisible",
+				"unconscious"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/MPMM/Bard.png",
+			"fluff": {
+				"name": "Bard",
+				"source": "MPMM",
+				"entries": [
+					"Bards are gifted poets, storytellers, and entertainers who travel far and wide. They're commonly found in taverns or in the company of jolly bands of adventurers, rough-and-tumble mercenaries, and wealthy patrons.",
+					"Each bard is a master of at least one type of performance. You may choose a bard's main type, or you may roll on the Bard {@skill Performance} Types table to determine it.",
+					{
+						"type": "table",
+						"caption": "Bard Performance Types",
+						"colLabels": [
+							"d10",
+							"Performance Type"
+						],
+						"colStyles": [
+							"col-1 text-center",
+							"col-11"
+						],
+						"rows": [
+							[
+								"1",
+								"Poetry"
+							],
+							[
+								"2",
+								"Singing"
+							],
+							[
+								"3",
+								"Bagpipe"
+							],
+							[
+								"4",
+								"Flute"
+							],
+							[
+								"5",
+								"Dancing"
+							],
+							[
+								"6",
+								"Drum"
+							],
+							[
+								"7",
+								"Lute"
+							],
+							[
+								"8",
+								"Puppetry"
+							],
+							[
+								"9",
+								"Mime"
+							],
+							[
+								"10",
+								"Acting"
+							]
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MPMM/Bard.webp"
+						},
+						"credit": "Rudy Siswanto"
+					}
+				]
+			},
+			"uniqueId": "71cdc4d7-2484-42c4-b717-19c4258ff229",
+			"level": 3,
+			"save": {
+				"dex": "+4",
+				"cha": "+6"
+			},
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell cure wounds}",
+								"{@spell disguise self}",
+								"{@spell faerie fire}",
+								"{@spell heroism}",
+								"{@spell illusory script}",
+								"{@spell silent image}",
+								"{@spell silvery barbs|SCC}",
+								"{@spell thunderwave}",
+								"{@spell unseen servant}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell calm emotions}",
+								"{@spell enlarge/reduce}",
+								"{@spell kinetic jaunt|SCC}",
+								"{@spell magic mouth}",
+								"{@spell mirror image}",
+								"{@spell nathair's mischief|FTD}",
+								"{@spell phantasmal force}",
+								"{@spell pyrotechnics|XGE}",
+								"{@spell silence}",
+								"{@spell skywrite|XGE}",
+								"{@spell warding bond}",
+								"{@spell zone of truth}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell bestow curse}",
+								"{@spell dispel magic}",
+								"{@spell fear}",
+								"{@spell major image}",
+								"{@spell mass healing word}",
+								"{@spell motivational speech|AI}",
+								"{@spell sending}",
+								"{@spell slow}",
+								"{@spell stinking cloud}",
+								"{@spell tongues}"
+							],
+							"slots": 1
+						}
+					},
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"trait": [
+				{
+					"name": "Inspiracion Bardica x 3",
+					"entries": [
+						"Tu inspiracion es {@dice 1d6}.",
+						"Puedes usar esta función un número de veces igual a tu modificador de Carisma (un mínimo de una vez). Recuperas los usos gastados cuando terminas un descanso prolongado.",
+						"Tu dado Bardic Inspiration cambia cuando alcanzas ciertos niveles en esta clase. El dado se convierte en un {@dice d8} en el nivel 5, un {@dice d10} en el nivel 10 y un {@dice d12} en el nivel 15."
+					]
+				},
+				{
+					"name": "Un mil usos",
+					"entries": [
+						"A partir del nivel 2, puedes agregar la mitad de tu bono de competencia, redondeando hacia abajo, a cualquier prueba de habilidad que realices y que no incluya ya tu bono de competencia."
+					]
+				},
+				{
+					"name": "Inspiración mágica",
+					"entries": [
+						"Si una criatura tiene un dado de Inspiración Bárdica tuyo y lanza un hechizo que restaura puntos de golpe o causa daño, la criatura puede tirar ese dado y elegir un objetivo afectado por el hechizo. Suma el número obtenido como bonificación a los puntos de vida recuperados o al daño infligido. El dado de Inspiración Bárdica se pierde."
+					]
+				},
+				{
+					"name": "Colegio subclase - 1",
+					"entries": [
+						"asdasdasd"
+					]
+				},
+				{
+					"name": "Colegio Subclase - 2",
+					"entries": [
+						"asdasdasd"
+					]
+				},
+				{
+					"name": "Feat",
+					"entries": [
+						"Algun feat"
+					]
+				}
+			],
+			"damageTags": [
+				"P",
+				"T"
+			],
+			"damageTagsSpell": [
+				"N",
+				"O",
+				"T",
+				"Y"
+			],
+			"savingThrowForced": [
+				"charisma",
+				"constitution"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"constitution",
+				"dexterity",
+				"intelligence",
+				"wisdom"
+			]
+		},
+		{
+			"name": "Bard Lv 5",
+			"source": "NPCsforValnor",
+			"size": [
+				"M"
+			],
+			"type": "humanoid",
+			"alignment": [
+				"A"
+			],
+			"ac": [
+				{
+					"ac": 15,
+					"from": [
+						"{@item chain shirt|phb}"
+					]
+				}
+			],
+			"hp": {
+				"formula": "8d8 + 8",
+				"average": 44
+			},
+			"speed": {
+				"walk": 30
+			},
+			"str": 8,
+			"dex": 15,
+			"con": 13,
+			"int": 10,
+			"wis": 12,
+			"cha": 18,
+			"skill": {
+				"acrobatics": "+4",
+				"perception": "+5",
+				"performance": "+8",
+				"animal handling": "+2",
+				"arcana": "+1",
+				"athletics": "+0",
+				"deception": "+4",
+				"history": "+1",
+				"insight": "+2",
+				"intimidation": "+4",
+				"investigation": "+1",
+				"medicine": "+2",
+				"nature": "+1",
+				"persuasion": "+4",
+				"religion": "+1",
+				"sleight of hand": "+3",
+				"survival": "+2",
+				"stealth": "+3"
+			},
+			"passive": 15,
+			"languages": [
+				"any two languages"
+			],
+			"cr": "3",
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The bard makes two Shortsword or Shortbow attacks. It can replace one attack with a use of Spellcasting."
+					]
+				},
+				{
+					"name": "Shortsword",
+					"entries": [
+						"{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Shortbow",
+					"entries": [
+						"{@atk rw} {@hit 5} to hit, range 80/320 ft., one target. {@h}6 ({@damage 1d6 + 3}) piercing damage."
+					]
+				},
+				{
+					"name": "Cacophony {@recharge 4}",
+					"entries": [
+						"Each creature in a 15-foot cube originating from the bard must make a {@dc 12} Constitution saving throw. On a failed save, a creature takes 9 ({@damage 2d8}) thunder damage and is pushed up to 10 feet away from the bard. On a successful save, a creature takes half as much damage and isn't pushed."
+					]
+				}
+			],
+			"bonus": [
+				{
+					"name": "Taunt (2/Day)",
+					"entries": [
+						"The bard targets one creature within 30 feet of it. If the target can hear the bard, the target must succeed on a {@dc 12} Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of the bard's next turn."
+					]
+				}
+			],
+			"environment": [
+				"urban"
+			],
+			"soundClip": {
+				"type": "external",
+				"url": "https://5e.tools/audio/bestiary/bard.mp3"
+			},
+			"attachedItems": [
+				"shortbow|phb",
+				"shortsword|phb"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"X"
+			],
+			"miscTags": [
+				"MW",
+				"MLW",
+				"RW",
+				"AOE"
+			],
+			"conditionInflictSpell": [
+				"charmed",
+				"invisible",
+				"unconscious"
+			],
+			"hasFluff": true,
+			"hasFluffImages": true,
+			"tokenUrl": "https://5e.tools/img/MPMM/Bard.png",
+			"fluff": {
+				"name": "Bard",
+				"source": "MPMM",
+				"entries": [
+					"Bards are gifted poets, storytellers, and entertainers who travel far and wide. They're commonly found in taverns or in the company of jolly bands of adventurers, rough-and-tumble mercenaries, and wealthy patrons.",
+					"Each bard is a master of at least one type of performance. You may choose a bard's main type, or you may roll on the Bard {@skill Performance} Types table to determine it.",
+					{
+						"type": "table",
+						"caption": "Bard Performance Types",
+						"colLabels": [
+							"d10",
+							"Performance Type"
+						],
+						"colStyles": [
+							"col-1 text-center",
+							"col-11"
+						],
+						"rows": [
+							[
+								"1",
+								"Poetry"
+							],
+							[
+								"2",
+								"Singing"
+							],
+							[
+								"3",
+								"Bagpipe"
+							],
+							[
+								"4",
+								"Flute"
+							],
+							[
+								"5",
+								"Dancing"
+							],
+							[
+								"6",
+								"Drum"
+							],
+							[
+								"7",
+								"Lute"
+							],
+							[
+								"8",
+								"Puppetry"
+							],
+							[
+								"9",
+								"Mime"
+							],
+							[
+								"10",
+								"Acting"
+							]
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "internal",
+							"path": "bestiary/MPMM/Bard.webp"
+						},
+						"credit": "Rudy Siswanto"
+					}
+				]
+			},
+			"uniqueId": "304be6fa-268e-4b29-b6c8-82c5f2ce790b",
+			"level": 3,
+			"save": {
+				"dex": "+4",
+				"cha": "+6"
+			},
+			"spellcasting": [
+				{
+					"name": "Spellcasting",
+					"spells": {
+						"1": {
+							"spells": [
+								"{@spell cure wounds}",
+								"{@spell disguise self}",
+								"{@spell faerie fire}",
+								"{@spell heroism}",
+								"{@spell illusory script}",
+								"{@spell silent image}",
+								"{@spell silvery barbs|SCC}",
+								"{@spell thunderwave}",
+								"{@spell unseen servant}"
+							],
+							"slots": 4
+						},
+						"2": {
+							"spells": [
+								"{@spell calm emotions}",
+								"{@spell enlarge/reduce}",
+								"{@spell kinetic jaunt|SCC}",
+								"{@spell magic mouth}",
+								"{@spell mirror image}",
+								"{@spell nathair's mischief|FTD}",
+								"{@spell phantasmal force}",
+								"{@spell pyrotechnics|XGE}",
+								"{@spell silence}",
+								"{@spell skywrite|XGE}",
+								"{@spell warding bond}",
+								"{@spell zone of truth}"
+							],
+							"slots": 3
+						},
+						"3": {
+							"spells": [
+								"{@spell bestow curse}",
+								"{@spell dispel magic}",
+								"{@spell fear}",
+								"{@spell major image}",
+								"{@spell mass healing word}",
+								"{@spell motivational speech|AI}",
+								"{@spell sending}",
+								"{@spell slow}",
+								"{@spell stinking cloud}",
+								"{@spell tongues}"
+							],
+							"slots": 2
+						}
+					},
+					"type": "spellcasting"
+				}
+			],
+			"spellcastingTags": [
+				"O"
+			],
+			"trait": [
+				{
+					"name": "Inspiracion Bardica x 4",
+					"entries": [
+						"Tu inspiracion es {@dice 1d8}.",
+						"Puedes usar esta función un número de veces igual a tu modificador de Carisma (un mínimo de una vez). Recuperas los usos gastados cuando terminas un descanso prolongado.",
+						"Tu dado Bardic Inspiration cambia cuando alcanzas ciertos niveles en esta clase. El dado se convierte en un {@dice d8} en el nivel 5, un {@dice d10} en el nivel 10 y un {@dice d12} en el nivel 15."
+					]
+				},
+				{
+					"name": "Un mil usos",
+					"entries": [
+						"A partir del nivel 2, puedes agregar la mitad de tu bono de competencia, redondeando hacia abajo, a cualquier prueba de habilidad que realices y que no incluya ya tu bono de competencia."
+					]
+				},
+				{
+					"name": "Inspiración mágica",
+					"entries": [
+						"Si una criatura tiene un dado de Inspiración Bárdica tuyo y lanza un hechizo que restaura puntos de golpe o causa daño, la criatura puede tirar ese dado y elegir un objetivo afectado por el hechizo. Suma el número obtenido como bonificación a los puntos de vida recuperados o al daño infligido. El dado de Inspiración Bárdica se pierde."
+					]
+				},
+				{
+					"name": "Colegio subclase - 1",
+					"entries": [
+						"asdasdasd"
+					]
+				},
+				{
+					"name": "Colegio Subclase - 2",
+					"entries": [
+						"asdasdasd"
+					]
+				},
+				{
+					"name": "Feat",
+					"entries": [
+						"Algun feat"
+					]
+				},
+				{
+					"name": "Fuente de inspiración",
+					"entries": [
+						"A partir de que alcanzas el nivel 5, recuperas todos los usos gastados de Inspiración bárdica cuando terminas un descanso corto o largo."
+					]
+				}
+			],
+			"damageTags": [
+				"P",
+				"T"
+			],
+			"damageTagsSpell": [
+				"N",
+				"O",
+				"T",
+				"Y"
+			],
+			"savingThrowForced": [
+				"charisma",
+				"constitution"
+			],
+			"savingThrowForcedSpell": [
+				"charisma",
+				"constitution",
+				"dexterity",
+				"intelligence",
+				"wisdom"
+			]
 		}
 	]
 }
