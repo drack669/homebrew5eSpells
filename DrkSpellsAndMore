@@ -184,7 +184,8 @@
 					"name": "Magic Initiate",
 					"source": "PHB"
 				}
-			]
+			],
+			"uniqueId": "f505c075-25a6-4f30-968c-e7a58a498ac0"
 		},
 		{
 			"name": "Antagonizar",
@@ -283,7 +284,8 @@
 						}
 					}
 				]
-			}
+			},
+			"uniqueId": "3b2dafea-5ba9-47ad-96c9-feedcbed0b7e"
 		},
 		{
 			"name": "Disparo de Flama",
@@ -470,7 +472,8 @@
 					"name": "Strixhaven Initiate",
 					"source": "SCC"
 				}
-			]
+			],
+			"uniqueId": "41b41585-ea7e-4a3e-932c-90ac8163e014"
 		},
 		{
 			"name": "Disparo de Carambano",
@@ -657,7 +660,8 @@
 			],
 			"damageInflict": [
 				"cold"
-			]
+			],
+			"uniqueId": "d7f0f3a2-aed8-4c8f-9cc2-dffbc933be08"
 		},
 		{
 			"name": "Disparo Chispa",
@@ -844,7 +848,8 @@
 			],
 			"damageInflict": [
 				"lightning"
-			]
+			],
+			"uniqueId": "99ddfaa8-02e1-43e7-b8ad-e919ae3391c8"
 		},
 		{
 			"name": "Disparo Negro",
@@ -1031,7 +1036,8 @@
 			],
 			"damageInflict": [
 				"necrotic"
-			]
+			],
+			"uniqueId": "81680178-8050-410d-945b-9df372e3817e"
 		},
 		{
 			"name": "Disparo Radiante",
@@ -1218,7 +1224,8 @@
 			],
 			"damageInflict": [
 				"radiant"
-			]
+			],
+			"uniqueId": "bbb4df73-af62-4c04-92f4-f9a87bf2f27a"
 		},
 		{
 			"name": "Disparo Energetico",
@@ -1408,7 +1415,8 @@
 			],
 			"savingThrow": [
 				"constitution"
-			]
+			],
+			"uniqueId": "072d26b9-ce89-4f29-9628-7075d6d9e415"
 		},
 		{
 			"name": "Armadura de Agathys",
@@ -1503,7 +1511,8 @@
 					"name": "Magic Initiate",
 					"source": "PHB"
 				}
-			]
+			],
+			"uniqueId": "b8e9f027-af8f-498a-9996-43b3ed6c745d"
 		},
 		{
 			"name": "Armadura de Ceniza",
@@ -1598,7 +1607,8 @@
 			],
 			"damageInflict": [
 				"fire"
-			]
+			],
+			"uniqueId": "b21c69d6-b887-407d-882e-ec2424a9594e"
 		},
 		{
 			"name": "Armadura de Espinas Magicas",
@@ -1693,7 +1703,8 @@
 			],
 			"damageInflict": [
 				"force"
-			]
+			],
+			"uniqueId": "82c97851-28c1-408c-b8c9-ae535dd9a45d"
 		},
 		{
 			"name": "Armadura electrificada",
@@ -1788,7 +1799,8 @@
 			],
 			"damageInflict": [
 				"lightning"
-			]
+			],
+			"uniqueId": "269c23b7-458b-4aae-a7d7-dd037f844857"
 		},
 		{
 			"name": "Armadura espectral",
@@ -1883,7 +1895,8 @@
 			],
 			"damageInflict": [
 				"necrotic"
-			]
+			],
+			"uniqueId": "eb5c9615-7916-45ec-a395-ec0615fe025c"
 		},
 		{
 			"name": "Armadura Rugiente",
@@ -1978,7 +1991,8 @@
 			],
 			"damageInflict": [
 				"thunder"
-			]
+			],
+			"uniqueId": "6329a074-f018-486c-b8ef-f7c486592b0f"
 		},
 		{
 			"name": "Armadura luz celestial",
@@ -2073,7 +2087,8 @@
 			],
 			"damageInflict": [
 				"radiant"
-			]
+			],
+			"uniqueId": "209270cd-ffda-46c9-a870-bb0b5a5ec82e"
 		},
 		{
 			"name": "Armadura Psiquica",
@@ -2168,7 +2183,8 @@
 			],
 			"damageInflict": [
 				"psychic"
-			]
+			],
+			"uniqueId": "726f4434-5ad9-49fe-8f50-138d8e2500e6"
 		},
 		{
 			"name": "Salpicadura Acida",
@@ -2334,7 +2350,8 @@
 					"name": "Magic Initiate",
 					"source": "PHB"
 				}
-			]
+			],
+			"uniqueId": "fddb2527-f718-4097-bc2c-e3d15233e414"
 		},
 		{
 			"name": "Buenas Bayas",
@@ -2408,7 +2425,8 @@
 				"entries": [
 					"Versión en español"
 				]
-			}
+			},
+			"uniqueId": "59c71e4c-cc16-4a5b-a05f-5a0b2aa58c9b"
 		},
 		{
 			"name": "Buenas Bayas (Variante)",
@@ -2482,7 +2500,8 @@
 				"entries": [
 					"Versión variante en español"
 				]
-			}
+			},
+			"uniqueId": "b15e1b53-ad7d-4a9b-bc53-84ab9600a2a6"
 		},
 		{
 			"name": "Hex (Maldición)",
@@ -2583,7 +2602,8 @@
 				"entries": [
 					"Versión en español."
 				]
-			}
+			},
+			"uniqueId": "f5192b28-be34-4336-8629-a53d700ebf43"
 		},
 		{
 			"name": "Hex (Maldición) (Variante)",
@@ -2684,7 +2704,8 @@
 			},
 			"damageInflict": [
 				"necrotic"
-			]
+			],
+			"uniqueId": "d8ba4f45-8a1c-43f7-9b75-7c94b26c31bb"
 		},
 		{
 			"name": "Marca Mecanica",
@@ -2774,7 +2795,1577 @@
 					"Versión variante de Hex para artificers.",
 					"La marca tiene forma de mecanismo, tal como un reloj, un engrane, un reloj de arena, dos engranes girando, etc."
 				]
-			}
+			},
+			"uniqueId": "886b172a-e522-4155-b2dc-25c5f3e99911"
+		},
+		{
+			"name": "Guía",
+			"source": "DMDrackSpellsandMore",
+			"page": 248,
+			"basicRules": true,
+			"otherSources": [
+				{
+					"source": "RMR",
+					"page": 54
+				}
+			],
+			"level": 0,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Tocas a una criatura dispuesta. Una vez antes de que termine el hechizo, el objetivo puede tirar un {@dice d4} y sumar el número obtenido a una prueba de habilidad de su elección. Puede tirar el dado antes o después de hacer la prueba de habilidad. Luego, el hechizo termina."
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Bard",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "College of Spirits",
+							"shortName": "Spirits",
+							"source": "VRGR"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Nature Domain",
+							"shortName": "Nature",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Strength Domain (PSA)",
+							"shortName": "Strength (PSA)",
+							"source": "PSA"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Circle of the Land",
+							"shortName": "Land",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Circle of Stars",
+							"shortName": "Stars",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Elf (Kaladesh; Vahadar)",
+					"source": "PSK",
+					"baseName": "Elf (Kaladesh)",
+					"baseSource": "PSK"
+				},
+				{
+					"name": "Merfolk (Ixalan; Green)",
+					"source": "PSX",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				},
+				{
+					"name": "Merfolk (Zendikar; Emeria Creed)",
+					"source": "PSZ",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				}
+			],
+			"optionalfeatures": [
+				{
+					"name": "Blessed Warrior",
+					"source": "TCE",
+					"featureType": [
+						"FS:P"
+					]
+				},
+				{
+					"name": "Druidic Warrior",
+					"source": "TCE",
+					"featureType": [
+						"FS:R"
+					]
+				},
+				{
+					"name": "Pact of the Tome",
+					"source": "PHB",
+					"featureType": [
+						"PB"
+					]
+				}
+			],
+			"backgrounds": [
+				{
+					"name": "Orzhov Representative",
+					"source": "GGR"
+				}
+			],
+			"feats": [
+				{
+					"name": "Artificer Initiate",
+					"source": "TCE"
+				},
+				{
+					"name": "Divinely Favored",
+					"source": "DSotDQ"
+				},
+				{
+					"name": "Magic Initiate",
+					"source": "PHB"
+				},
+				{
+					"name": "Scion of the Outer Planes",
+					"source": "SatO"
+				},
+				{
+					"name": "Strixhaven Initiate",
+					"source": "SCC"
+				},
+				{
+					"name": "Wood Elf Magic",
+					"source": "XGE"
+				}
+			],
+			"uniqueId": "17e922aa-9954-4496-a29f-b4cae8d43df8"
+		},
+		{
+			"name": "Consejo",
+			"source": "DMDrackSpellsandMore",
+			"basicRules": true,
+			"level": 0,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "1 escama pequeña de dragon"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Tocas a una criatura dispuesta. Una vez antes de que termine el hechizo, el objetivo puede tirar un {@dice d4} y sumar el número obtenido a cada ataque realizado, sin embargo, debe estar siempre la criatura que tocaste a 5 ft de ti. Puede tirar el dado antes o después de hacer el ataque. "
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Bard",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "College of Spirits",
+							"shortName": "Spirits",
+							"source": "VRGR"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Nature Domain",
+							"shortName": "Nature",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Strength Domain (PSA)",
+							"shortName": "Strength (PSA)",
+							"source": "PSA"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Circle of the Land",
+							"shortName": "Land",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Circle of Stars",
+							"shortName": "Stars",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Elf (Kaladesh; Vahadar)",
+					"source": "PSK",
+					"baseName": "Elf (Kaladesh)",
+					"baseSource": "PSK"
+				},
+				{
+					"name": "Merfolk (Ixalan; Green)",
+					"source": "PSX",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				},
+				{
+					"name": "Merfolk (Zendikar; Emeria Creed)",
+					"source": "PSZ",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				}
+			],
+			"optionalfeatures": [
+				{
+					"name": "Blessed Warrior",
+					"source": "TCE",
+					"featureType": [
+						"FS:P"
+					]
+				},
+				{
+					"name": "Druidic Warrior",
+					"source": "TCE",
+					"featureType": [
+						"FS:R"
+					]
+				},
+				{
+					"name": "Pact of the Tome",
+					"source": "PHB",
+					"featureType": [
+						"PB"
+					]
+				}
+			],
+			"backgrounds": [
+				{
+					"name": "Orzhov Representative",
+					"source": "GGR"
+				}
+			],
+			"feats": [
+				{
+					"name": "Artificer Initiate",
+					"source": "TCE"
+				},
+				{
+					"name": "Divinely Favored",
+					"source": "DSotDQ"
+				},
+				{
+					"name": "Magic Initiate",
+					"source": "PHB"
+				},
+				{
+					"name": "Scion of the Outer Planes",
+					"source": "SatO"
+				},
+				{
+					"name": "Strixhaven Initiate",
+					"source": "SCC"
+				},
+				{
+					"name": "Wood Elf Magic",
+					"source": "XGE"
+				}
+			],
+			"uniqueId": "070bd0d8-4340-4869-8bcd-c91a51c0a198"
+		},
+		{
+			"name": "Guia de Salvación",
+			"source": "DMDrackSpellsandMore",
+			"basicRules": true,
+			"level": 0,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "Manual de supervivencia"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Tocas a una criatura dispuesta. Una vez antes de que termine el hechizo, el objetivo puede tirar un {@dice d4} y sumar el número obtenido a una salvación, sin embargo, debe estar siempre la criatura que tocaste a máximo 15 ft de ti. Puede tirar el dado antes o después de hacer la tirada de salvación. "
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Bard",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "College of Spirits",
+							"shortName": "Spirits",
+							"source": "VRGR"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Nature Domain",
+							"shortName": "Nature",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Strength Domain (PSA)",
+							"shortName": "Strength (PSA)",
+							"source": "PSA"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Circle of the Land",
+							"shortName": "Land",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Circle of Stars",
+							"shortName": "Stars",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Elf (Kaladesh; Vahadar)",
+					"source": "PSK",
+					"baseName": "Elf (Kaladesh)",
+					"baseSource": "PSK"
+				},
+				{
+					"name": "Merfolk (Ixalan; Green)",
+					"source": "PSX",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				},
+				{
+					"name": "Merfolk (Zendikar; Emeria Creed)",
+					"source": "PSZ",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				}
+			],
+			"optionalfeatures": [
+				{
+					"name": "Blessed Warrior",
+					"source": "TCE",
+					"featureType": [
+						"FS:P"
+					]
+				},
+				{
+					"name": "Druidic Warrior",
+					"source": "TCE",
+					"featureType": [
+						"FS:R"
+					]
+				},
+				{
+					"name": "Pact of the Tome",
+					"source": "PHB",
+					"featureType": [
+						"PB"
+					]
+				}
+			],
+			"backgrounds": [
+				{
+					"name": "Orzhov Representative",
+					"source": "GGR"
+				}
+			],
+			"feats": [
+				{
+					"name": "Artificer Initiate",
+					"source": "TCE"
+				},
+				{
+					"name": "Divinely Favored",
+					"source": "DSotDQ"
+				},
+				{
+					"name": "Magic Initiate",
+					"source": "PHB"
+				},
+				{
+					"name": "Scion of the Outer Planes",
+					"source": "SatO"
+				},
+				{
+					"name": "Strixhaven Initiate",
+					"source": "SCC"
+				},
+				{
+					"name": "Wood Elf Magic",
+					"source": "XGE"
+				}
+			],
+			"uniqueId": "ef8c912d-e65d-477f-8640-c23aef47d831"
+		},
+		{
+			"name": "Luz",
+			"source": "DMDrackSpellsandMore",
+			"page": 255,
+			"basicRules": true,
+			"otherSources": [
+				{
+					"source": "RMR",
+					"page": 55
+				}
+			],
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"m": "a firefly or phosphorescent moss"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Tocas un objeto que no sea más grande de 10 pies en ninguna dimensión. Hasta que el hechizo termine, el objeto emite luz brillante en un radio de 20 pies y luz tenue adicional durante otros 20 pies. La luz puede ser del color que desees. Cubrir completamente el objeto con algo opaco bloquea la luz. El hechizo termina si lo vuelves a lanzar o lo disipas como una acción. Si el objetivo es un objeto sostenido o usado por una criatura hostil, esa criatura debe tener éxito en una tirada de salvación de Destreza para evitar el hechizo."
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"LGT",
+				"OBJ"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Light Domain",
+							"shortName": "Light",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcana Domain",
+							"shortName": "Arcana",
+							"source": "SCAG"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "The Celestial",
+							"shortName": "Celestial",
+							"source": "XGE"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Aasimar",
+					"source": "DMG"
+				},
+				{
+					"name": "Aasimar",
+					"source": "MPMM"
+				},
+				{
+					"name": "Kobold",
+					"source": "MPMM"
+				},
+				{
+					"name": "Aasimar (Fallen)",
+					"source": "VGM",
+					"baseName": "Aasimar",
+					"baseSource": "VGM"
+				},
+				{
+					"name": "Aasimar (Protector)",
+					"source": "VGM",
+					"baseName": "Aasimar",
+					"baseSource": "VGM"
+				},
+				{
+					"name": "Aasimar (Scourge)",
+					"source": "VGM",
+					"baseName": "Aasimar",
+					"baseSource": "VGM"
+				},
+				{
+					"name": "Astral Elf",
+					"source": "AAG"
+				},
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (Pallid)",
+					"source": "EGW",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Half-Elf (Variant; Moon Elf or Sun Elf Descent)",
+					"source": "SCAG",
+					"baseName": "Half-Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Merfolk (Ixalan; Blue)",
+					"source": "PSX",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				},
+				{
+					"name": "Merfolk (Zendikar; Cosi Creed)",
+					"source": "PSZ",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				},
+				{
+					"name": "Merfolk (Zendikar; Ula Creed)",
+					"source": "PSZ",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				}
+			],
+			"optionalfeatures": [
+				{
+					"name": "Blessed Warrior",
+					"source": "TCE",
+					"featureType": [
+						"FS:P"
+					]
+				},
+				{
+					"name": "Pact of the Tome",
+					"source": "PHB",
+					"featureType": [
+						"PB"
+					]
+				}
+			],
+			"feats": [
+				{
+					"name": "Aberrant Dragonmark",
+					"source": "ERLW"
+				},
+				{
+					"name": "Artificer Initiate",
+					"source": "TCE"
+				},
+				{
+					"name": "Divinely Favored",
+					"source": "DSotDQ"
+				},
+				{
+					"name": "Initiate of High Sorcery",
+					"source": "DSotDQ"
+				},
+				{
+					"name": "Magic Initiate",
+					"source": "PHB"
+				},
+				{
+					"name": "Strixhaven Initiate",
+					"source": "SCC"
+				}
+			],
+			"uniqueId": "02bef900-4022-461d-8ba5-f7f002a3f192"
+		},
+		{
+			"name": "Mending",
+			"source": "DMDrackSpellsandMore",
+			"page": 259,
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "Dos piedras imantadas."
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Este hechizo repara una sola rotura o rasgadura en un objeto que tocas, como un eslabón de cadena roto, dos mitades de una llave rota, un manto rasgado o una bota con fugas. Siempre y cuando la rotura o rasgadura no sea más grande de 15 cm en ninguna dimensión, la reparas, no dejando rastro del daño anterior.",
+				"Este hechizo puede reparar físicamente un objeto mágico o un constructo, pero el hechizo no puede restaurar la magia a dicho objeto."
+			],
+			"miscTags": [
+				"OBJ"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Nature Domain",
+							"shortName": "Nature",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcana Domain",
+							"shortName": "Arcana",
+							"source": "SCAG"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Strength Domain (PSA)",
+							"shortName": "Strength (PSA)",
+							"source": "PSA"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Circle of the Land",
+							"shortName": "Land",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (Kaladesh; Vahadar)",
+					"source": "PSK",
+					"baseName": "Elf (Kaladesh)",
+					"baseSource": "PSK"
+				},
+				{
+					"name": "Half-Elf (Variant; Moon Elf or Sun Elf Descent)",
+					"source": "SCAG",
+					"baseName": "Half-Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Human (Mark of Making)",
+					"source": "ERLW",
+					"baseName": "Human",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Kobold",
+					"source": "MPMM"
+				},
+				{
+					"name": "Merfolk (Ixalan; Blue)",
+					"source": "PSX",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				},
+				{
+					"name": "Merfolk (Ixalan; Green)",
+					"source": "PSX",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				},
+				{
+					"name": "Merfolk (Zendikar; Cosi Creed)",
+					"source": "PSZ",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				},
+				{
+					"name": "Merfolk (Zendikar; Emeria Creed)",
+					"source": "PSZ",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				},
+				{
+					"name": "Merfolk (Zendikar; Ula Creed)",
+					"source": "PSZ",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				}
+			],
+			"optionalfeatures": [
+				{
+					"name": "Blessed Warrior",
+					"source": "TCE",
+					"featureType": [
+						"FS:P"
+					]
+				},
+				{
+					"name": "Druidic Warrior",
+					"source": "TCE",
+					"featureType": [
+						"FS:R"
+					]
+				},
+				{
+					"name": "Pact of the Tome",
+					"source": "PHB",
+					"featureType": [
+						"PB"
+					]
+				}
+			],
+			"feats": [
+				{
+					"name": "Aberrant Dragonmark",
+					"source": "ERLW"
+				},
+				{
+					"name": "Artificer Initiate",
+					"source": "TCE"
+				},
+				{
+					"name": "Divinely Favored",
+					"source": "DSotDQ"
+				},
+				{
+					"name": "Initiate of High Sorcery",
+					"source": "DSotDQ"
+				},
+				{
+					"name": "Magic Initiate",
+					"source": "PHB"
+				},
+				{
+					"name": "Wood Elf Magic",
+					"source": "XGE"
+				}
+			],
+			"uniqueId": "7a083928-a156-4dd9-8263-1bcba7aa5900"
+		},
+		{
+			"name": "Resistencia",
+			"source": "DMDrackSpellsandMore",
+			"page": 272,
+			"basicRules": true,
+			"level": 0,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "Una capa miniatura"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Tocas a una criatura dispuesta. Una vez antes de que termine el hechizo, el objetivo puede tirar un {@dice d4} y sumar el número obtenido a una tirada de salvación de su elección. Puede hacer esta tirada antes o después de hacer la tirada de salvación. Luego, el hechizo termina."
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Nature Domain",
+							"shortName": "Nature",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Strength Domain (PSA)",
+							"shortName": "Strength (PSA)",
+							"source": "PSA"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Circle of the Land",
+							"shortName": "Land",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Elf (Kaladesh; Vahadar)",
+					"source": "PSK",
+					"baseName": "Elf (Kaladesh)",
+					"baseSource": "PSK"
+				},
+				{
+					"name": "Merfolk (Ixalan; Green)",
+					"source": "PSX",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				},
+				{
+					"name": "Merfolk (Zendikar; Emeria Creed)",
+					"source": "PSZ",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				}
+			],
+			"optionalfeatures": [
+				{
+					"name": "Blessed Warrior",
+					"source": "TCE",
+					"featureType": [
+						"FS:P"
+					]
+				},
+				{
+					"name": "Druidic Warrior",
+					"source": "TCE",
+					"featureType": [
+						"FS:R"
+					]
+				},
+				{
+					"name": "Pact of the Tome",
+					"source": "PHB",
+					"featureType": [
+						"PB"
+					]
+				}
+			],
+			"feats": [
+				{
+					"name": "Artificer Initiate",
+					"source": "TCE"
+				},
+				{
+					"name": "Divinely Favored",
+					"source": "DSotDQ"
+				},
+				{
+					"name": "Magic Initiate",
+					"source": "PHB"
+				},
+				{
+					"name": "Wood Elf Magic",
+					"source": "XGE"
+				}
+			],
+			"uniqueId": "c9a046a1-2846-44f7-a5e9-54df5da95f79"
+		},
+		{
+			"name": "Flama Sagrada",
+			"source": "DMDrackSpellsandMore",
+			"page": 272,
+			"basicRules": true,
+			"otherSources": [
+				{
+					"source": "RMR",
+					"page": 58
+				}
+			],
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Una radiante resplandor similar al fuego desciende sobre una criatura que puedes ver dentro del alcance. El objetivo debe tener éxito en una tirada de salvación de Destreza o recibir {@dice 1d8} de daño radiante. El objetivo no obtiene beneficios por cobertura para esta tirada de salvación.",
+				"El daño del hechizo aumenta en {@dice 1d8} cuando alcanzas el nivel 5 ({@dice 2d8}), el nivel 11 ({@dice 3d8}) y el nivel 17 ({@dice 4d8})."
+			],
+			"scalingLevelDice": {
+				"label": "radiant damage",
+				"scaling": {
+					"1": "1d8",
+					"5": "2d8",
+					"11": "3d8",
+					"17": "4d8"
+				}
+			},
+			"damageInflict": [
+				"radiant"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"hasFluffImages": true,
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "The Celestial",
+							"shortName": "Celestial",
+							"source": "XGE"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Astral Elf",
+					"source": "AAG"
+				}
+			],
+			"optionalfeatures": [
+				{
+					"name": "Blessed Warrior",
+					"source": "TCE",
+					"featureType": [
+						"FS:P"
+					]
+				},
+				{
+					"name": "Pact of the Tome",
+					"source": "PHB",
+					"featureType": [
+						"PB"
+					]
+				}
+			],
+			"backgrounds": [
+				{
+					"name": "Boros Legionnaire",
+					"source": "GGR"
+				}
+			],
+			"feats": [
+				{
+					"name": "Divinely Favored",
+					"source": "DSotDQ"
+				},
+				{
+					"name": "Magic Initiate",
+					"source": "PHB"
+				},
+				{
+					"name": "Scion of the Outer Planes",
+					"source": "SatO"
+				},
+				{
+					"name": "Strixhaven Initiate",
+					"source": "SCC"
+				}
+			],
+			"uniqueId": "61277294-d553-44db-b441-37a23cceb49a"
+		},
+		{
+			"name": "Flama Maldita",
+			"source": "DMDrackSpellsandMore",
+			"page": 272,
+			"basicRules": true,
+			"otherSources": [
+				{
+					"source": "RMR",
+					"page": 58
+				}
+			],
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "5 gr de Ceniza"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Una radiante resplandor similar al fuego desciende sobre una criatura que puedes ver dentro del alcance. El objetivo debe tener éxito en una tirada de salvación de Destreza o recibir {@dice 1d8} de daño necrotico. El objetivo no obtiene beneficios por cobertura para esta tirada de salvación.",
+				"El daño del hechizo aumenta en {@dice 1d8} cuando alcanzas el nivel 5 ({@dice 2d8}), el nivel 11 ({@dice 3d8}) y el nivel 17 ({@dice 4d8})."
+			],
+			"scalingLevelDice": {
+				"label": "radiant damage",
+				"scaling": {
+					"1": "1d8",
+					"5": "2d8",
+					"11": "3d8",
+					"17": "4d8"
+				}
+			},
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"hasFluffImages": true,
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "The Celestial",
+							"shortName": "Celestial",
+							"source": "XGE"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Astral Elf",
+					"source": "AAG"
+				}
+			],
+			"optionalfeatures": [
+				{
+					"name": "Blessed Warrior",
+					"source": "TCE",
+					"featureType": [
+						"FS:P"
+					]
+				},
+				{
+					"name": "Pact of the Tome",
+					"source": "PHB",
+					"featureType": [
+						"PB"
+					]
+				}
+			],
+			"backgrounds": [
+				{
+					"name": "Boros Legionnaire",
+					"source": "GGR"
+				}
+			],
+			"feats": [
+				{
+					"name": "Divinely Favored",
+					"source": "DSotDQ"
+				},
+				{
+					"name": "Magic Initiate",
+					"source": "PHB"
+				},
+				{
+					"name": "Scion of the Outer Planes",
+					"source": "SatO"
+				},
+				{
+					"name": "Strixhaven Initiate",
+					"source": "SCC"
+				}
+			],
+			"uniqueId": "0ae6ce67-19b5-40a3-9bdc-7535d5b60882",
+			"damageInflict": [
+				"necrotic"
+			]
 		}
 	],
 	"siteVersion": "1.197.0"
