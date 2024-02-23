@@ -4366,6 +4366,1792 @@
 			"damageInflict": [
 				"necrotic"
 			]
+		},
+		{
+			"name": "Perdon a los moribundos.",
+			"source": "DMDrackSpellsandMore",
+			"page": 277,
+			"basicRules": true,
+			"level": 0,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Toqué a una criatura viva que tiene 0 puntos de golpe. La criatura se vuelve estable. Este hechizo no tiene efecto en no muertos o constructos.."
+			],
+			"affectsCreatureType": [
+				"aberration",
+				"beast",
+				"celestial",
+				"dragon",
+				"elemental",
+				"fey",
+				"fiend",
+				"giant",
+				"humanoid",
+				"monstrosity",
+				"ooze",
+				"plant"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Death Domain",
+							"shortName": "Death",
+							"source": "DMG"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Grave Domain",
+							"shortName": "Grave",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "The Undying",
+							"shortName": "Undying",
+							"source": "SCAG"
+						}
+					}
+				]
+			},
+			"optionalfeatures": [
+				{
+					"name": "Blessed Warrior",
+					"source": "TCE",
+					"featureType": [
+						"FS:P"
+					]
+				},
+				{
+					"name": "Pact of the Tome",
+					"source": "PHB",
+					"featureType": [
+						"PB"
+					]
+				}
+			],
+			"backgrounds": [
+				{
+					"name": "Golgari Agent",
+					"source": "GGR"
+				}
+			],
+			"feats": [
+				{
+					"name": "Artificer Initiate",
+					"source": "TCE"
+				},
+				{
+					"name": "Divinely Favored",
+					"source": "DSotDQ"
+				},
+				{
+					"name": "Magic Initiate",
+					"source": "PHB"
+				},
+				{
+					"name": "Strixhaven Initiate",
+					"source": "SCC"
+				}
+			],
+			"uniqueId": "7b124af4-58ec-4c1c-822d-7048b208337c"
+		},
+		{
+			"name": "Taumaturgia",
+			"source": "DMDrackSpellsandMore",
+			"basicRules": true,
+			"otherSources": [
+				{
+					"source": "RMR",
+					"page": 61
+				}
+			],
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					}
+				}
+			],
+			"entries": [
+				"Manifiestas una maravilla menor, un signo de poder sobrenatural, dentro del alcance. Creas uno de los siguientes efectos mágicos dentro del alcance:",
+				{
+					"type": "list",
+					"items": [
+						"Tu voz retumba hasta tres veces más fuerte que lo normal durante 1 minuto.",
+						"Haces que las llamas titilen, se iluminen, se oscurezcan o cambien de color durante 1 minuto.",
+						"Causas temblores inofensivos en el suelo durante 1 minuto.",
+						"Creas un sonido instantáneo que se origina desde un punto de tu elección dentro del alcance, como un rugido de trueno, el graznido de un cuervo o susurros ominosos.",
+						"Haces que una puerta o ventana desbloqueada se abra o cierre de golpe instantáneamente.",
+						"Alteras la apariencia de tus ojos durante 1 minuto."
+					]
+				},
+				"Si lanzas este hechizo varias veces, puedes tener hasta tres de sus efectos de 1 minuto activos al mismo tiempo, y puedes despedir un efecto así como una acción."
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Barbarian",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Path of the Giant",
+							"shortName": "Giant",
+							"source": "BGG"
+						}
+					},
+					{
+						"class": {
+							"name": "Ranger",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Drakewarden",
+							"shortName": "Drakewarden",
+							"source": "FTD"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Tiefling",
+					"source": "PHB",
+					"baseName": "Tiefling",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Tiefling (Asmodeus)",
+					"source": "MTF",
+					"baseName": "Tiefling",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Tiefling (Baalzebul)",
+					"source": "MTF",
+					"baseName": "Tiefling",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Tiefling (Dispater)",
+					"source": "MTF",
+					"baseName": "Tiefling",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Tiefling (Zariel)",
+					"source": "MTF",
+					"baseName": "Tiefling",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Tiefling (Variant; Hellfire)",
+					"source": "SCAG",
+					"baseName": "Tiefling",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Tiefling (Variant; Infernal Legacy)",
+					"source": "SCAG",
+					"baseName": "Tiefling",
+					"baseSource": "PHB"
+				}
+			],
+			"optionalfeatures": [
+				{
+					"name": "Blessed Warrior",
+					"source": "TCE",
+					"featureType": [
+						"FS:P"
+					]
+				},
+				{
+					"name": "Pact of the Tome",
+					"source": "PHB",
+					"featureType": [
+						"PB"
+					]
+				}
+			],
+			"feats": [
+				{
+					"name": "Divinely Favored",
+					"source": "DSotDQ"
+				},
+				{
+					"name": "Magic Initiate",
+					"source": "PHB"
+				},
+				{
+					"name": "Strixhaven Initiate",
+					"source": "SCC"
+				}
+			],
+			"uniqueId": "47eca6d7-7c0b-4ddb-95c3-ff6ce598d93f"
+		},
+		{
+			"name": "Sonar la Campana de los Muertos",
+			"source": "DMDrackSpellsandMore",
+			"page": 169,
+			"level": 0,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Apuntas a una criatura que puedas ver dentro del alcance, y el sonido de una campana dolorosa llena el aire a su alrededor por un momento. La criatura debe tener éxito en una tirada de salvación de Sabiduría o recibir {@dice 1d8} de daño necrótico. Si la criatura tiene algún punto de golpe faltante, en cambio recibe {@dice 1d12} de daño necrótico.",
+				"El daño del hechizo aumenta en un dado cuando alcanzas el nivel 5 ({@dice 2d8} o {@dice 2d12}), nivel 11 ({@dice 3d8} o {@dice 3d12}) y nivel 17 ({@dice 4d8} o {@dice 4d12})."
+			],
+			"scalingLevelDice": [
+				{
+					"label": "necrotic damage",
+					"scaling": {
+						"1": "1d8",
+						"5": "2d8",
+						"11": "3d8",
+						"17": "4d8"
+					}
+				},
+				{
+					"label": "necrotic damage to wounded creature",
+					"scaling": {
+						"1": "1d12",
+						"5": "2d12",
+						"11": "3d12",
+						"17": "4d12"
+					}
+				}
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Death Domain",
+							"shortName": "Death",
+							"source": "DMG"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcana Domain",
+							"shortName": "Arcana",
+							"source": "SCAG"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Half-Elf (Variant; Moon Elf or Sun Elf Descent)",
+					"source": "SCAG",
+					"baseName": "Half-Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Merfolk (Ixalan; Blue)",
+					"source": "PSX",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				},
+				{
+					"name": "Merfolk (Zendikar; Ula Creed)",
+					"source": "PSZ",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				}
+			],
+			"optionalfeatures": [
+				{
+					"name": "Blessed Warrior",
+					"source": "TCE",
+					"featureType": [
+						"FS:P"
+					]
+				},
+				{
+					"name": "Pact of the Tome",
+					"source": "PHB",
+					"featureType": [
+						"PB"
+					]
+				}
+			],
+			"feats": [
+				{
+					"name": "Divinely Favored",
+					"source": "DSotDQ"
+				},
+				{
+					"name": "Initiate of High Sorcery",
+					"source": "DSotDQ"
+				},
+				{
+					"name": "Magic Initiate",
+					"source": "PHB"
+				}
+			],
+			"uniqueId": "fbd84dc2-8b59-4f78-a3df-d5e89574ebc3"
+		},
+		{
+			"name": "Palabra Radiante",
+			"source": "DMDrackSpellsandMore",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"v": true,
+				"m": "a holy symbol"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Pronuncias una palabra divina y una radiante luminosidad surge de ti. Cada criatura de tu elección que puedas ver dentro del alcance debe tener éxito en una tirada de salvación de Constitución o sufrir {@dice 1d6} de daño radiante.",
+				"El daño del hechizo aumenta en {@dice 1d6} cuando alcanzas el nivel 5 ({@dice 2d6}), nivel 11 ({@dice 3d6}), y nivel 17 ({@dice 4d6})."
+			],
+			"scalingLevelDice": {
+				"label": "radiant damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"damageInflict": [
+				"radiant"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					}
+				]
+			},
+			"optionalfeatures": [
+				{
+					"name": "Blessed Warrior",
+					"source": "TCE",
+					"featureType": [
+						"FS:P"
+					]
+				},
+				{
+					"name": "Pact of the Tome",
+					"source": "PHB",
+					"featureType": [
+						"PB"
+					]
+				}
+			],
+			"feats": [
+				{
+					"name": "Divinely Favored",
+					"source": "DSotDQ"
+				},
+				{
+					"name": "Magic Initiate",
+					"source": "PHB"
+				}
+			],
+			"uniqueId": "4d0081e3-9f06-4b22-8a0a-85340ca53292"
+		},
+		{
+			"name": "Palabra Maldita",
+			"source": "DMDrackSpellsandMore",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"v": true,
+				"m": "Al menos 20 ml de sangre."
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Pronuncias una palabra maldita y una oscuridad maldita surge de ti. Cada criatura de tu elección que puedas ver dentro del alcance debe tener éxito en una tirada de salvación de Constitución o sufrir {@dice 1d6} de daño necrotico.",
+				"El daño del hechizo aumenta en {@dice 1d6} cuando alcanzas el nivel 5 ({@dice 2d6}), nivel 11 ({@dice 3d6}), y nivel 17 ({@dice 4d6})."
+			],
+			"scalingLevelDice": {
+				"label": "radiant damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					}
+				]
+			},
+			"optionalfeatures": [
+				{
+					"name": "Blessed Warrior",
+					"source": "TCE",
+					"featureType": [
+						"FS:P"
+					]
+				},
+				{
+					"name": "Pact of the Tome",
+					"source": "PHB",
+					"featureType": [
+						"PB"
+					]
+				}
+			],
+			"feats": [
+				{
+					"name": "Divinely Favored",
+					"source": "DSotDQ"
+				},
+				{
+					"name": "Magic Initiate",
+					"source": "PHB"
+				}
+			],
+			"uniqueId": "292dd0b8-88fa-4f71-a97f-531101f401db",
+			"damageInflict": [
+				"necrotic"
+			]
+		},
+		{
+			"name": "Palabra Prohibida",
+			"source": "DMDrackSpellsandMore",
+			"level": 0,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 5
+				}
+			},
+			"components": {
+				"v": true,
+				"m": "Un trozo de pergamino con garabatos"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Pronuncias una palabra prohibida que desmoraliza y una energía semi {@condition invisible} morada surge de ti. Cada criatura de tu elección que puedas ver dentro del alcance debe tener éxito en una tirada de salvación de Constitución o sufrir {@dice 1d6} de daño psíquico.",
+				"El daño del hechizo aumenta en {@dice 1d6} cuando alcanzas el nivel 5 ({@dice 2d6}), nivel 11 ({@dice 3d6}), y nivel 17 ({@dice 4d6})."
+			],
+			"scalingLevelDice": {
+				"label": "radiant damage",
+				"scaling": {
+					"1": "1d6",
+					"5": "2d6",
+					"11": "3d6",
+					"17": "4d6"
+				}
+			},
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Bard",
+						"source": "PHB"
+					}
+				]
+			},
+			"optionalfeatures": [
+				{
+					"name": "Pact of the Tome",
+					"source": "PHB"
+				}
+			],
+			"feats": [
+				{
+					"name": "Divinely Favored",
+					"source": "DSotDQ"
+				},
+				{
+					"name": "Magic Initiate",
+					"source": "PHB"
+				}
+			],
+			"uniqueId": "bfaa854b-e049-458f-9645-ee4559f92149",
+			"damageInflict": [
+				"psychic"
+			]
+		},
+		{
+			"name": "Condena",
+			"source": "DMDrackSpellsandMore",
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "Una gota de sangre"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Hasta tres criaturas de tu elección que puedas ver dentro del alcance deben realizar tiradas de salvación de Carisma. Cuando una criatura que falla esta tirada de salvación realiza un ataque o una tirada de salvación antes de que el hechizo termine, la criatura debe tirar un {@dice d4} y restar el número obtenido del resultado del ataque o de la tirada de salvación."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"Cuando lanzas este hechizo usando una ranura de hechizo de 2º nivel o superior, puedes elegir una criatura adicional por cada nivel de la ranura por encima del 1º."
+					]
+				}
+			],
+			"savingThrow": [
+				"charisma"
+			],
+			"miscTags": [
+				"SGT"
+			],
+			"areaTags": [
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Ambition Domain (PSA)",
+							"shortName": "Ambition (PSA)",
+							"source": "PSA"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Grave Domain",
+							"shortName": "Grave",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Paladin",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Oath of Vengeance",
+							"shortName": "Vengeance",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "The Undead",
+							"shortName": "Undead",
+							"source": "VRGR"
+						}
+					}
+				]
+			},
+			"optionalfeatures": [
+				{
+					"name": "Thief of Five Fates",
+					"source": "PHB",
+					"featureType": [
+						"EI"
+					]
+				}
+			],
+			"feats": [
+				{
+					"name": "Divinely Favored",
+					"source": "DSotDQ"
+				},
+				{
+					"name": "Fey Touched",
+					"source": "TCE"
+				},
+				{
+					"name": "Magic Initiate",
+					"source": "PHB"
+				},
+				{
+					"name": "Strixhaven Initiate",
+					"source": "SCC"
+				}
+			],
+			"uniqueId": "2db547a2-d4f3-447c-bc59-40dc768e7d2e",
+			"page": 216
+		},
+		{
+			"name": "Bendición",
+			"source": "DMDrackSpellsandMore",
+			"page": 219,
+			"basicRules": true,
+			"otherSources": [
+				{
+					"source": "RMR",
+					"page": 50
+				}
+			],
+			"level": 1,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a sprinkling of holy water"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Bendices a un máximo de tres criaturas de tu elección dentro del alcance. Siempre que un objetivo realice una tirada de ataque o una tirada de salvación antes de que termine el hechizo, el objetivo puede tirar un {@dice d4} y sumar el número obtenido a la tirada de ataque o de salvación."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"Cuando lanzas este hechizo usando una ranura de hechizo de 2º nivel o superior, puedes elegir un objetivo adicional por cada nivel de ranura por encima del 1º."
+					]
+				}
+			],
+			"areaTags": [
+				"MT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Life Domain",
+							"shortName": "Life",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Solidarity Domain (PSA)",
+							"shortName": "Solidarity (PSA)",
+							"source": "PSA"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Community Domain",
+							"shortName": "Community",
+							"source": "HWCS"
+						}
+					},
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					}
+				]
+			},
+			"feats": [
+				{
+					"name": "Divinely Favored",
+					"source": "DSotDQ"
+				},
+				{
+					"name": "Fey Touched",
+					"source": "TCE"
+				},
+				{
+					"name": "Magic Initiate",
+					"source": "PHB"
+				},
+				{
+					"name": "Strixhaven Initiate",
+					"source": "SCC"
+				}
+			],
+			"uniqueId": "e8f394e1-2304-46ae-93b8-f6e31a4bcc12"
+		},
+		{
+			"name": "Ceremonia",
+			"source": "DMDrackSpellsandMore",
+			"page": 151,
+			"level": 1,
+			"school": "A",
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "25 oros en plata en polvo, que el hechizo consume.rth of powdered silver, which the spell consumes",
+					"consume": true,
+					"cost": 2500
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"meta": {
+				"ritual": true
+			},
+			"entries": [
+				"Realizas una ceremonia religiosa especial que está impregnada de magia. Cuando lanzas el hechizo, elige uno de los siguientes ritos, cuyo objetivo debe estar dentro de los 10 pies de ti durante todo el lanzamiento.",
+				{
+					"type": "entries",
+					"name": "Expiación.",
+					"entries": [
+						"Tocas a una criatura dispuesta cuya alineación haya cambiado y realizas una prueba de Sabiduría (Percepción) CD 20. Con una prueba exitosa, restauras la alineación original del objetivo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Bendición del Agua.",
+					"entries": [
+						"Tocas un vial de agua y lo conviertes en agua bendita. {@item Holy Water (flask)|phb|holy water}."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Llegada a la Edad Adulta",
+					"entries": [
+						"Tocas a un humanoide que sea un joven adulto. Durante las próximas 24 horas, cada vez que el objetivo realice una prueba de habilidad, puede tirar un {@dice d4} y sumar el número obtenido a la prueba de habilidad. Una criatura solo puede beneficiarse de este rito una vez."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Dedicación.",
+					"entries": [
+						"Tocas a un humanoide que desea ser dedicado al servicio de tu dios. Durante las próximas 24 horas, cada vez que el objetivo realice un lanzamiento de salvación, puede tirar un {@dice d4} y sumar el número obtenido al lanzamiento de salvación. Una criatura solo puede beneficiarse de este rito una vez.."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rito Fúnebre.",
+					"entries": [
+						"Tocas a un cadáver y, durante los próximos 7 días, el objetivo no puede convertirse en un no-muerto por ningún medio excepto un hechizo de deseo."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Boda.",
+					"entries": [
+						"Tocas a humanoides adultos dispuestos a unirse en matrimonio. Durante los próximos 7 días, cada objetivo obtiene un bono de +2 a la CA mientras estén dentro de 30 pies el uno del otro. Una criatura solo puede beneficiarse de este rito nuevamente si queda viuda."
+					]
+				}
+			],
+			"affectsCreatureType": [
+				"humanoid"
+			],
+			"miscTags": [
+				"MAC"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Paladin",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Sorcerer",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Divine Soul",
+							"shortName": "Divine Soul",
+							"source": "XGE"
+						}
+					}
+				]
+			},
+			"optionalfeatures": [
+				{
+					"name": "Book of Ancient Secrets",
+					"source": "PHB",
+					"featureType": [
+						"EI"
+					]
+				}
+			],
+			"feats": [
+				{
+					"name": "Divinely Favored",
+					"source": "DSotDQ"
+				},
+				{
+					"name": "Magic Initiate",
+					"source": "PHB"
+				},
+				{
+					"name": "Ritual Caster",
+					"source": "PHB"
+				},
+				{
+					"name": "Quicksmithing",
+					"source": "PSK"
+				},
+				{
+					"name": "Strixhaven Initiate",
+					"source": "SCC"
+				}
+			],
+			"uniqueId": "768fbc81-0e73-41d9-bd0e-05d01e5b32b4"
+		},
+		{
+			"name": "Succión en Masa",
+			"source": "DMDrackSpellsandMore",
+			"level": 3,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "radius",
+				"distance": {
+					"type": "feet",
+					"amount": 20
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "Una sanguijuela que halla tomado sangre humana en las ultimas 24 hrs"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Drenas la fuerza vital de quienes te rodean, volviendo sus extremidades pesadas y sus huesos fríos. Cada criatura de tu elección dentro de 20 pies de ti debe hacer una tirada de salvación de Constitución. Un objetivo recibe {@dice 2d8} de daño necrótico en caso de fallo, o la mitad de ese daño en caso de éxito. El lanzador recupera puntos de golpe iguales a la mitad del total de daño necrótico infligido a criaturas Pequeñas o más grandes."
+			],
+			"miscTags": [
+				"HL",
+				"SGT"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "4e67947a-c2da-4139-bf54-faeb50db72b1",
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"Cuando lanzas este hechizo usando una ranura de hechizo de 4º nivel o superior, el daño aumenta en {@dice 1d8} por cada nivel de ranura por encima del 3º."
+					]
+				}
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"areaTags": [
+				"MT",
+				"Q"
+			]
+		},
+		{
+			"name": "Drenar Vida",
+			"source": "DMDrackSpellsandMore",
+			"level": 3,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Curas tus heridas drenando las energías vitales de un enemigo al que tocas. Realiza un ataque con hechizo cuerpo a cuerpo contra una criatura al alcance de tu mano. Si aciertas, el objetivo recibe {@dice 1d8} de daño necrótico y queda paralizado hasta el final de tu próximo turno, y tú o un aliado dentro de 5 pies recuperan puntos de golpe iguales a la mitad de la cantidad de daño necrótico infligido. Hasta que el hechizo termine, puedes realizar el ataque de nuevo en cada uno de tus turnos como acción, pero solo contra el mismo objetivo."
+			],
+			"miscTags": [
+				"HL"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "6ef9c733-7d7d-497d-9d14-3fc8aacb448f",
+			"damageInflict": [
+				"necrotic"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"spellAttack": [
+				"M"
+			]
+		},
+		{
+			"name": "Armadura de la muerte",
+			"source": "DMDrackSpellsandMore",
+			"level": 2,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "Pasta hecha de huesos escarvados"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Después de lanzar este hechizo, un velo de llamas oscuras envuelve tu cuerpo. Durante la duración del hechizo, cualquier criatura dentro de 5 pies de ti que te toque o te golpee con un ataque de arma desarmada o cuerpo a cuerpo recibe una cantidad de daño necrótico igual a {@dice 1d4} + tu modificador de habilidad con lanzamientos de hechizos."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"Cuando lanzas este hechizo usando una ranura de hechizo de 2º nivel o superior, la cantidad de daño necrótico aumenta en {@dice 1d4} por cada nivel de ranura por encima del 1º."
+					]
+				}
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					}
+				]
+			},
+			"backgrounds": [
+				{
+					"name": "Simic Scientist",
+					"source": "GGR"
+				}
+			],
+			"feats": [
+				{
+					"name": "Adept of the Red Robes",
+					"source": "DSotDQ"
+				}
+			],
+			"uniqueId": "94a69df1-a03c-4243-b3ee-afce26340329",
+			"damageInflict": [
+				"necrotic"
+			]
+		},
+		{
+			"name": "Aliento de la Muerte",
+			"source": "DMDrackSpellsandMore",
+			"level": 2,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Inunda una esfera de radio de 10 pies con energía negativa.",
+				"Las criaturas en el área deben tener éxito en una tirada de salvación de Constitución o recibir {@dice 5d6} de daño necrótico.",
+				"Un cadáver en el área de este hechizo cuando se lanza se invierte con una chispa malévola de no-vida y ataca a una criatura dentro de 5 pies de él. Realiza un ataque de hechizo cuerpo a cuerpo. Si aciertas, el objetivo recibe un daño contundente igual a {@dice 1d6} + tu modificador de habilidad con lanzamientos de hechizos."
+			],
+			"areaTags": [
+				"MT",
+				"S"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Cleric",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "ee5f52f0-0845-4d9d-99a8-969053582066",
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"miscTags": [
+				"AAD",
+				"OBJ"
+			]
+		},
+		{
+			"name": "Drenaje de Sangre",
+			"source": "DMDrackSpellsandMore",
+			"level": 1,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "el ala de un murciélago"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Apuntando a una criatura dentro del alcance, intentas abrir pequeñas heridas o utilizar las existentes para drenar la sangre de la criatura, quien debe realizar una tirada de salvación de Constitución. En caso de fallar la salvación, la criatura recibe {@dice 2d8} de daño necrótico, o la mitad en caso de tener éxito. En caso de fallo en la salvación, ganas puntos de golpe temporales iguales a la cantidad de daño que recibe la criatura."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"Cuando lanzas este hechizo usando una ranura de hechizo de nivel 2 o superior, el daño aumenta en {@dice 1d8} por cada nivel de ranura por encima del 1º."
+					]
+				}
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "48b25e26-fe8b-4cc1-a3e1-cf47541ac4d7",
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"THP"
+			]
+		},
+		{
+			"name": "Llama Negra",
+			"source": "DMDrackSpellsandMore",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "Llama que puedas ver en 60 ft y de 5 ft area cubica."
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Eliges una llama que puedas ver dentro del alcance y que quepa dentro de un cubo de 5 pies. La llama cambia momentáneamente de color a un negro profundo, y luego ataca a las criaturas circundantes. Cada criatura dentro de un radio de 5 pies que se extiende desde la llama debe realizar una tirada de salvación de Destreza. Una criatura recibe {@dice 1d6} de daño necrótico y {@dice 2d6} de daño de fuego en caso de fallar la salvación, o la mitad de ese daño en caso de tener éxito."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"Cuando lanzas este hechizo usando una ranura de hechizo de nivel 2 o superior, el daño necrótico aumenta en {@dice 1d6} por cada nivel de ranura por encima del 1º."
+					]
+				}
+			],
+			"damageInflict": [
+				"fire",
+				"necrotic"
+			],
+			"spellAttack": [
+				"R"
+			],
+			"areaTags": [
+				"MT",
+				"R"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"uniqueId": "03abb0e2-186f-4182-8a54-18955716b2c6",
+			"miscTags": [
+				"SGT",
+				"AAD"
+			]
+		},
+		{
+			"uniqueId": "bb29a51c-9d66-490d-abd0-b29d558e604d",
+			"name": "Robo de Vida Menor",
+			"level": 0,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"Absorbes la energía vital de una criatura hostil que puedes ver dentro del alcance. El objetivo debe tener éxito en una tirada de salvación de Constitución o recibir {@dice 1d4} de daño necrótico. Luego, obtienes puntos de golpe temporales iguales a la cantidad de daño infligido, los cuales duran hasta que termines un descanso largo. Este hechizo no tiene efecto en no muertos o constructos."
+			],
+			"source": "DMDrackSpellsandMore",
+			"components": {
+				"s": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"El daño de este hechizo aumenta en {@dice 1d4} cuando alcanzas el nivel 5 ({@dice 2d4}), nivel 11 ({@dice 3d4}), y nivel 17 ({@dice 4d4})."
+					]
+				}
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"miscTags": [
+				"THP",
+				"SGT",
+				"SCL"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"spellAttack": [
+				"R"
+			]
+		},
+		{
+			"uniqueId": "08322df2-197d-4a15-afcc-6e1d8bb82efa",
+			"name": "Transfusión",
+			"level": 0,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					}
+				]
+			},
+			"entries": [
+				"Extraes la esencia vital de una criatura a la que tocas, intentando transfundirla a ti mismo. Realiza un ataque con hechizo cuerpo a cuerpo contra la criatura. Si alcanzas, el objetivo recibe {@dice 1d8} de daño necrótico y tú obtienes puntos de golpe temporales iguales a la mitad del daño infligido (mínimo de 1), los cuales duran hasta el final de tu próximo turno."
+			],
+			"source": "DMDrackSpellsandMore",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"El daño de este hechizo aumenta en {@dice 1d8} cuando alcanzas el nivel 5 ({@dice 2d8}), nivel 11 ({@dice 3d8}), y nivel 17 ({@dice 4d8})."
+					]
+				}
+			],
+			"damageInflict": [
+				"necrotic"
+			],
+			"miscTags": [
+				"THP",
+				"SCL"
+			],
+			"areaTags": [
+				"ST"
+			],
+			"spellAttack": [
+				"M"
+			]
 		}
 	],
 	"siteVersion": "1.197.0"
