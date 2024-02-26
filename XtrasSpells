@@ -1,1 +1,933 @@
-
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "XtraSpells",
+				"abbreviation": "XSplls",
+				"full": "XtraSpells",
+				"url": "",
+				"authors": [
+					"Drack",
+					"5e"
+				],
+				"convertedBy": [
+					"Drack"
+				],
+				"color": "#8e2b73"
+			}
+		]
+	},
+	"spell": [
+		{
+			"name": "Controlar flamas",
+			"source": "XtraSpells",
+			"page": 152,
+			"otherSources": [
+				{
+					"source": "EEPC",
+					"page": 16
+				}
+			],
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				},
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					}
+				}
+			],
+			"entries": [
+				"Seleccionas una llama no mágica que puedas ver dentro del alcance y que quepa dentro de un cubo de 5 pies. La afectas de una de las siguientes maneras:",
+				{
+					"type": "list",
+					"items": [
+						"Expande instantáneamente la llama 5 pies en una dirección, siempre que haya madera u otro combustible presente en la nueva ubicación.",
+						"Extingues instantáneamente las llamas dentro del cubo.",
+						"Duplicas o reduces a la mitad el área de luz brillante y luz tenue proyectada por la llama, cambias su color o ambas cosas. El cambio dura 1 hora.",
+						"Haces que aparezcan formas simples, como la forma vaga de una criatura, un objeto inanimado o una ubicación, dentro de las llamas y las animas como desees. Las formas duran 1 hora."
+					]
+				},
+				"Si lanzas este hechizo varias veces, puedes tener hasta tres efectos no instantáneos creados por él activos al mismo tiempo, y puedes deshacer dicho efecto como una acción.",
+				"A niveles superiores 5, 11 y 17, el área cúbica de control aumenta 5 ft adicionales, así como los efectos que indiquen ft, serán ampliados."
+			],
+			"miscTags": [
+				"LGT",
+				"SGT"
+			],
+			"areaTags": [
+				"C"
+			],
+			"hasFluffImages": true,
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Nature Domain",
+							"shortName": "Nature",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcana Domain",
+							"shortName": "Arcana",
+							"source": "SCAG"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Strength Domain (PSA)",
+							"shortName": "Strength (PSA)",
+							"source": "PSA"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Circle of the Land",
+							"shortName": "Land",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (Kaladesh; Vahadar)",
+					"source": "PSK",
+					"baseName": "Elf (Kaladesh)",
+					"baseSource": "PSK"
+				},
+				{
+					"name": "Half-Elf (Variant; Moon Elf or Sun Elf Descent)",
+					"source": "SCAG",
+					"baseName": "Half-Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Kobold",
+					"source": "MPMM"
+				},
+				{
+					"name": "Merfolk (Ixalan; Blue)",
+					"source": "PSX",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				},
+				{
+					"name": "Merfolk (Ixalan; Green)",
+					"source": "PSX",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				},
+				{
+					"name": "Merfolk (Zendikar; Emeria Creed)",
+					"source": "PSZ",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				},
+				{
+					"name": "Merfolk (Zendikar; Ula Creed)",
+					"source": "PSZ",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				}
+			],
+			"optionalfeatures": [
+				{
+					"name": "Druidic Warrior",
+					"source": "TCE",
+					"featureType": [
+						"FS:R"
+					]
+				},
+				{
+					"name": "Pact of the Tome",
+					"source": "PHB",
+					"featureType": [
+						"PB"
+					]
+				}
+			],
+			"feats": [
+				{
+					"name": "Aberrant Dragonmark",
+					"source": "ERLW"
+				},
+				{
+					"name": "Initiate of High Sorcery",
+					"source": "DSotDQ"
+				},
+				{
+					"name": "Magic Initiate",
+					"source": "PHB"
+				},
+				{
+					"name": "Wood Elf Magic",
+					"source": "XGE"
+				}
+			],
+			"uniqueId": "6996426d-06fc-4227-8712-ab821c28ec5d"
+		},
+		{
+			"name": "Crear Hoguera",
+			"source": "XtraSpells",
+			"page": 152,
+			"otherSources": [
+				{
+					"source": "EEPC",
+					"page": 16
+				}
+			],
+			"level": 0,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "Un trozo de carbon o madera seca"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Creas una hoguera en el suelo que puedas ver dentro del alcance. Hasta que el hechizo termine, la hoguera mágica llena un cubo de 5 pies. ",
+				"Cualquier criatura en el espacio de la hoguera cuando lanzas el hechizo debe tener éxito en una tirada de salvación de Destreza o sufrir {@dice 1d8} de daño de fuego. Una criatura también debe realizar la tirada de salvación cuando entra por primera vez en el espacio de la hoguera durante un turno o termina su turno allí.",
+				"La hoguera enciende objetos inflamables en su área que no estén siendo llevados o usados.",
+				"El daño del hechizo aumenta en {@dice 1d8} cuando alcanzas el nivel 5 ({@dice 2d8}), nivel 11 ({@dice 3d8}) y nivel 17 ({@dice 4d8})."
+			],
+			"scalingLevelDice": {
+				"label": "fire damage",
+				"scaling": {
+					"1": "1d8",
+					"5": "2d8",
+					"11": "3d8",
+					"17": "4d8"
+				}
+			},
+			"damageInflict": [
+				"fire"
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"OBJ",
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"C"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Nature Domain",
+							"shortName": "Nature",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcana Domain",
+							"shortName": "Arcana",
+							"source": "SCAG"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Strength Domain (PSA)",
+							"shortName": "Strength (PSA)",
+							"source": "PSA"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Circle of the Land",
+							"shortName": "Land",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (Kaladesh; Vahadar)",
+					"source": "PSK",
+					"baseName": "Elf (Kaladesh)",
+					"baseSource": "PSK"
+				},
+				{
+					"name": "Half-Elf (Variant; Moon Elf or Sun Elf Descent)",
+					"source": "SCAG",
+					"baseName": "Half-Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Kobold",
+					"source": "MPMM"
+				},
+				{
+					"name": "Merfolk (Ixalan; Blue)",
+					"source": "PSX",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				},
+				{
+					"name": "Merfolk (Ixalan; Green)",
+					"source": "PSX",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				},
+				{
+					"name": "Merfolk (Zendikar; Emeria Creed)",
+					"source": "PSZ",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				},
+				{
+					"name": "Merfolk (Zendikar; Ula Creed)",
+					"source": "PSZ",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				}
+			],
+			"optionalfeatures": [
+				{
+					"name": "Druidic Warrior",
+					"source": "TCE",
+					"featureType": [
+						"FS:R"
+					]
+				},
+				{
+					"name": "Pact of the Tome",
+					"source": "PHB",
+					"featureType": [
+						"PB"
+					]
+				}
+			],
+			"feats": [
+				{
+					"name": "Aberrant Dragonmark",
+					"source": "ERLW"
+				},
+				{
+					"name": "Artificer Initiate",
+					"source": "TCE"
+				},
+				{
+					"name": "Initiate of High Sorcery",
+					"source": "DSotDQ"
+				},
+				{
+					"name": "Magic Initiate",
+					"source": "PHB"
+				},
+				{
+					"name": "Wood Elf Magic",
+					"source": "XGE"
+				}
+			],
+			"uniqueId": "bc8bbf65-e69a-4f2a-a41f-1b5bac1d7c48"
+		},
+		{
+			"name": "Crear Burbuja",
+			"source": "XtraSpells",
+			"page": 152,
+			"otherSources": [
+				{
+					"source": "EEPC",
+					"page": 16
+				}
+			],
+			"level": 0,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "Un trozo de jabon o 1 oz de agua que se consume."
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Creas una burbuja a 1 ft del piso levitando que puedas ver dentro del alcance. Hasta que el hechizo termine, la burbuja mágica llena un cubo de 5 pies. ",
+				"Cualquier criatura en el espacio de la hoguera cuando lanzas el hechizo debe tener éxito en una tirada de salvación de Destreza o sufrir {@dice 1d8} de daño de frio. Una criatura también debe realizar la tirada de salvación cuando entra por primera vez en el espacio de la hoguera durante un turno o termina su turno allí.",
+				"La burbuja apaga objetos en llamas en su área que no estén siendo llevados o usados.",
+				"El daño del hechizo aumenta en {@dice 1d8} cuando alcanzas el nivel 5 ({@dice 2d8}), nivel 11 ({@dice 3d8}) y nivel 17 ({@dice 4d8})."
+			],
+			"scalingLevelDice": {
+				"label": "fire damage",
+				"scaling": {
+					"1": "1d8",
+					"5": "2d8",
+					"11": "3d8",
+					"17": "4d8"
+				}
+			},
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"OBJ",
+				"SCL",
+				"SGT"
+			],
+			"areaTags": [
+				"C"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Nature Domain",
+							"shortName": "Nature",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcana Domain",
+							"shortName": "Arcana",
+							"source": "SCAG"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Strength Domain (PSA)",
+							"shortName": "Strength (PSA)",
+							"source": "PSA"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Circle of the Land",
+							"shortName": "Land",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Eldritch Knight",
+							"shortName": "Eldritch Knight",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Rogue",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Trickster",
+							"shortName": "Arcane Trickster",
+							"source": "PHB"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Elf (High)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Elf (Kaladesh; Vahadar)",
+					"source": "PSK",
+					"baseName": "Elf (Kaladesh)",
+					"baseSource": "PSK"
+				},
+				{
+					"name": "Half-Elf (Variant; Moon Elf or Sun Elf Descent)",
+					"source": "SCAG",
+					"baseName": "Half-Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Kobold",
+					"source": "MPMM"
+				},
+				{
+					"name": "Merfolk (Ixalan; Blue)",
+					"source": "PSX",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				},
+				{
+					"name": "Merfolk (Ixalan; Green)",
+					"source": "PSX",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				},
+				{
+					"name": "Merfolk (Zendikar; Emeria Creed)",
+					"source": "PSZ",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				},
+				{
+					"name": "Merfolk (Zendikar; Ula Creed)",
+					"source": "PSZ",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				}
+			],
+			"optionalfeatures": [
+				{
+					"name": "Druidic Warrior",
+					"source": "TCE",
+					"featureType": [
+						"FS:R"
+					]
+				},
+				{
+					"name": "Pact of the Tome",
+					"source": "PHB",
+					"featureType": [
+						"PB"
+					]
+				}
+			],
+			"feats": [
+				{
+					"name": "Aberrant Dragonmark",
+					"source": "ERLW"
+				},
+				{
+					"name": "Artificer Initiate",
+					"source": "TCE"
+				},
+				{
+					"name": "Initiate of High Sorcery",
+					"source": "DSotDQ"
+				},
+				{
+					"name": "Magic Initiate",
+					"source": "PHB"
+				},
+				{
+					"name": "Wood Elf Magic",
+					"source": "XGE"
+				}
+			],
+			"uniqueId": "dd7dc667-75a7-4387-b606-d4a6e320fd36",
+			"damageInflict": [
+				"cold"
+			]
+		},
+		{
+			"name": "Druidcraft (General)",
+			"source": "XtraSpells",
+			"page": 236,
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Susurrando a los espíritus de la naturaleza, creas uno de los siguientes efectos dentro del alcance:",
+				{
+					"type": "list",
+					"items": [
+						"Creas un pequeño efecto sensorial inofensivo que predice el clima en tu ubicación para las próximas 24 horas. El efecto puede manifestarse como un orbe dorado para cielos despejados, una nube para la lluvia, copos de nieve para la nieve, y así sucesivamente. Este efecto persiste durante 1 ronda.",
+						"Haces que instantáneamente florezca una flor, se abra una vaina de semillas o se desarrolle un brote de hoja.",
+						"Creas un efecto sensorial inofensivo e instantáneo, como hojas cayendo, una ráfaga de viento, el sonido de un animal pequeño o el leve olor a mofeta. El efecto debe caber en un cubo de 5 pies.",
+						"Instantáneamente enciendes o apagas una vela, una antorcha o una pequeña fogata."
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Barbarian",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Path of the Giant",
+							"shortName": "Giant",
+							"source": "BGG"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Nature Domain",
+							"shortName": "Nature",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Strength Domain (PSA)",
+							"shortName": "Strength (PSA)",
+							"source": "PSA"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Circle of the Land",
+							"shortName": "Land",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Archer",
+							"shortName": "Arcane Archer",
+							"source": "XGE"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Elf (Kaladesh; Vahadar)",
+					"source": "PSK",
+					"baseName": "Elf (Kaladesh)",
+					"baseSource": "PSK"
+				},
+				{
+					"name": "Fairy",
+					"source": "MPMM"
+				},
+				{
+					"name": "Fairy",
+					"source": "WBtW"
+				},
+				{
+					"name": "Halfling (Lotusden)",
+					"source": "EGW",
+					"baseName": "Halfling",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Merfolk (Ixalan; Green)",
+					"source": "PSX",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				},
+				{
+					"name": "Merfolk (Zendikar; Emeria Creed)",
+					"source": "PSZ",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				}
+			],
+			"optionalfeatures": [
+				{
+					"name": "Druidic Warrior",
+					"source": "TCE",
+					"featureType": [
+						"FS:R"
+					]
+				},
+				{
+					"name": "Pact of the Tome",
+					"source": "PHB",
+					"featureType": [
+						"PB"
+					]
+				}
+			],
+			"backgrounds": [
+				{
+					"name": "Selesnya Initiate",
+					"source": "GGR"
+				},
+				{
+					"name": "Simic Scientist",
+					"source": "GGR"
+				}
+			],
+			"feats": [
+				{
+					"name": "Magic Initiate",
+					"source": "PHB"
+				},
+				{
+					"name": "Strixhaven Initiate",
+					"source": "SCC"
+				},
+				{
+					"name": "Wood Elf Magic",
+					"source": "XGE"
+				}
+			],
+			"uniqueId": "b72e40a8-ab53-4cab-8bad-2f1666fd725e"
+		}
+	]
+}
