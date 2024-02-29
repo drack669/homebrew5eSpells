@@ -928,6 +928,1445 @@
 				}
 			],
 			"uniqueId": "b72e40a8-ab53-4cab-8bad-2f1666fd725e"
+		},
+		{
+			"name": "Druidcraft (Circulo de las esporas)",
+			"source": "XtraSpells",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "Pequeño hongo cortado"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Susurrando a los espíritus de la naturaleza, creas uno de los siguientes efectos dentro del alcance:",
+				{
+					"type": "list",
+					"items": [
+						"Sientes la presencia o actividad de hongos en el área circundante a 90 ft radio de ti.",
+						"Haces que instantáneamente aparezca un pequeño hongo en la tierra o bajo la sombra de un árbol y se expanda instantáneamente, puede el DM indicarte un DC de sabiduría para cumplir tu deseo de tipo de hongo a invocar, este tendrá siempre un tamaño inferior a 0.5 ft de altura (15 cm)",
+						"Creas una ligera nube de esporas que cubre un espacio de 5 ft, el DM puede elegir una tirada de sabiduría y superar un DC por parte del caster, si la espora se desea tenga algún tipo de efecto o sea de algún tipo específico, de lo contrario solo oscurece parcialmente esa área.",
+						"Creas un efecto sensorial inofensivo e instantáneo, como el olor a tierra húmeda y hongos, o incluso la visualización de esporas flotando en el aire. El efecto debe caber en un cubo de 5 pies.",
+						"Puedes hacer aparecer un hongo fosforescente, este ilumina un area de 10 ft radio en luz tenue."
+					]
+				},
+				"Opcionalmente, el DM puede usar esta tabla con efectos para indicar el tipo de hongo que brota al usar Druidcraft.",
+				{
+					"type": "table",
+					"caption": "Efectos de Hongos",
+					"colLabels": [
+						"{@dice d10}",
+						"Efecto"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 1
+								}
+							},
+							"Hongo Brillante. Creas un pequeño hongo que emite una luz suave en un radio de 5 pies. Puede ser utilizada como fuente de luz en lugares oscuros."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 2
+								}
+							},
+							"Hongo Explosivo. Creas un pequeño hongo que al ser perturbado, estalla en una pequeña explosión de esporas, causando ceguera temporal durante 1 ronda en una criatura dentro de 5 pies si falla una salvación de sabiduría vs tu CD spell."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 3
+								}
+							},
+							"Hongo Curativo. Creas un pequeño hongo que, al ser consumido, proporciona curación menor de 1 punto de salud."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 4
+								}
+							},
+							"Hongo Paralizante. Creas un pequeño hongo que, al ser tocado, la criatura debe realizar una tirada de salvación de Constitución vs tu CD spell o quedar paralizada durante 1 ronda."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 5
+								}
+							},
+							"Hongo Alucinógeno. Creas un pequeño hongo que, Al ser inhalado o consumido, la criatura experimenta alucinaciones durante 1 minuto, lo que puede afectar su percepción y decisiones."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 6
+								}
+							},
+							"Hongo Adormecedor. Creas un pequeño hongo que, al ser perturbado, libera una nube de esporas que induce somnolencia, tira {@dice 1d4} si el resultado es la cantidad de vida que le queda a la criatura, esta queda dormida."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 7
+								}
+							},
+							"Hongo Venenoso. Creas un pequeño hongo que, al ser tocado o consumido, la criatura debe realizar una tirada de salvación de Constitución vs tu CD spell o sufrir {@dice 1d4} puntos de daño de veneno."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 8
+								}
+							},
+							"Hongo Repelente de Insectos. Creas un pequeño hongo que, emite un aroma que repele insectos en un radio de 10 pies, proporcionando protección temporal contra picaduras y mordeduras de insectos, este efecto perdura 1 minuto."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 9
+								}
+							},
+							"Hongo Energizante. Creas un pequeño hongo que, al ser consumido, otorga un breve estallido de energía que permite a la criatura afectada añadir un bono de +1 a su siguiente tirada de ataque o habilidad física."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 10
+								}
+							},
+							"Hongo de Confusión. Creas un pequeño hongo que, Al ser perturbado, libera una nube de esporas que confunden a la criatura que le perturbo, causando desventaja en las tiradas de ataque contra ellas durante 1 ronda si falla una salvación de constitución vs tu CD spell."
+						]
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Barbarian",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Path of the Giant",
+							"shortName": "Giant",
+							"source": "BGG"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Nature Domain",
+							"shortName": "Nature",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Strength Domain (PSA)",
+							"shortName": "Strength (PSA)",
+							"source": "PSA"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Circle of the Land",
+							"shortName": "Land",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Archer",
+							"shortName": "Arcane Archer",
+							"source": "XGE"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Elf (Kaladesh; Vahadar)",
+					"source": "PSK",
+					"baseName": "Elf (Kaladesh)",
+					"baseSource": "PSK"
+				},
+				{
+					"name": "Fairy",
+					"source": "MPMM"
+				},
+				{
+					"name": "Fairy",
+					"source": "WBtW"
+				},
+				{
+					"name": "Halfling (Lotusden)",
+					"source": "EGW",
+					"baseName": "Halfling",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Merfolk (Ixalan; Green)",
+					"source": "PSX",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				},
+				{
+					"name": "Merfolk (Zendikar; Emeria Creed)",
+					"source": "PSZ",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				}
+			],
+			"optionalfeatures": [
+				{
+					"name": "Druidic Warrior",
+					"source": "TCE",
+					"featureType": [
+						"FS:R"
+					]
+				},
+				{
+					"name": "Pact of the Tome",
+					"source": "PHB",
+					"featureType": [
+						"PB"
+					]
+				}
+			],
+			"backgrounds": [
+				{
+					"name": "Selesnya Initiate",
+					"source": "GGR"
+				},
+				{
+					"name": "Simic Scientist",
+					"source": "GGR"
+				}
+			],
+			"feats": [
+				{
+					"name": "Magic Initiate",
+					"source": "PHB"
+				},
+				{
+					"name": "Strixhaven Initiate",
+					"source": "SCC"
+				},
+				{
+					"name": "Wood Elf Magic",
+					"source": "XGE"
+				}
+			],
+			"uniqueId": "d08e5326-1ef8-4f41-a6cb-14dbfe589574"
+		},
+		{
+			"name": "Druidcraft (Circulo de las estrellas)",
+			"source": "XtraSpells",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "Mapa estelar de al menos 1 oro."
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Susurrando a los espíritus de la naturaleza, creas uno de los siguientes efectos dentro del alcance:",
+				{
+					"type": "list",
+					"items": [
+						"Revelas la posición y el brillo de una constelación específica en el cielo nocturno, proporcionando orientación celestial para la navegación o la planificación nocturna",
+						"Haces que instantáneamente aparezca una pequeña estrella fugaz mágica atraviese el cielo, dejando un rastro brillante que desaparece rápidamente indicando el norte, o hacer que una pequeña constelación aparezca y desaparezca en el firmamento como ilusión visible.",
+						"Creas destellos de luz estelar, sonidos celestiales suaves o incluso una suave brisa que parece llevar consigo la canción de las estrellas",
+						"Haces que una pequeña estrella en el firmamento parpadee en el cielo marcando una ubicación fija, este efecto dura 1 hora.",
+						"Creas una pequeña estrella mágica que te sigue e ilumina 10 ft radio de luz tenue durante 1 minuto o hasta descartar.",
+						"Creas un pequeño fenómeno astronómico, como un destello de aurora boreal, la ilusión de un eclipse lunar fugaz (solo la superposición de los astros sin el efecto de oscuridad) o el destello de una estrella fugaz. "
+					]
+				},
+				"Opcionalmente, el DM puede usar esta tabla con invocaciones de constelaciones que aparecen en el firmamento al usar Druidcraft, estos efectos duran hasta que termine el tiempo, no antes, no puede ser descartado ni cambiado hasta que termine su tiempo marcado.",
+				{
+					"type": "table",
+					"caption": "Constelaciones invocadas",
+					"colLabels": [
+						"{@dice d10}",
+						"Efecto"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 1
+								}
+							},
+							"El Dragón. Se siente una ráfaga de calor reconfortante, otorgando resistencia al daño de fuego durante 1 minuto. Se te considera en concentración."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 2
+								}
+							},
+							"El Fénix. Una tenue luz dorada rodea al lanzador, otorgando regeneración de 1 punto de salud por ronda durante 1 minuto. Se te considera en concentración."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 3
+								}
+							},
+							"El Unicornio. Una aura de pureza se irradia, proporcionando ventaja en las tiradas de salvación contra veneno durante 1 minuto. Se te considera en concentración."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 4
+								}
+							},
+							"El Roc. El aire se electrifica ligeramente, creando una descarga eléctrica leve que inflige {@dice 1d4} de daño eléctrico a las criaturas en un radio de 5 pies durante 1 ronda."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 5
+								}
+							},
+							"El Minotauro. La fuerza del lanzador aumenta momentáneamente, otorgando un bono de +1 a las tiradas de ataque con armas cuerpo a cuerpo durante 1 ronda."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 6
+								}
+							},
+							"El Pegaso. El lanzador gana la capacidad de desplazarse 10 ft adicionales durante 1 ronda."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 7
+								}
+							},
+							"La Quimera. Una neblina multicolor se extiende desde el lanzador, creando un efecto de ilusión menor que desconcierta a las criaturas en un radio de 10 pies durante 1 minuto, una criatura puede hacer una salvación de inteligencia al inicio de su turno para discernir de la ilusión vs el CD spell del casteador. Se te considera en concentración."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 8
+								}
+							},
+							"La Hidra. El lanzador se ve envuelto en una sombra inquietante, otorgándole una resistencia temporal a daño necrotico durante 1 minuto. Se te considera en concentración."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 9
+								}
+							},
+							"El Fenrir. Una niebla fría rodea al lanzador, otorgándole una resistencia temporal a daño frío durante 1 minuto. Se te considera en concentración."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 10
+								}
+							},
+							"El Basilisco. Los ojos del lanzador brillan intensamente, causando que las criaturas que lo miren directamente se sientan paralizadas durante 1 ronda si fallan una tirada de salvación de Sabiduría vs CD spell del casteador."
+						]
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Barbarian",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Path of the Giant",
+							"shortName": "Giant",
+							"source": "BGG"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Nature Domain",
+							"shortName": "Nature",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Strength Domain (PSA)",
+							"shortName": "Strength (PSA)",
+							"source": "PSA"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Circle of the Land",
+							"shortName": "Land",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Archer",
+							"shortName": "Arcane Archer",
+							"source": "XGE"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Elf (Kaladesh; Vahadar)",
+					"source": "PSK",
+					"baseName": "Elf (Kaladesh)",
+					"baseSource": "PSK"
+				},
+				{
+					"name": "Fairy",
+					"source": "MPMM"
+				},
+				{
+					"name": "Fairy",
+					"source": "WBtW"
+				},
+				{
+					"name": "Halfling (Lotusden)",
+					"source": "EGW",
+					"baseName": "Halfling",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Merfolk (Ixalan; Green)",
+					"source": "PSX",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				},
+				{
+					"name": "Merfolk (Zendikar; Emeria Creed)",
+					"source": "PSZ",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				}
+			],
+			"optionalfeatures": [
+				{
+					"name": "Druidic Warrior",
+					"source": "TCE",
+					"featureType": [
+						"FS:R"
+					]
+				},
+				{
+					"name": "Pact of the Tome",
+					"source": "PHB",
+					"featureType": [
+						"PB"
+					]
+				}
+			],
+			"backgrounds": [
+				{
+					"name": "Selesnya Initiate",
+					"source": "GGR"
+				},
+				{
+					"name": "Simic Scientist",
+					"source": "GGR"
+				}
+			],
+			"feats": [
+				{
+					"name": "Magic Initiate",
+					"source": "PHB"
+				},
+				{
+					"name": "Strixhaven Initiate",
+					"source": "SCC"
+				},
+				{
+					"name": "Wood Elf Magic",
+					"source": "XGE"
+				}
+			],
+			"uniqueId": "0573c5c5-4cde-4469-a142-06c5149e315e"
+		},
+		{
+			"name": "Druidcraft (Circulo de los sueños)",
+			"source": "XtraSpells",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "Una almohada o un petate"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Susurrando a los espíritus de la naturaleza, creas uno de los siguientes efectos dentro del alcance:",
+				{
+					"type": "list",
+					"items": [
+						"Creas suaves susurros en el ambiente, que tienen un efecto calmante y relajante en las criaturas cercanas, ayudándolas a conciliar el sueño más fácilmente",
+						"Creas una suave luz estelar que se concentra sobre un área objetivo de 5 ft cubicos y proporciona luz suave en un radio de 10 ft, creando un ambiente tranquilo y reconfortante que facilita el descanso y la relajación de quienes se encuentran dentro de ella.",
+						"Pequeñas flores de colores pastel florecen alrededor del lanzador, emanando un aroma suave y relajante que ayuda a inducir el sueño y promueve un descanso reparador. Una criatura que duerma a su lado en descanso corto o largo, gana una armadura temporal de 1 punto golpe al despertar.",
+						"Una brisa suave y fresca sopla a través del área, llevando consigo tus susurros hasta una distancia de 30 ft radio.",
+						"Proyectas imágenes suaves y etéreas de sueños pasados de una criatura que toques o proyectando sus deseos en el aire durante 1 minuto.",
+						"Creas una suave melodía en el ambiente, que tiene un efecto hipnótico y relajante en aquellos que la escuchan, ayudándoles a sumergirse en un sueño profundo y reparador.",
+						"Creas una niebla etérea y tranquila que se forma en el área, actuando como un velo protector que disipa las pesadillas y promueve sueños pacíficos y reconfortantes para aquellos que duermen dentro de ella."
+					]
+				},
+				"Opcionalmente, el DM puede usar esta tabla con sueños que puede inducir al azar al tocar una criatura antes de tomar su descanso largo y que dicha criatura puede recordar una única vez en cualquier momento del día para aprovechar su efecto, puede inducir estos sueños a una cantidad de criaturas igual a su modificador de hechizos.",
+				{
+					"type": "table",
+					"caption": "Sueños inducidos",
+					"colLabels": [
+						"{@dice d12}",
+						"Efecto"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 1
+								}
+							},
+							"Mariposas Danzantes. La criatura sueña con un campo lleno de mariposas de colores brillantes que danzan a su alrededor. La criatura gana una bonificación de +2 a su próxima tirada de Destreza."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 2
+								}
+							},
+							"Baño de Sol. Sueña con tumbarse en una playa bajo el cálido sol del mediodía. La criatura recupera {@dice 1d4} puntos de golpe."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 3
+								}
+							},
+							"Conversación con un Árbol. Sueña que tiene una conversación profunda con un árbol antiguo. La criatura gana una bonificación de +2 a su próxima tirada de naturaleza o supervivencia."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 4
+								}
+							},
+							"Carrera de Caracoles. Sueña que observa una carrera emocionante entre caracoles. La criatura puede moverse el doble de su velocidad normal en su próximo turno."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 5
+								}
+							},
+							"Encuentro con un Búho Sabio. Sueña que tiene una conversación enigmática con un búho sabio en medio de un bosque oscuro. La criatura gana una bonificación de +2 a su próxima tirada de percepción visual."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 6
+								}
+							},
+							"Baile en la Lluvia: Sueña que baila libremente bajo la lluvia refrescante. La criatura gana una bonificación de +2 a su próxima tirada de Interpretación."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 7
+								}
+							},
+							"Vuelo de las Luciérnagas: Sueña con una noche iluminada por el suave resplandor de las luciérnagas. La criatura gana una bonificación de +2 a su próxima tirada de arcana."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 8
+								}
+							},
+							"Salto de Charcos. Sueña que salta de charco en charco en un camino lleno de agua. La criatura puede realizar un movimiento adicional de hasta 10 pies sin provocar ataques de oportunidad."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 9
+								}
+							},
+							"Construcción de Castillos de Arena: Sueña que construye castillos de arena en una playa soleada. La criatura recibe una bonificación de +2 a su próxima tirada de atletismo."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 10
+								}
+							},
+							"Juego de Sombras. Sueña con jugar a las sombras con figuras amistosas. La criatura gana una bonificación de +2 a su próxima tirada de intimidación."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 11
+								}
+							},
+							"Exploración de Cuevas: Sueña con explorar cuevas misteriosas y descubrir tesoros ocultos. La criatura puede ignorar cualquier efecto de terreno difícil en su próximo turno."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 12
+								}
+							},
+							"Espectáculo de Malabares: Sueña con presenciar un espectáculo de malabares sorprendente. La criatura gana una bonificación de +2 a su próxima tirada de acrobacias."
+						]
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Barbarian",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Path of the Giant",
+							"shortName": "Giant",
+							"source": "BGG"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Nature Domain",
+							"shortName": "Nature",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Strength Domain (PSA)",
+							"shortName": "Strength (PSA)",
+							"source": "PSA"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Circle of the Land",
+							"shortName": "Land",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Archer",
+							"shortName": "Arcane Archer",
+							"source": "XGE"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Elf (Kaladesh; Vahadar)",
+					"source": "PSK",
+					"baseName": "Elf (Kaladesh)",
+					"baseSource": "PSK"
+				},
+				{
+					"name": "Fairy",
+					"source": "MPMM"
+				},
+				{
+					"name": "Fairy",
+					"source": "WBtW"
+				},
+				{
+					"name": "Halfling (Lotusden)",
+					"source": "EGW",
+					"baseName": "Halfling",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Merfolk (Ixalan; Green)",
+					"source": "PSX",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				},
+				{
+					"name": "Merfolk (Zendikar; Emeria Creed)",
+					"source": "PSZ",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				}
+			],
+			"optionalfeatures": [
+				{
+					"name": "Druidic Warrior",
+					"source": "TCE",
+					"featureType": [
+						"FS:R"
+					]
+				},
+				{
+					"name": "Pact of the Tome",
+					"source": "PHB",
+					"featureType": [
+						"PB"
+					]
+				}
+			],
+			"backgrounds": [
+				{
+					"name": "Selesnya Initiate",
+					"source": "GGR"
+				},
+				{
+					"name": "Simic Scientist",
+					"source": "GGR"
+				}
+			],
+			"feats": [
+				{
+					"name": "Magic Initiate",
+					"source": "PHB"
+				},
+				{
+					"name": "Strixhaven Initiate",
+					"source": "SCC"
+				},
+				{
+					"name": "Wood Elf Magic",
+					"source": "XGE"
+				}
+			],
+			"uniqueId": "741d2b27-e662-4093-a1d1-809f6fe49e6e"
+		},
+		{
+			"name": "Druidcraft (Circulo del fuego salvaje)",
+			"source": "XtraSpells",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "Una cerilla"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Susurrando a los espíritus de la naturaleza, creas uno de los siguientes efectos dentro del alcance:",
+				{
+					"type": "list",
+					"items": [
+						"Creas una chispa brillante que danza en el aire que ilumina 10 ft radio con luz tenue, dura 1 minuto y revolotea a tu alrededor, representando el poder primordial del fuego salvaje.",
+						"Creas una ráfaga de aire caliente y humeante que sale de tu boca, creando un aura de calor intenso a tu alrededor que puede utilizarse para encender fogatas o secar materiales húmedos.",
+						"Creas una pequeña llama verde azulada que aparece en tu mano, representando la fuerza de vida de una criatura que toques, si es criatura hostil deberá fallar una salvación de destreza vs tu CD spell. La llama brilla y cambia de color según su fuerza vital restante, una criatura no-muerta o constructo o muerta no prenden ninguna flama.",
+						"Calientas un área de 5 ft cubo, el clima es agradablemente cálido.",
+						"Aceleras el crecimiento de una planta {@dice 1d8} días, calentando y fingiendo con una pequeña flama que imita al sol.",
+						"Creas una ráfaga de viento cargada de cenizas y chispas en una area de 5 ft cuadrados, cualquier planta en esa área se empieza a marchitar. ",
+						"Llenas un cubo de 5 ft cuadrados con una nube de cenizas ardientes que se forma sobre el área objetivo, creando una cortina de humo y cenizas que puede utilizarse para oscurecer el área o esconder algo."
+					]
+				},
+				"Opcionalmente, el DM puede usar esta tabla con efectos de las brasas salvajes mágicas al usar Druidcraft, estos efectos duran hasta que termine el tiempo, no antes, no puede ser descartado ni cambiado hasta que termine su tiempo marcado.",
+				{
+					"type": "table",
+					"caption": "Brasas Salvajes",
+					"colLabels": [
+						"{@dice d6}",
+						"Efecto"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 1
+								}
+							},
+							"Lengua de Llama. Conjuras palabras mágicas cálidas que te envuelven en una cálida y reconfortante llama, lo que te otorga resistencia al daño por frío durante 1 minuto. Se te considera en concentración."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 2
+								}
+							},
+							"El Fénix. Una tenue luz rojiza rodea al lanzador, otorgando regeneración de 1 punto de salud por ronda durante 1 minuto. Se te considera en concentración."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 3
+								}
+							},
+							"Brasa vital. Al tocar a una criatura, emite una brasa de fuego que le otorga un impulso de energía, permitiéndole añadir un bono de +1 a su próxima tirada de ataque."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 4
+								}
+							},
+							"Viento Abrasador: Un viento caliente y revigorizante envuelve a la criatura que toques, aumentando su velocidad de movimiento en 10 pies durante 1 minuto. Se te considera en concentración."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 5
+								}
+							},
+							"Resplandor Ardiente: Un resplandor brillante y cálido rodea a la criatura, iluminando su entorno y otorgándole +1 en las tiradas de Percepción durante 1 minuto. Se te considera en concentración."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 6
+								}
+							},
+							"El lanzador exhala un aliento de fuego ardiente, infligiendo {@dice 1d4} de daño de fuego a una criatura a 5 ft."
+						]
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Barbarian",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Path of the Giant",
+							"shortName": "Giant",
+							"source": "BGG"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Nature Domain",
+							"shortName": "Nature",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Strength Domain (PSA)",
+							"shortName": "Strength (PSA)",
+							"source": "PSA"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Circle of the Land",
+							"shortName": "Land",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Archer",
+							"shortName": "Arcane Archer",
+							"source": "XGE"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Elf (Kaladesh; Vahadar)",
+					"source": "PSK",
+					"baseName": "Elf (Kaladesh)",
+					"baseSource": "PSK"
+				},
+				{
+					"name": "Fairy",
+					"source": "MPMM"
+				},
+				{
+					"name": "Fairy",
+					"source": "WBtW"
+				},
+				{
+					"name": "Halfling (Lotusden)",
+					"source": "EGW",
+					"baseName": "Halfling",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Merfolk (Ixalan; Green)",
+					"source": "PSX",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				},
+				{
+					"name": "Merfolk (Zendikar; Emeria Creed)",
+					"source": "PSZ",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				}
+			],
+			"optionalfeatures": [
+				{
+					"name": "Druidic Warrior",
+					"source": "TCE",
+					"featureType": [
+						"FS:R"
+					]
+				},
+				{
+					"name": "Pact of the Tome",
+					"source": "PHB",
+					"featureType": [
+						"PB"
+					]
+				}
+			],
+			"backgrounds": [
+				{
+					"name": "Selesnya Initiate",
+					"source": "GGR"
+				},
+				{
+					"name": "Simic Scientist",
+					"source": "GGR"
+				}
+			],
+			"feats": [
+				{
+					"name": "Magic Initiate",
+					"source": "PHB"
+				},
+				{
+					"name": "Strixhaven Initiate",
+					"source": "SCC"
+				},
+				{
+					"name": "Wood Elf Magic",
+					"source": "XGE"
+				}
+			],
+			"uniqueId": "e46b7010-bc68-4999-a35b-aa43de8faa65"
+		},
+		{
+			"name": "Druidcraft (Potenciada)",
+			"source": "XtraSpells",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "Bolsita con distintos tipos de semillas"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"entries": [
+				"Susurrando a los espíritus de la naturaleza, creas uno de los siguientes efectos dentro del alcance:",
+				{
+					"type": "list",
+					"items": [
+						"Creas un pequeño efecto sensorial inofensivo que predice el clima en tu ubicación para las próximas 24 horas. El efecto puede manifestarse como un orbe dorado para cielos despejados, una nube para la lluvia, copos de nieve para la nieve, y así sucesivamente. Este efecto persiste durante 1 ronda.",
+						"Haces que instantáneamente florezca una flor, se abra una vaina de semillas o se desarrolle un brote de hoja.",
+						"Creas un efecto sensorial inofensivo e instantáneo, como hojas cayendo, una ráfaga de viento, el sonido de un animal pequeño o el leve olor a mofeta. El efecto debe caber en un cubo de 5 pies.",
+						"Instantáneamente enciendes o apagas una vela, una antorcha o una pequeña fogata."
+					]
+				},
+				"Opcionalmente, el DM puede usar esta tabla con plantas que se pueden invocar aleatoriamente y de ellas extraer elementos o usarse directamente para crear pociones con efectos.",
+				{
+					"type": "table",
+					"caption": "Brotes invocados",
+					"colLabels": [
+						"{@dice d12}",
+						"Efecto"
+					],
+					"colStyles": [
+						"col-2 text-center",
+						"col-10"
+					],
+					"rows": [
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 1
+								}
+							},
+							"Bayas de Escarcha: Estas pequeñas bayas azules tienen un sabor refrescante y pueden usarse para hacer una poción que aumenta la resistencia al frío."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 2
+								}
+							},
+							"Raíz de Sol Dorado: Esta raíz brillante tiene propiedades curativas y puede usarse para hacer una poción que acelera la cicatrización de heridas."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 3
+								}
+							},
+							"Flor de Fuego Salvaje: Esta flor roja vibrante tiene propiedades estimulantes y puede usarse para hacer una poción que aumenta la resistencia al fuego."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 4
+								}
+							},
+							"Seta de Luz de Luna: Esta seta brillante emite una luz suave y puede usarse para hacer una poción que ilumina áreas oscuras o crea una luz tenue."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 5
+								}
+							},
+							"Raíz de Tierra Profunda: Esta raíz marrón oscuro tiene propiedades purificadoras y puede usarse para hacer una poción que elimina toxinas del cuerpo."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 6
+								}
+							},
+							"Hojas de Viento Susurrante: Estas hojas verdes ondulan suavemente en la brisa y pueden usarse para hacer una poción que mejora la agilidad y la destreza."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 7
+								}
+							},
+							"Rosa del Crepúsculo: Esta flor de tonos púrpuras tiene propiedades místicas y puede usarse para hacer una poción que aumenta temporalmente la inteligencia de quien la bebe."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 8
+								}
+							},
+							"Hierba de Plenilunio: Esta hierba plateada florece solo bajo la luz de la luna llena y puede usarse para hacer una poción que aumenta la percepción y la clarividencia."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 9
+								}
+							},
+							"Bayas de Destello Solar: Estas bayas amarillas irradian un brillo cálido y pueden usarse para hacer una poción que aumenta la fuerza del sol y proporciona protección contra los efectos nocivos de la luz solar intensa."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 10
+								}
+							},
+							"Clavel de la Vitalidad: Esta flor rosada tiene propiedades revitalizantes y puede usarse para hacer una poción que aumenta temporalmente la constitución de quien la consume."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 11
+								}
+							},
+							"Lirio de la Aurora: Esta flor brillante tiene propiedades curativas y puede usarse para hacer una poción que recupera puntos de vida de forma rápida y eficaz."
+						],
+						[
+							{
+								"type": "cell",
+								"roll": {
+									"exact": 12
+								}
+							},
+							"Campanilla de la Resistencia: Esta flor azul claro tiene propiedades fortificantes y puede usarse para hacer una poción que otorga resistencia al daño físico por un corto período de tiempo."
+						]
+					]
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Druid",
+						"source": "PHB"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Barbarian",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Path of the Giant",
+							"shortName": "Giant",
+							"source": "BGG"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Nature Domain",
+							"shortName": "Nature",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Strength Domain (PSA)",
+							"shortName": "Strength (PSA)",
+							"source": "PSA"
+						}
+					},
+					{
+						"class": {
+							"name": "Druid",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Circle of the Land",
+							"shortName": "Land",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Fighter",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Arcane Archer",
+							"shortName": "Arcane Archer",
+							"source": "XGE"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Elf (Kaladesh; Vahadar)",
+					"source": "PSK",
+					"baseName": "Elf (Kaladesh)",
+					"baseSource": "PSK"
+				},
+				{
+					"name": "Fairy",
+					"source": "MPMM"
+				},
+				{
+					"name": "Fairy",
+					"source": "WBtW"
+				},
+				{
+					"name": "Halfling (Lotusden)",
+					"source": "EGW",
+					"baseName": "Halfling",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Merfolk (Ixalan; Green)",
+					"source": "PSX",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				},
+				{
+					"name": "Merfolk (Zendikar; Emeria Creed)",
+					"source": "PSZ",
+					"baseName": "Merfolk",
+					"baseSource": "PSZ"
+				}
+			],
+			"optionalfeatures": [
+				{
+					"name": "Druidic Warrior",
+					"source": "TCE",
+					"featureType": [
+						"FS:R"
+					]
+				},
+				{
+					"name": "Pact of the Tome",
+					"source": "PHB",
+					"featureType": [
+						"PB"
+					]
+				}
+			],
+			"backgrounds": [
+				{
+					"name": "Selesnya Initiate",
+					"source": "GGR"
+				},
+				{
+					"name": "Simic Scientist",
+					"source": "GGR"
+				}
+			],
+			"feats": [
+				{
+					"name": "Magic Initiate",
+					"source": "PHB"
+				},
+				{
+					"name": "Strixhaven Initiate",
+					"source": "SCC"
+				},
+				{
+					"name": "Wood Elf Magic",
+					"source": "XGE"
+				}
+			],
+			"uniqueId": "149761a7-fe70-4d8d-a03e-f295ae904c38"
 		}
 	]
 }
