@@ -15,7 +15,9 @@
 				],
 				"color": "#8e2b73"
 			}
-		]
+		],
+		"dateAdded": 1708123781,
+		"dateLastModified": 1708123781
 	},
 	"spell": [
 		{
@@ -245,8 +247,7 @@
 					"name": "Wood Elf Magic",
 					"source": "XGE"
 				}
-			],
-			"uniqueId": "6996426d-06fc-4227-8712-ab821c28ec5d"
+			]
 		},
 		{
 			"name": "Crear Hoguera",
@@ -494,8 +495,7 @@
 					"name": "Wood Elf Magic",
 					"source": "XGE"
 				}
-			],
-			"uniqueId": "bc8bbf65-e69a-4f2a-a41f-1b5bac1d7c48"
+			]
 		},
 		{
 			"name": "Crear Burbuja",
@@ -743,7 +743,6 @@
 					"source": "XGE"
 				}
 			],
-			"uniqueId": "dd7dc667-75a7-4387-b606-d4a6e320fd36",
 			"damageInflict": [
 				"cold"
 			]
@@ -926,8 +925,7 @@
 					"name": "Wood Elf Magic",
 					"source": "XGE"
 				}
-			],
-			"uniqueId": "b72e40a8-ab53-4cab-8bad-2f1666fd725e"
+			]
 		},
 		{
 			"name": "Druidcraft (Circulo de las esporas)",
@@ -1213,8 +1211,7 @@
 					"name": "Wood Elf Magic",
 					"source": "XGE"
 				}
-			],
-			"uniqueId": "d08e5326-1ef8-4f41-a6cb-14dbfe589574"
+			]
 		},
 		{
 			"name": "Druidcraft (Circulo de las estrellas)",
@@ -1501,8 +1498,7 @@
 					"name": "Wood Elf Magic",
 					"source": "XGE"
 				}
-			],
-			"uniqueId": "0573c5c5-4cde-4469-a142-06c5149e315e"
+			]
 		},
 		{
 			"name": "Druidcraft (Circulo de los sueños)",
@@ -1808,8 +1804,7 @@
 					"name": "Wood Elf Magic",
 					"source": "XGE"
 				}
-			],
-			"uniqueId": "741d2b27-e662-4093-a1d1-809f6fe49e6e"
+			]
 		},
 		{
 			"name": "Druidcraft (Circulo del fuego salvaje)",
@@ -2061,8 +2056,7 @@
 					"name": "Wood Elf Magic",
 					"source": "XGE"
 				}
-			],
-			"uniqueId": "e46b7010-bc68-4999-a35b-aa43de8faa65"
+			]
 		},
 		{
 			"name": "Druidcraft (Potenciada)",
@@ -2365,8 +2359,312 @@
 					"name": "Wood Elf Magic",
 					"source": "XGE"
 				}
+			]
+		},
+		{
+			"name": "Golpe Feroz",
+			"level": 0,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
 			],
-			"uniqueId": "149761a7-fe70-4d8d-a03e-f295ae904c38"
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
+						"name": "Warlock",
+						"source": "PHB"
+					},
+					{
+						"name": "Tamer",
+						"source": "XtraSpells"
+					}
+				]
+			},
+			"entries": [
+				"Con un impulso de adrenalina, una tremenda ferocidad te embarga. Realiza un ataque de arma contra un objetivo dentro de tu alcance. Si este ataque impacta, el objetivo sufre un daño adicional de {@dice 1d4} del tipo de daño del arma.",
+				"El daño de este hechizo aumenta en {@dice 1d4} cuando alcanzas el nivel 5 ({@dice 2d4}), el nivel 11 ({@dice 3d4}) y el nivel 17 ({@dice 4d4})."
+			],
+			"source": "XtraSpells",
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"damageInflict": [
+				"bludgeoning",
+				"piercing",
+				"slashing"
+			],
+			"miscTags": [
+				"SGT",
+				"SCL",
+				"AAD"
+			],
+			"spellAttack": [
+				"M",
+				"R"
+			]
+		},
+		{
+			"name": "Ojo del Acechador",
+			"level": 0,
+			"school": "E",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Tamer",
+						"source": "XtraSpells"
+					}
+				]
+			},
+			"entries": [
+				"Una criatura dispuesta que tocas obtiene la habilidad preternatural de percibir las debilidades en las defensas de otra criatura. La primera vez que la criatura realiza un ataque mientras está bajo el efecto de este hechizo, lo hace con ventaja. Después de realizar un ataque, el hechizo termina.",
+				"Este hechizo aumenta la capacidad de la criatura para golpear puntos vitales cuando alcanzas ciertos niveles. ",
+				"Cuando alcanzas el nivel 5, el ataque aumentado obtiene un golpe crítico con un resultado de 19 o 20. En el nivel 11, este rango se aumenta a 18 a 20, y en el nivel 17, este rango se convierte en 17 a 20."
+			],
+			"source": "XtraSpells",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "lente de aumento pequeña"
+			},
+			"miscTags": [
+				"ADV"
+			],
+			"areaTags": [
+				"ST"
+			]
+		},
+		{
+			"name": "Fuego de Hadas",
+			"source": "XtraSpells",
+			"page": 239,
+			"basicRules": true,
+			"level": 1,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"entries": [
+				"Cada objeto dentro de un cubo de 20 pies dentro del alcance está delineado con luz azul, verde o violeta (a elección). Cualquier criatura en el área cuando se lanza el hechizo también está delineada con luz si falla una tirada de salvación de Destreza. Durante la duración, los objetos y criaturas afectadas emiten luz tenue en un radio de 10 pies.",
+				"Cualquier tirada de ataque contra una criatura u objeto afectado tiene ventaja si el atacante puede verlo, y la criatura u objeto afectado no puede beneficiarse de estar {@condition invisible}."
+			],
+			"savingThrow": [
+				"dexterity"
+			],
+			"miscTags": [
+				"ADV",
+				"LGT"
+			],
+			"areaTags": [
+				"C"
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Bard",
+						"source": "PHB"
+					},
+					{
+						"name": "Druid",
+						"source": "PHB"
+					},
+					{
+						"name": "Artificer",
+						"source": "TCE"
+					}
+				],
+				"fromSubclass": [
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Light Domain",
+							"shortName": "Light",
+							"source": "PHB"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Twilight Domain",
+							"shortName": "Twilight",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Cleric",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Moon Domain",
+							"shortName": "Moon",
+							"source": "TDCSR"
+						}
+					},
+					{
+						"class": {
+							"name": "Ranger",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "Swarmkeeper",
+							"shortName": "Swarmkeeper",
+							"source": "TCE"
+						}
+					},
+					{
+						"class": {
+							"name": "Warlock",
+							"source": "PHB"
+						},
+						"subclass": {
+							"name": "The Archfey",
+							"shortName": "Archfey",
+							"source": "PHB"
+						}
+					}
+				]
+			},
+			"races": [
+				{
+					"name": "Elf (Drow)",
+					"source": "PHB",
+					"baseName": "Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Fairy",
+					"source": "MPMM"
+				},
+				{
+					"name": "Fairy",
+					"source": "WBtW"
+				},
+				{
+					"name": "Half-Elf (Variant; Drow Descent)",
+					"source": "SCAG",
+					"baseName": "Half-Elf",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Half-Orc (Variant; Mark of Finding)",
+					"source": "ERLW",
+					"baseName": "Half-Orc",
+					"baseSource": "PHB"
+				},
+				{
+					"name": "Human (Variant; Mark of Finding)",
+					"source": "ERLW",
+					"baseName": "Human",
+					"baseSource": "PHB"
+				}
+			],
+			"feats": [
+				{
+					"name": "Artificer Initiate",
+					"source": "TCE"
+				},
+				{
+					"name": "Divinely Favored",
+					"source": "DSotDQ"
+				},
+				{
+					"name": "Magic Initiate",
+					"source": "PHB"
+				},
+				{
+					"name": "Strixhaven Initiate",
+					"source": "SCC"
+				}
+			]
 		}
-	]
+	],
+	"monster": [],
+	"siteVersion": "1.197.0"
 }
